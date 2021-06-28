@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: aqua;
+    height:120px;
+}
+
+header .header{
+    width: 70%;
+    height:120px;
+    position: relative;
+    top: 0;
+    z-index: 5;
+    background-color: gold;
+}
+
+header nav ul li{
+    width: 10%;
+    height:120px;
+    position: relative;
+}
