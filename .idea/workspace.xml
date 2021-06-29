@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="" />
+    <list default="true" id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/log.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,14 +40,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
     </key>
   </component>
@@ -59,6 +68,7 @@
       <workItem from="1624604179411" duration="777000" />
       <workItem from="1624606634843" duration="3690000" />
       <workItem from="1624841128282" duration="12167000" />
+      <workItem from="1624927207017" duration="15672000" />
     </task>
     <servers />
   </component>
@@ -70,10 +80,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="168" width="1267" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624850698115" />
-    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1624868575167">
+    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1624927362839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624868575167" />
+    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624927362839" />
     <state x="529" y="157" key="SettingsEditor" timestamp="1624850644789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
