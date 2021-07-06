@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/log.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -16,8 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -52,6 +52,10 @@
       <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,6 +73,11 @@
       <workItem from="1624606634843" duration="3690000" />
       <workItem from="1624841128282" duration="12167000" />
       <workItem from="1624927207017" duration="15672000" />
+      <workItem from="1625013874557" duration="14331000" />
+      <workItem from="1625121515271" duration="8829000" />
+      <workItem from="1625186096510" duration="16139000" />
+      <workItem from="1625446957374" duration="14463000" />
+      <workItem from="1625533411348" duration="4922000" />
     </task>
     <servers />
   </component>
@@ -80,10 +89,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="168" width="1267" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624850698115" />
-    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1624927362839">
+    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1625535318687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1624927362839" />
+    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625535318687" />
     <state x="529" y="157" key="SettingsEditor" timestamp="1624850644789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

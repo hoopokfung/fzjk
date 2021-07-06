@@ -1,17 +1,41 @@
 
 
 /*----------全局-----------*/
-body{
 
-}
-
-.container-fluid{
-    background-color: white;
-    height:120px;
+/*星号是通配符，约束所有容器，box-sizing约定容器的计算规则
+content-box是默认值，容器根据margin和border向外扩展
+border-box是约定width就是最大大小，margin和border向内侵占
+真正的内容所占的空间会被压缩*/
+* {
+    -webkit-box-sizing: border-box;/* Chrome */
+    -moz-box-sizing: border-box;/* Firefox */
+    box-sizing: border-box
 }
 * {
     margin: 0;
     padding: 0;
+}
+html, body {
+    min-height: 100%
+}
+body{
+    color: #474747;
+    margin: 0 auto;
+    background: #ffffff;
+    min-width: 320px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal
+}
+ul, ol {
+    list-style: none
+}
+img {
+    border: none;
+    vertical-align: middle
 }
 ul, ol {
     list-style: none;
@@ -24,47 +48,118 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+i, em {
+    font-style: normal;
+}
+table {
+    border-collapse: collapse; /*表格的边框是否被合并为一个单一的边框*/
+    /*用来约定表格的计算规则，固定模式
+  auto	默认。列宽度由单元格内容设定。
+  fixed	列宽由表格宽度和列宽度设定。
+  inherit	规定应该从父元素继承 table-layout 属性的值。*/
+    table-layout: fixed;
+
+}
+input, textarea {
+    outline: none;
+    border: none
+}
+textarea {
+    resize: none;
+    overflow: auto
+}
+.clearfix{
+    zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: "";
+}
+
+.container-fluid{
+    background-color: white;
+
+}
+.w1230 {
+    width: 1230px;
+    margin: 0 auto;
+
+}
+
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+/*----------渐变效果----------*/
+.tran300 {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.tran400 {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
 /*----------头部-----------*/
 
 .logo{
-    padding-left: 9%;
-    line-height: 120px;
+    padding-left: 0;
+    line-height: 100px;
 }
 
 .logo img{
     height: 90px;
 }
 
-header .header{
-    width: 70%;
-    height:120px;
-    padding-left: 50px;
-    position: relative;
-    top: 0;
-    z-index: 5;
-    background-color: white;
+header .pcNav ul a{
+    color: #666;
+    text-decoration: none
 }
 
-header nav ul li{
-    width: 120px;
-    height:120px;
+.header {
+    background: #fff;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+.header .pcNav {
+    width: 70%;
+    height:100px;
+    padding-left: 50px;
+}
+
+.header .pcNav ul .nLi{
+    width: 12%;
     float: left;
+    display: inline-block;
     font-size: 16px;
     padding-top: 30px;
     text-align: center;
     list-style-type: none;
+    box-sizing: border-box;
 }
-header nav ul li a span{
+.header .pcNav ul li a{
     display: block;
 }
-
-header nav ul li a span.ch{
+.pcNav ul li a span{
+    display: block;
+}
+.header ul li a span.ch{
     height: 25px;
     line-height: 25px;
     font-size: 16px;
     color: #333333;
 }
-header nav ul li a span.en{
+.header ul li a span.en{
     height: 17px;
     line-height: 17px;
     font-size: 12px;
@@ -73,10 +168,251 @@ header nav ul li a span.en{
     text-transform: uppercase;
 }
 
-/*----------中部-----------*/
+
+li.nLi > a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+}
+
+
+li.nLi > a::before {
+    display: none;
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-width: 0 30px 5px;
+    border-style: solid;
+    border-color: #0076ab;
+    position: absolute;
+}
+
+li.nLi:hover > a, li.nLi.active > a {
+    color: #0076ab;
+}
+li.nLi:hover > a::before, li.nLi.active > a::before {
+    display: block;
+}
+
+/*----------navSub------- -*/
+.navSub{
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 3;
+    background: #ffffff;
+    box-shadow: 3px 1px 8px 0px #dedcdc;
+}
+.header .pcNav .nLi .navSub .wrap {
+    padding: 25px 0;
+    text-align: left;
+    font-size: 0;
+
+}
+
+.header .pcNav .nLi .navSub .wrap ul {
+    padding-left: 500px;
+    display: inline-block;
+    zoom: 1;
+}
+.header .pcNav .nLi .navSub .wrap ul li {
+    margin: 0 18px;
+    text-align: center;
+}
+.header .pcNav .nLi .navSub .wrap ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    color: #666666;
+    text-align: left;
+}
+
+.header .pcNav .nLi .navSub .wrap ul li a:hover i:before{
+    filter:alpha(opacity=0);
+    opacity:0;
+}
+.header .pcNav .nLi .navSub .wrap ul li a:hover i:after{
+    filter:alpha(opacity=100);
+    opacity:1;}
+.header .pcNav .nLi .navSub .wrap ul li a:hover{
+    color: #0076ab;
+}
+
+
+    /*----------中部-----------*/
+
+
+/*---------图片滚动栏-----------*/
+/*-------------------
+    HERO SLIDER
+--------------------*/
+
+.hero-slide .carousel-caption {
+    bottom      : 50%;
+    text-shadow : none;
+    transform   : translateY(50%);
+}
+
+.hero-slide .carousel-caption h1 {
+    font-size      : 60px;
+    line-height    : 1;
+    font-weight    : bold;
+    text-transform : uppercase;
+    color          : #ffffff;
+}
+
+.hero-slide .carousel-caption p {
+    font-size   : 20px;
+    color       : #ffffff;
+    font-weight : normal;
+}
+
+.hero-slide .carousel-control.left,
+.hero-slide .carousel-control.right {
+    width       : 50px;
+    height      : 50px;
+    line-height : 46px;
+    top         : 50%;
+    margin-top  : -25px;
+    background  : transparent;
+    cursor      : pointer;
+    border      : 2px solid #ffffff;
+    text-shadow : none;
+}
+
+.hero-slide .carousel-control.left {
+    left : 1%;
+}
+
+.hero-slide .carousel-control.right {
+    right : 1%;
+}
+
+.hero-slide .carousel-indicators {
+    bottom : 60px;
+}
+
+.hero-slide .carousel-indicators li {
+    border : 2px solid #ffffff;
+}
+
+/*Media Query*/
+@media screen and (max-width : 768px) {
+    .hero-slide {
+        margin-top : 60px;
+    }
+
+    .hero-slide .carousel-caption h1 {
+        font-size : 24px;
+    }
+
+    .hero-slide .carousel-indicators {
+        bottom : 20px;
+    }
+
+    .hero-slide .carousel-caption p {
+        font-size : 12px;
+    }
+}
+
+
+
+
+
+
+
+/*---------END-----------*/
+
+
+
+
+
+
 
 
 /*----------脚部-----------*/
+
+
+
+
+
+
+.fTop{
+    width: 100%;
+    padding: 60px 0 50px;
+    background-color: #f3f2f1;
+}
+.fTop .fTit {
+    font-size: 18px;
+    color: #333333;
+    line-height: 35px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.fTop .item1{
+    width: 520px;
+    margin-right: 28px;
+}
+
+.fTop .item1 .tel {
+    padding-left: 39px;
+    line-height: 39px;
+    font-size: 26px;
+    color: #0076ab;
+    background: url(../images/telIcon.png) no-repeat left 4px;
+    font-family: "HELVETICABOLD";
+}
+.ifTop .item1 .tel em {
+    margin: 0 6px;
+}
+.fTop .item2{
+    width: 450px;
+    padding-top: 52px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.fTop .item3{
+    width: 208px;
+}
+.fTop .item3 .select {
+    height: 30px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 33px;
+    width: 208px;
+}
+.fTop .item3 .select dt {
+    height: 28px;
+    border: 1px solid #cdcdcd;
+    background: #ffffff;
+    line-height: 28px;
+    padding-left: 10px;
+    cursor: pointer;
+    width: 195px;
+    position: relative;
+    z-index: 3;
+    color: #666666;
+    font-size: 14px;
+}
+.fTop .item3 .select dt i{
+    width: 12px;
+    height: 7px;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    background:url(../images/trangle.png) no-repeat center;
+}
+
+
 .fBtm {
     padding: 18px 0;
     background: #011622;
@@ -84,16 +420,7 @@ header nav ul li a span.en{
     color: #878787;
     line-height: 30px;
 }
-.fl{
-    float: left;
-}
-.fr {
-    float: right;
-}
-.w1230 {
-    width: 1230px;
-    margin: 0 auto;
-}
+
 
 .fBtm a{
     text-decoration: none;
