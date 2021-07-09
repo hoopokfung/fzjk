@@ -48,14 +48,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
       <recent name="D:\Workplace\WebStormProjects\fzjk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -77,7 +78,9 @@
       <workItem from="1625121515271" duration="8829000" />
       <workItem from="1625186096510" duration="16139000" />
       <workItem from="1625446957374" duration="14463000" />
-      <workItem from="1625533411348" duration="4922000" />
+      <workItem from="1625533411348" duration="11172000" />
+      <workItem from="1625625080035" duration="4708000" />
+      <workItem from="1625792495571" duration="12480000" />
     </task>
     <servers />
   </component>
