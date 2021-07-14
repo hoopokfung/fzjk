@@ -2,9 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/Read Me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/demo-files/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/demo-files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/selection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon demo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/log.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +78,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workplace\WebStormProjects\fzjk\templates" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
       <recent name="D:\Workplace\WebStormProjects\fzjk" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
+      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\js" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\assets" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
       <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
@@ -81,6 +114,10 @@
       <workItem from="1625533411348" duration="11172000" />
       <workItem from="1625625080035" duration="4708000" />
       <workItem from="1625792495571" duration="12480000" />
+      <workItem from="1626050677938" duration="7543000" />
+      <workItem from="1626076059709" duration="4767000" />
+      <workItem from="1626137409539" duration="8187000" />
+      <workItem from="1626225967826" duration="13594000" />
     </task>
     <servers />
   </component>
@@ -92,17 +129,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="168" width="1267" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624850698115" />
-    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1625535318687">
+    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1626140994046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625535318687" />
+    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626140994046" />
     <state x="529" y="157" key="SettingsEditor" timestamp="1624850644789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624850644789" />
-    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1624848490607">
+    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1626165757131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1624848490607" />
+    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626165757131" />
   </component>
 </project>

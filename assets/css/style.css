@@ -92,6 +92,16 @@ textarea {
     background-color: white;
 
 }
+.w800 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .w1230 {
     width: 1230px;
     margin: 0 auto;
@@ -338,16 +348,18 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 
 /*---------END-----------*/
 
-
-
+/* -------------------
+   Section margin
+   --------------------*/
+.mt-30{
+    margin: 30px auto;
+}
 /* -------------------
    Section Padding
    --------------------*/
 .pt-100 {
     padding-top : 100px;
 }
-
-
 
 .ptb-50 {
     padding-top    : 50px;
@@ -400,6 +412,62 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 .white-bg {
     background-color : #fff;
 }
+
+
+
+
+
+/* --------------------------------------------
+    Page Title
+----------------------------------------------- */
+
+.single-page-title {
+    background            : url(../images/banner1.jpg) no-repeat ;
+    background-size       : cover;
+    width                 : 100%;
+    padding               : 15% 0 5%;
+    position: relative;
+}
+
+.single-page-title::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.single-page-title h3 {
+
+    font-size      : 30px;
+    text-transform : uppercase;
+    font-weight    : 500;
+    margin-bottom  : 0;
+    color          : #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.single-page-title h2 {
+    display        : inline-block;
+    font-size      : 50px;
+    text-transform : uppercase;
+    font-weight    : 500;
+    margin-bottom  : 0;
+    color          : #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.left-up-title{
+
+
+}
+
+
 
 
 
@@ -544,6 +612,101 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 
+/*----------------------
+ tabTwo start
+ -----------------------*/
+.smallCard{
+    margin-top: 30px;
+}
+.tabTwo {
+    box-sizing: border-box;
+
+}
+.tabTwo .nav-tabs {
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+    box-shadow: 0px 0px 10px 0px #8c8c8c;
+}
+.tabTwo .nav-tabs.nav-justified li {
+    border-right: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+
+}
+.tabTwo .nav-tabs.nav-justified li.active {
+    border-bottom: 1px solid transparent;
+}
+.tabTwo .nav-tabs.nav-justified li:last-child {
+    border-right: 0;
+}
+.tabTwo .nav-tabs.nav-justified>li>a {
+    border: 0;
+    border-radius: 0;
+    background-color: #f9f9f9;
+    color: #333333;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+}
+.tabTwo .nav-tabs.nav-justified>.active>a,
+.tabTwo .nav-tabs.nav-justified>.active>a:focus,
+.tabTwo .nav-tabs.nav-justified>.active>a:hover {
+    border: 0;
+    background-color: #0076ab;
+    color: white;
+    font-weight: bold;
+
+}
+/*media query*/
+
+@media (min-width : 768px) {
+    .tabTwo .tab-content{
+        height: 333px;
+        border: 1px solid #c1c1c1;
+        background-color: #ffffff;
+        padding: 30px;
+        border-top: 0;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px 0px #8c8c8c;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .tabTwo .tab-content{
+        margin-top: 30px;
+    }
+}
+
+.tabTwo .tab-pane img {
+    margin-top: 8px;
+}
+.tabTwo .tab-pane img.pull-left {
+    margin-right: 20px;
+}
+.tabTwo .tab-pane img.pull-right {
+    margin-left: 20px;
+}
+/*collapse in small devices*/
+.tabTwo .panel-body img{
+    margin-top: 8px;
+}
+.tabTwo .panel-body img.pull-left {
+    margin-right: 20px;
+}
+.tabTwo .panel-body img.pull-right {
+    margin-left: 20px;
+}
+
+.tabTwo .tab-pane p {
+    margin-bottom: 15px;
+}
+.tabTwo .tab-pane p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
+
 /* --------------------------------------------------
  party-column
 -----------------------------------------------------*/
@@ -556,7 +719,7 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     color : #333333;
 }
 .party-column .img-top {
-    width: 1200px;height: 230px;
+    width: 1150px;height: 230px;
 }
 
 .party-column .img-left {
@@ -640,64 +803,319 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 .section-title span.bordered-icon:after {
     right : 100%;
 }
+
+
 /*---------------------------
  Service section
  ---------------------------*/
-.x-services .thumbnail {
+.business .thumbnail {
     padding       : 0;
     line-height   : 24px;
     border        : 1px solid #f1f1f1;
     border-radius : 0;
     margin-bottom : 30px;
+    box-sizing: border-box;
+    height: 192px;
 }
 
 @media (min-width : 768px) {
-    .x-services .thumbnail a > img,
-    .x-services .thumbnail > img {
+    .business .thumbnail a > img,
+    .business .thumbnail > img {
         float : left;
     }
 }
 
 @media (max-width : 767px) {
-    .x-services .thumbnail a > img,
-    .x-services .thumbnail > img {
+    .business .thumbnail a > img,
+    .business .thumbnail > img {
         width : 100%;
     }
 }
 
-.x-services .thumbnail .caption {
-    padding  : 30px;
+.business .thumbnail .caption {
+    padding: 20px;
     color    : #969595;
     overflow : hidden;
+    height: 160px;
 }
 
-.x-services .thumbnail .caption h3 {
+.business .thumbnail .caption h3 {
     font-size      : 15px;
     text-transform : capitalize;
     margin-bottom  : 5px;
 }
 
-.x-services .thumbnail .caption h3 a {
+.business .thumbnail .caption h3 a {
     color : #313131;
 }
 
-.x-services .thumbnail .caption h3 a:hover {
+.business .thumbnail .caption h3 a:hover {
     color : #31aae2;
 }
 
-.x-services .thumbnail .caption p {
+.business .thumbnail .caption p {
     margin : 0;
 }
 
 
 
+/*------------------
+  FORM STYLE
+  -------------------- */
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    height: 53px;
+    padding: 6px 20px 6px 30px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #969595;
+    border: 2px solid #F1F1F1;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    border: 2px solid #31aae2 !important;
+    box-shadow: none;
+}
 
 
-/*----------脚部-----------*/
+/*---------------
+ Contact Form
+ -----------------*/
+
+.contact-form  {
+    margin: 0px auto;
+    border: 1px solid #c1c1c1 !important;
+    height: auto;
+    width: 1400px;
+    box-shadow: 0px 0px 10px 0px #8c8c8c;
+}
+.contact-form  h2{
+    line-height: 36px;
+    font-weight: bold;
+    color: #2aabd2;
+    margin-bottom: 45px;
+}
+.contact-form p{
+    text-indent:2em;
+    margin: 20px auto;
+    width: 1000px;
+    font-size: 16px;
+    line-height: 36px;
+    white-space: normal;
+    text-align: justify;
+}
+
+.user-message textarea {
+    min-height: 195px;
+    padding-top: 12px;
+}
+.contact-form form button {
+    margin-top: 10px;
+}
+
+
+.user-name,
+.user-email,
+.user-phone,
+.user-url,
+.user-message{
+    position: relative;
+}
+.user-name::after,
+.user-email::after,
+.user-phone::after,
+.user-url::after,
+.user-message::after {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-family: "FontAwesome";
+    color: #dadada;
+}
+
+.user-name::after {
+    content: "\f007";
+}
+.user-email::after {
+    content: "\f003";
+}
+.user-phone::after {
+    content: "\f095";
+}
+.user-url::after {
+    content: "\f0ac";
+}
+.user-message::after {
+    content: "\f086";
+}
+
+
+
+/* ------------------
+    map-section
+   ------------------*/
+.map-section{
+    height: 380px;
+    background-color: #dedddd;
+}
+
+.map-section p{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* ------------------
+   baidu Map
+   ------------------*/
+
+#baiduMap{
+    height: 320px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+
+
+/* --------------------------------------------
+    Footer
+----------------------------------------------- */
+.footer {
+    background : #f3f2f1;
+}
+
+.footer .footer-block {
+    border-right : 1px solid #3a3a3a;
+    padding      : 80px 60px;
+    min-height   : 380px;
+}
+
+@media (min-width : 992px) and (max-width : 1199px) {
+    .footer .footer-block {
+        padding : 50px 40px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .footer .footer-block {
+        padding : 50px 15px;
+    }
+}
+
+@media (max-width : 767px) {
+    .footer .footer-block {
+        padding    : 30px 15px;
+        min-height : inherit;
+    }
+}
+
+.footer .footer-block.last {
+    border-right : 0;
+}
+
+.footer .footer-widget h3 {
+    font-size     : 16px;
+    line-height   : 22px;
+    color         : #333333;
+    margin-bottom : 25px;
+}
+
+.footer .widget_text {
+}
+
+.footer .footer-logo {
+    margin-bottom : 25px;
+}
+
+.footer .footer-logo img{
+    width: 300px;
+    padding-left: -80px;
+}
+
+.footer .footer-widget .btn {
+    font-size     : 11px;
+    padding       : 5px 18px;
+    border-radius : 50px;
+    color         : #6b6b6b;
+    border        : 1px solid #4a4a4a;
+    margin-top    : 40px;
+}
+
+.footer .footer-widget .btn:hover {
+    color            : #ffffff;
+    background-color : #31aae2;
+    border           : 1px solid transparent;
+}
+
+.footer .footer-widget address {
+    line-height   : 22px;
+    margin-bottom : 30px;
+}
+
+.footer .footer-widget .social-links {
+}
+
+.footer .footer-widget .social-links li a {
+    display          : block;
+    font-size        : 20px;
+    width            : 42px;
+    height           : 42px;
+    color            : #6b6b6b;
+    background-color : #4a4a4a;
+    line-height      : 42px;
+    text-align       : center;
+    border-radius    : 50%;
+}
+
+.footer .footer-widget .social-links li a:hover {
+    color            : #ffffff;
+    background-color : #31aae2;
+}
+
+
+.footer .footer-widget #qr-code .qr-code img{
+    height: 100px;
+    width: 100px;
+}
+
+.footer .copyright-section {
+    background-color : #011622;
+    color            : #878787;
+    padding          : 20px 0;
+}
+
+.footer .copyright-section .copytext {
+    text-transform : uppercase;
+    color          : #6b6b6b;
+    font-weight    : 600;
+}
+
+@media (min-width : 768px) {
+    .footer .copyright-section .list-inline > li {
+        padding-right : 10px;
+        padding-left  : 10px;
+    }
+}
+
+.footer .copyright-section li a {
+    display   : block;
+    font-size : 13px;
+    color     : #6b6b6b;
+}
+
+.footer .copyright-section li a:hover,
+.footer .copyright-section li.active a {
+    color : #ffffff;
+}
 
 
 
 
+/* --------------------------------------------
+    fTop-fBtm
+----------------------------------------------- */
 
 
 .fTop{
