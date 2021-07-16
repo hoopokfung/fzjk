@@ -92,6 +92,99 @@ textarea {
     background-color: white;
 
 }
+
+
+
+
+
+
+
+/*--------------------------------------------
+    font-size-user-define
+-----------------------------------------------*/
+
+.font-small {
+    font-size: 14px;
+}
+
+.font-middle{
+    font-size: 16px;
+}
+
+.font-large{
+    font-size: 18px;
+}
+
+
+
+/*--------------------------------------------
+    banner-box
+-----------------------------------------------*/
+.banner-box{
+
+}
+
+.banner-img-style{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+
+
+/*-----------------------------------------
+    content page
+-----------------------------------------*/
+.content-page{
+
+  }
+
+
+.tab-title{
+    width: 100%;
+    border-bottom: 1px solid #dedddd;
+}
+.nav-in-page .nav-tabs.nav-justified>li>a{
+    line-height: 40px;
+    border-top: 0;
+    border-radius: 0;
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-in-page .nav-tabs.nav-justified>.active>a,
+.nav-in-page .nav-tabs.nav-justified>.active>a:focus,
+.nav-in-page .nav-tabs.nav-justified>.active>a:hover {
+    border: 0;
+    background-color: #0076ab;
+    color: white;
+    font-weight: bold;
+}
+/*media query*/
+
+@media (min-width : 768px) {
+    .nav-in-page .tab-content{
+        height: 333px;
+        border-top: 0;
+        border: 1px solid #dedddd;
+        padding: 30px;
+        border-top: 0;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .nav-in-page .tab-content{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+/*--------------------------------------------
+    width-user-define
+-----------------------------------------------*/
 .w800 {
     width: 800px;
     margin: 0 auto;
@@ -132,7 +225,9 @@ textarea {
 
 
 
-/*----------头部-----------*/
+/*--------------------------------------
+    header navigate
+---------------------------------------*/
 
 .logo{
     padding-left: 0;
@@ -221,7 +316,9 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     display: block;
 }
 
-/*----------navSub------- -*/
+/*-------------------------------
+    navSub
+ --------------------------------*/
 .navSub{
     display: none;
     overflow: hidden;
@@ -268,8 +365,6 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     color: #0076ab;
 }
 
-
-    /*----------中部-----------*/
 
 
 /*---------图片滚动栏-----------*/
@@ -351,8 +446,14 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 /* -------------------
    Section margin
    --------------------*/
-.mt-30{
+.mtb-30{
     margin: 30px auto;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
 }
 /* -------------------
    Section Padding
@@ -987,9 +1088,10 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 .footer .footer-block {
-    border-right : 1px solid #3a3a3a;
-    padding      : 80px 60px;
-    min-height   : 380px;
+    border-right : 0px solid #3a3a3a;
+    padding      : 20px 50px;
+    min-height   : 300px;
+    box-sizing: border-box;
 }
 
 @media (min-width : 992px) and (max-width : 1199px) {
@@ -1030,8 +1132,15 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 .footer .footer-logo img{
-    width: 300px;
-    padding-left: -80px;
+    width: 280px;
+    padding-left: -30px;
+}
+
+.footer .footer-widget li a{
+    font-size     : 16px;
+    line-height: 30px;
+    color         : #333333;
+    text-decoration: none;
 }
 
 .footer .footer-widget .btn {
@@ -1079,6 +1188,11 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     height: 100px;
     width: 100px;
 }
+
+/* --------------------------------------------
+    copyright-section
+----------------------------------------------- */
+
 
 .footer .copyright-section {
     background-color : #011622;
