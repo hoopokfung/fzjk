@@ -93,6 +93,12 @@ textarea {
 
 }
 
+.flex{
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
 
 
 
@@ -118,6 +124,17 @@ textarea {
 
 
 /*--------------------------------------------
+    border-self-define
+-----------------------------------------------*/
+.border-btm-1{
+    border-bottom: 1px solid gray;
+}
+
+.border-right-1{
+    border-right: 1px solid gray;
+}
+
+/*--------------------------------------------
     banner-box
 -----------------------------------------------*/
 .banner-box{
@@ -138,13 +155,16 @@ textarea {
 
   }
 
-
 .tab-title{
     width: 100%;
-    border-bottom: 1px solid #dedddd;
 }
+.nav-in-page .nav-tabs.nav-justified>li,
+.nav-in-page .nav-tabs.nav-justified>li>a {
+    border-bottom: 0;
+}
+
 .nav-in-page .nav-tabs.nav-justified>li>a{
-    line-height: 40px;
+    line-height: 50px;
     border-top: 0;
     border-radius: 0;
     color: #333333;
@@ -164,11 +184,8 @@ textarea {
 
 @media (min-width : 768px) {
     .nav-in-page .tab-content{
-        height: 333px;
-        border-top: 0;
-        border: 1px solid #dedddd;
-        padding: 30px;
-        border-top: 0;
+        height: 100%;
+        padding: 30px 30px 30px 0px;
         overflow: hidden;
     }
 }
@@ -458,6 +475,8 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 /* -------------------
    Section Padding
    --------------------*/
+
+
 .pt-100 {
     padding-top : 100px;
 }
@@ -1132,7 +1151,7 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 .footer .footer-logo img{
-    width: 280px;
+    width: 230px;
     padding-left: -30px;
 }
 

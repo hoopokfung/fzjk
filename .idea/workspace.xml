@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="">
+    <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
@@ -15,8 +17,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -24,44 +24,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectId" id="1tydLPt1YBcdwgCcH2Js4xKG3CH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1vbZ9IcMnZJOSX1AFq84vtkU5Mz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workplace\WebStormProjects\fzjk\templates" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\images" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets\js" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\assets" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\statics\lib" />
-      <recent name="D:\Workplace\WebStormProjects\fzjk\statics" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,51 +49,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9038a69-59bb-46aa-94ee-2f60f588eacc" name="默认的" comment="" />
-      <created>1623745207539</created>
+      <changelist id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="" />
+      <created>1626832595533</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623745207539</updated>
-      <workItem from="1623745211632" duration="1079000" />
-      <workItem from="1624604179411" duration="777000" />
-      <workItem from="1624606634843" duration="3690000" />
-      <workItem from="1624841128282" duration="12167000" />
-      <workItem from="1624927207017" duration="15672000" />
-      <workItem from="1625013874557" duration="14331000" />
-      <workItem from="1625121515271" duration="8829000" />
-      <workItem from="1625186096510" duration="16139000" />
-      <workItem from="1625446957374" duration="14463000" />
-      <workItem from="1625533411348" duration="11172000" />
-      <workItem from="1625625080035" duration="4708000" />
-      <workItem from="1625792495571" duration="12480000" />
-      <workItem from="1626050677938" duration="7543000" />
-      <workItem from="1626076059709" duration="4767000" />
-      <workItem from="1626137409539" duration="8187000" />
-      <workItem from="1626225967826" duration="13594000" />
-      <workItem from="1626311477630" duration="10588000" />
-      <workItem from="1626400635755" duration="11872000" />
+      <updated>1626832595533</updated>
+      <workItem from="1626832596786" duration="1393000" />
+      <workItem from="1626854379914" duration="66000" />
+      <workItem from="1626855146576" duration="4196000" />
+      <workItem from="1626914383989" duration="22000" />
+      <workItem from="1626914416526" duration="10974000" />
+      <workItem from="1627024985716" duration="6462000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="168" width="1267" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624850698115">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="168" width="1267" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624850698115" />
-    <state x="808" y="397" key="FileChooserDialogImpl" timestamp="1626140994046">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="808" y="397" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1626140994046" />
-    <state x="529" y="157" key="SettingsEditor" timestamp="1624850644789">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="529" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1624850644789" />
-    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1626402861813">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="641" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1626402861813" />
   </component>
 </project>
