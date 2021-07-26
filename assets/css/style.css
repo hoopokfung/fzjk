@@ -386,16 +386,16 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 
 /*---------图片滚动栏-----------*/
 /*-------------------
-    HERO SLIDER
+    BANNER SLIDER 
 --------------------*/
 
-.hero-slide .carousel-caption {
+.banner-slide .carousel-caption {
     bottom      : 50%;
     text-shadow : none;
     transform   : translateY(50%);
 }
 
-.hero-slide .carousel-caption h1 {
+.banner-slide .carousel-caption h1 {
     font-size      : 60px;
     line-height    : 1;
     font-weight    : bold;
@@ -403,14 +403,14 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     color          : #ffffff;
 }
 
-.hero-slide .carousel-caption p {
+.banner-slide .carousel-caption p {
     font-size   : 20px;
     color       : #ffffff;
     font-weight : normal;
 }
 
-.hero-slide .carousel-control.left,
-.hero-slide .carousel-control.right {
+.banner-slide .carousel-control.left,
+.banner-slide .carousel-control.right {
     width       : 50px;
     height      : 50px;
     line-height : 46px;
@@ -422,37 +422,37 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     text-shadow : none;
 }
 
-.hero-slide .carousel-control.left {
+.banner-slide .carousel-control.left {
     left : 1%;
 }
 
-.hero-slide .carousel-control.right {
+.banner-slide .carousel-control.right {
     right : 1%;
 }
 
-.hero-slide .carousel-indicators {
+.banner-slide .carousel-indicators {
     bottom : 60px;
 }
 
-.hero-slide .carousel-indicators li {
+.banner-slide .carousel-indicators li {
     border : 2px solid #ffffff;
 }
 
 /*Media Query*/
 @media screen and (max-width : 768px) {
-    .hero-slide {
+    .banner-slide {
         margin-top : 60px;
     }
 
-    .hero-slide .carousel-caption h1 {
+    .banner-slide .carousel-caption h1 {
         font-size : 24px;
     }
 
-    .hero-slide .carousel-indicators {
+    .banner-slide .carousel-indicators {
         bottom : 20px;
     }
 
-    .hero-slide .carousel-caption p {
+    .banner-slide .carousel-caption p {
         font-size : 12px;
     }
 }
