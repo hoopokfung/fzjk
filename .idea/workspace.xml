@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,13 +35,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
   </component>
@@ -58,6 +65,8 @@
       <workItem from="1627024985716" duration="6462000" />
       <workItem from="1627259937575" duration="4342000" />
       <workItem from="1627266849169" duration="5759000" />
+      <workItem from="1627347466778" duration="9909000" />
+      <workItem from="1627378266531" duration="50000" />
     </task>
     <servers />
   </component>
