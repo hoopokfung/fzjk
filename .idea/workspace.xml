@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/news_source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,7 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -67,6 +70,8 @@
       <workItem from="1627266849169" duration="5759000" />
       <workItem from="1627347466778" duration="9909000" />
       <workItem from="1627378266531" duration="50000" />
+      <workItem from="1627432911578" duration="814000" />
+      <workItem from="1627438740239" duration="4535000" />
     </task>
     <servers />
   </component>
@@ -78,10 +83,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627264873411" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627263872172">
+    <state x="406" y="46" key="CommitChangelistDialog2" timestamp="1627440818184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627263872172" />
+    <state x="406" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440818184" />
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627440773980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627440773980" />
+    <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627440806791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440806791" />
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627289544207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
