@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list/news_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list/news_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list/news_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list/news_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/list/news_source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/colors.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/news_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +69,7 @@
       <workItem from="1627378266531" duration="50000" />
       <workItem from="1627432911578" duration="814000" />
       <workItem from="1627438740239" duration="4535000" />
+      <workItem from="1627521365280" duration="10810000" />
     </task>
     <servers />
   </component>
@@ -79,10 +77,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627264873411">
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627529468880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627264873411" />
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627529468880" />
     <state x="406" y="46" key="CommitChangelistDialog2" timestamp="1627440818184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
