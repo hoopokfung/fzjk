@@ -125,7 +125,7 @@
     text-decoration: none;
 }
 .blog-meta.big-meta h4 a:hover{
-    color: #2aabd2;
+    color: #0076ab;
 }
 .blog-meta.big-meta p {
     margin-top: 0.6rem;
@@ -163,7 +163,7 @@
 }
 .blog-time em{
     display: block;
-    color: #2aabd2;
+    color: #0076ab;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 5px;
@@ -172,7 +172,7 @@
 }
 .blog-time span{
     display: block;
-    color: #2aabd2;
+    color: #0076ab;
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 5px;
@@ -206,6 +206,82 @@ hr.invis3 {
     margin: 0;
 }
 
+/************************************
+    page
+************************************/
+.page-box{
+    position: relative;
+}
+.page{
+    position: absolute;
+    left: 40%;
+}
+
+.page-link {
+    background-color: #edeff2 !important;
+    border: 0 dashed #e2e2e2;
+    border-radius: 0;
+    color: #a3a5a8 !important;
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 6px;
+    padding: 0.8rem 0.8rem;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.page-link:hover,
+.page-link:focus {
+    color: #111 !important;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-radius: 0;
+}
+
+.page-item:last-child .page-link {
+    border-radius: 0;
+}
+.page-title {
+    padding: 3rem 0;
+    background-color: #edeff2;
+}
+
+.page-title small {
+    color: #a3a5a8;
+    display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: -1px;
+    padding-bottom: 0;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+}
+
+.page-title i {
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 0.3rem;
+    margin-top: -0.4rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.page-title h2 {
+    font-size: 24px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
 
 /************************************
     btn
@@ -216,5 +292,5 @@ hr.invis3 {
 .btn:hover,
 .btn:focus {
     color: #ffffff !important;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #0091e5 0px, #00b7e5 100%) repeat scroll 0 0 !important
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #0076ab 0px, #00b7e5 100%) repeat scroll 0 0 !important
 }

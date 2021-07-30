@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/colors.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list/news_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
@@ -35,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Download/moban5237" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +69,8 @@
       <workItem from="1627432911578" duration="814000" />
       <workItem from="1627438740239" duration="4535000" />
       <workItem from="1627521365280" duration="10810000" />
+      <workItem from="1627605945311" duration="3535000" />
+      <workItem from="1627634790334" duration="1772000" />
     </task>
     <servers />
   </component>
@@ -85,10 +86,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="406" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440818184" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627440773980">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627635278343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627440773980" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627635278343" />
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627440806791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
