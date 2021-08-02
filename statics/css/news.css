@@ -44,34 +44,34 @@
 
 
 /*********************************
-   blog的样式
+   news-list的样式
 **********************************/
-.blog-list .blog-box {
+.news-list .news-banner {
     padding: 1rem 0;
 }
 
-.blog-list .blog-meta.big-meta h4 {
+.news-list .news-meta.big-meta h4 {
     background-color: #ffffff;
     margin-left: 0;
     margin-top: 0.5rem;
     padding: 0 0 0.5rem;
 }
 
-.blog-meta{
+.news-meta{
     position: relative;
     height: 150px;
 }
-.blog-log{
+.news-log{
     position: absolute;
     bottom: 0;
 }
 
-.blog-meta small a,
-.blog-meta small {
+.news-meta small a,
+.news-meta small {
     font-weight: 500;
     color: #999 !important;
 }
-.blog-meta small {
+.news-meta small {
     font-size: 11px;
     display: inline-block;
     margin-bottom: 0;
@@ -81,12 +81,12 @@
     margin-right: 0.5rem;
 }
 
-.blog-meta small:after {
+.news-meta small:after {
     content: "/";
     padding-left: 1rem;
 }
 
-.blog-meta small:last-child:after {
+.news-meta small:last-child:after {
     content: ""
 }
 
@@ -97,71 +97,66 @@
 
 
 
-.blog-meta small.firstsmall:after {
+.news-meta small.firstsmall:after {
     content: "" !important;
     padding-left: 0;
 }
-.blog-meta .rating {
+.news-meta .rating {
     display: block;
     margin-top: 1rem;
 }
 /*1rem等于html根（默认或者全局)字体大小*/
-.blog-box {
+.news-banner {
     padding: 1rem;
     background-color: #ffffff;
 }
 
-.blog-meta.big-meta p {
+.news-meta.big-meta p {
     margin-bottom: 1rem;
 }
 
-.blog-meta.big-meta h4 {
+.news-meta.big-meta h4 {
     padding: 1rem 0 0.6rem;
     margin: 0;
     font-size: 28px;
 }
-.blog-meta.big-meta h4 a{
+.news-meta.big-meta h4 a{
     color: #333333;
     text-decoration: none;
 }
-.blog-meta.big-meta h4 a:hover{
+.news-meta.big-meta h4 a:hover{
     color: #0076ab;
 }
-.blog-meta.big-meta p {
+.news-meta.big-meta p {
     margin-top: 0.6rem;
     margin-bottom: 0.5rem;
     padding-bottom: 0;
 }
-.blog-meta .bg-orange {
+.news-meta .bg-orange {
     color: #ffffff !important;
     padding: 0 0.8rem;
     border-radius: 3px;
 }
+
 .bg-orange {
     background-color: #FF6347 !important;
 }
 
-.page-title .bg-orange,
-.masonry-box:hover .blog-meta span.bg-orange,
-.color-orange a {
-    background-color: #FF6347 !important;
-}
-
-.blog-time{
+.news-time{
     position: relative;
     box-sizing: border-box;
     height: 150px;
 
 }
-.blog-time a{
+.news-time a{
     position: absolute;
     left: 30%;
     top: 20%;
 }
-.blog-time a:hover{
+.news-time a:hover{
     text-decoration: none;
 }
-.blog-time em{
+.news-time em{
     display: block;
     color: #0076ab;
     font-size: 60px;
@@ -170,7 +165,7 @@
     font-family: "HELVETI1";
 
 }
-.blog-time span{
+.news-time span{
     display: block;
     color: #0076ab;
     font-size: 18px;
@@ -214,7 +209,7 @@ hr.invis3 {
 }
 .page{
     position: absolute;
-    left: 40%;
+    left: 34.5%;
 }
 
 .page-link {
@@ -293,4 +288,46 @@ hr.invis3 {
 .btn:focus {
     color: #ffffff !important;
     background: rgba(0, 0, 0, 0) linear-gradient(to right, #0076ab 0px, #00b7e5 100%) repeat scroll 0 0 !important
+}
+
+/************************************
+    news-card style
+************************************/
+.news-card{
+
+}
+.news-card .caption{
+    height: 100px;
+}
+.caption .news-title{
+    margin-top: 20px;
+    padding-left: 1rem;
+    height: 60px;
+}
+.caption .news-title a{
+    color: #333333;
+    text-decoration: none;
+}
+.card-log p{
+    padding-bottom: 20px;
+}
+.p-left,.p-left a{
+    float: left;
+    font-size: 16px;
+    color: red;
+    padding-left: 1rem;
+}
+.p-left a:hover{
+    color: orange;
+}
+.p-right{
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8c8c8c;
+    padding-right: 1rem;
+    font-family: "HELVETI1";
+}
+.news-card .border:hover{
+    box-shadow: 0px 0px 10px 0px #8c8c8c;
 }

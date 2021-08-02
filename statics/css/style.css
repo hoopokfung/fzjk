@@ -100,11 +100,6 @@ textarea {
     list-style:none;
 }
 
-
-
-
-
-
 /*--------------------------------------------
     font-size-user-define
 -----------------------------------------------*/
@@ -121,17 +116,76 @@ textarea {
     font-size: 18px;
 }
 
-
-
 /*--------------------------------------------
     border-self-define
 -----------------------------------------------*/
-.border-btm-1{
+.border{
+    padding: 0.5rem;
+    border: 1px solid #dedddd;
+    border-radius: 0.3rem;
+}
+.border-top{
+    border-top: 1px solid gray;
+}
+.border-bottom{
     border-bottom: 1px solid gray;
 }
-
-.border-right-1{
+.border-left{
+    border-left: 1px solid gray;
+}
+.border-right{
     border-right: 1px solid gray;
+}
+
+/*--------------------------------------------
+    width-user-define
+-----------------------------------------------*/
+.w800 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.w1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.w1230 {
+    width: 1230px;
+    margin: 0 auto;
+
+}
+
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+/*----------渐变效果----------*/
+.tran300 {
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.tran400 {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+/*--------------------------------------------
+    background-color
+-----------------------------------------------*/
+.bg-orange {
+    background-color: #FF6347 !important;
+}
+.bg-gray{
+    background-color: #dedddd !important;
+}
+bg-grayblue{
+    background-color: #0076ab !important;
 }
 
 /*--------------------------------------------
@@ -200,48 +254,6 @@ textarea {
         margin-top: 30px;
     }
 }
-
-
-
-
-/*--------------------------------------------
-    width-user-define
------------------------------------------------*/
-.w800 {
-    width: 800px;
-    margin: 0 auto;
-}
-
-.w1000 {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.w1230 {
-    width: 1230px;
-    margin: 0 auto;
-
-}
-
-.w1440 {
-    width: 1440px;
-    margin: 0 auto;
-}
-/*----------渐变效果----------*/
-.tran300 {
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -ms-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-}
-
-.tran400 {
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    -ms-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-}
-
 
 
 

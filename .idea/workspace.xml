@@ -2,10 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/swiper-3.4.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/swiper-3.4.0.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95508.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95508.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95533.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95533.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95555.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95555.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95558.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95558.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95559.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95559.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95561.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95561.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95566.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95566.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95568.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95568.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95588.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95588.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95595.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95595.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/95599.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95599.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/apic19598.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/apic19598.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/company1.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/company1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/company2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/company2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dangshi.5eb802fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/dangshi.5eb802fb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-about.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-leader-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-leader-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/qrcode_for_gh_c08999d72416_258.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/qrcode_for_gh_c08999d72416_258.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/telIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/telIcon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/trangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/trangle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/xidada.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/xidada.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/会议图片1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/会议图片1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/无底2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/无底2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/swiper-3.4.0.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/swiper-3.4.0.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/swiper.animate1.0.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/swiper.animate1.0.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/about_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/about_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/about_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/about_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list/news_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/news_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,15 +88,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Download/moban5237" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
   </component>
@@ -70,7 +126,8 @@
       <workItem from="1627438740239" duration="4535000" />
       <workItem from="1627521365280" duration="10810000" />
       <workItem from="1627605945311" duration="3535000" />
-      <workItem from="1627634790334" duration="1772000" />
+      <workItem from="1627634790334" duration="2199000" />
+      <workItem from="1627864726469" duration="14052000" />
     </task>
     <servers />
   </component>
@@ -78,18 +135,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627529468880">
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627874527894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627529468880" />
+    <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627874527894" />
     <state x="406" y="46" key="CommitChangelistDialog2" timestamp="1627440818184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="406" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440818184" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627635278343">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627869539440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627635278343" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627869539440" />
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627440806791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
