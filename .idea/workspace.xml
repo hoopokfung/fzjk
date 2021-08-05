@@ -2,56 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/animate.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/swiper-3.4.0.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/swiper-3.4.0.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95508.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95508.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95533.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95533.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95555.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95555.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95558.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95558.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95559.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95559.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95561.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95561.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95566.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95566.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95568.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95568.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95588.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95588.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95595.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95595.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/95599.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/95599.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/apic19598.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/apic19598.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/banner6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/banner6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company1.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/company1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/company2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/company2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dangshi.5eb802fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/dangshi.5eb802fb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-about.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-leader-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-leader-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/img-offer-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/img-offer-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/logo3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/qrcode_for_gh_c08999d72416_258.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/qrcode_for_gh_c08999d72416_258.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/telIcon.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/telIcon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/trangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/trangle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/xidada.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/xidada.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/会议图片1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/会议图片1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/无底2.png" beforeDir="false" afterPath="$PROJECT_DIR$/statics/images/无底2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/swiper-3.4.0.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/swiper-3.4.0.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/swiper.animate1.0.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/swiper.animate1.0.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/Read Me.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo-files/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo-files/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/selection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery-3.4.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery插件库.url" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery插件库.url" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/www.jq22.com.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/www.jq22.com.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/list/about_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_1.html" afterDir="false" />
@@ -92,13 +92,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
-      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics\lib" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics\js" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
   </component>
@@ -128,6 +130,12 @@
       <workItem from="1627605945311" duration="3535000" />
       <workItem from="1627634790334" duration="2199000" />
       <workItem from="1627864726469" duration="14052000" />
+      <workItem from="1627960197982" duration="8690000" />
+      <workItem from="1628043088925" duration="1618000" />
+      <workItem from="1628060790100" duration="846000" />
+      <workItem from="1628062142763" duration="4850000" />
+      <workItem from="1628125308909" duration="659000" />
+      <workItem from="1628126532196" duration="8732000" />
     </task>
     <servers />
   </component>
@@ -139,21 +147,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627874527894" />
-    <state x="406" y="46" key="CommitChangelistDialog2" timestamp="1627440818184">
+    <state x="45" y="46" key="CommitChangelistDialog2" timestamp="1627976459789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="406" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440818184" />
+    <state x="45" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627976459789" />
     <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627869539440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627869539440" />
+    <state x="690" y="164" key="RollbackChangesDialog" timestamp="1627978003018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="164" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627978003018" />
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627440806791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440806791" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627289544207">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627960658948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627289544207" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627960658948" />
   </component>
 </project>
