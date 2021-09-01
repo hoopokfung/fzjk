@@ -2,9 +2,714 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>通知公告</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../statics/css/style.css" rel="stylesheet">
+    <link href="../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
+    <link href="../statics/css/animate.min.css" rel="stylesheet">
+    <link href="../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
+    <link href="../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script src="../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
+    <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
+    <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
+    <script src="../statics/js/common.js"></script>
 </head>
 <body>
+<!-- 头部 -->
+<header class="header tran300 container-fluid">
+    <div class="w1440 clearfix">
+        <a  href="index.html" class="logo pull-left">
+            <img src="../statics/images/logo.png" alt="this is a logo image.">
+        </a>
+        <div class="pcNav pull-right">
+            <ul class="clearfix UL1">
+                <li class="nLi nLi1 ">
+                    <a href="index.html"  class="">
+                        <span class="ch">首页</span>
+                        <span class="en">HOME</span>
+                    </a>
+                </li>
+                <li class="nLi nLi2 ">
+                    <a href="about.html"  class=" ">
+                        <span class="ch">关于金控</span>
+                        <span class="en">ABOUT US</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >集团简介</a></li>
+                                <li class="pull-left"><a href="#" >集团领导</a></li>
+                                <li class="pull-left"><a href="#" >成员企业</a></li>
+                                <li class="pull-left"><a href="#" >组织架构</a></li>
+                                <li class="pull-left"><a href="#" >大事记</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="news.html"  class="">
+                        <span class="ch">新闻中心</span>
+                        <span class="en">NEWS</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >集团动态</a></li>
+                                <li class="pull-left"><a href="#" >一线快讯</a></li>
+                                <li class="pull-left"><a href="#" >行业动态</a></li>
+                                <li class="pull-left"><a href="#" ></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="business.html"  class="">
+                        <span class="ch">业务领域</span>
+                        <span class="en">BUSINESS</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >融资担保</a></li>
+                                <li class="pull-left"><a href="#" >融资租赁</a></li>
+                                <li class="pull-left"><a href="#" >基金管理</a></li>
+                                <li class="pull-left"><a href="#" >商业保理</a></li>
+                                <li class="pull-left"><a href="#" >资产管理</a></li>
+                                <li class="pull-left"><a href="#" >供应链服务</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="party.html"  class="">
+                        <span class="ch">党的建设</span>
+                        <span class="en">PARTY BUILDING</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >在线学习</a></li>
+                                <li class="pull-left"><a href="#" >组织建设</a></li>
+                                <li class="pull-left"><a href="#" >群团工作</a></li>
+                                <li class="pull-left"><a href="#" >专题专栏</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
+                <li class="nLi">
+                    <a href="inform.html"  class="">
+                        <span class="ch">通知公告</span>
+                        <span class="en">INFORM</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >公示公告</a></li>
+                                <li class="pull-left"><a href="#" >信息披露</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="contact.html"  class="">
+                        <span class="ch">联系我们</span>
+                        <span class="en">CONTACT US</span>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class="UL2 ">
+                                <li class="pull-left"><a href="#" >人才招聘</a></li>
+                                <li class="pull-left"><a href="#" >业务合作</a></li>
+                                <li class="pull-left"><a href="#" >问题反馈</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <i class="navLine"></i>
+        </div>
+    </div>
+</header>
+
+<!--------- banner-box------------>
+<section class="banner">
+    <div class="banner-box " >
+        <img class="banner-img-style" src="../statics/images/p5Banner.jpg" alt="这里是横幅背景图">
+    </div>
+
+</section>
+<!---------banner-box  end--------->
+
+<!-------- content-page ----------->
+<section class="content-page">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class=" nav-in-page">
+                <div class="row border-bottom">
+                    <div class="tab-title col-md-6 col-md-offset-2 ">
+                        <ul id="nav-in-page" class="nav nav-tabs nav-justified">
+                            <li class="active pl-30"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true" >党建工作</a></li>
+                            <li class=""><a href="#contentOne-2" data-toggle="tab" aria-expanded="true" >在线学习</a></li>
+                            <li class=""><a href="#contentOne-3" data-toggle="tab" aria-expanded="true" >群团工作</a></li>
+                            <li class=""><a href="#contentOne-4" data-toggle="tab" aria-expanded="true" ></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content col-md-8 col-md-offset-2">
+                    <div class="tab-pane fade active in flex" id="contentOne-1">
+                        <div class="party-one" style="height: 800px;">
+                            <div class="topic text-center">
+                                <h2>党建工作</h2>
+                                <span class="container" style="height: 50px"></span>
+                            </div>
+                            <div class="container">
+                                <div id="testimonialSlider" class="carousel slide" data-ride="carousel">
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <blockquote>
+                                                <div class="left-img">
+                                                    <img src="../statics/images/会议图片1.jpg" class="img-responsive" alt=""></li>
+                                                </div>
+                                                <div class="detail">
+                                                    <a href="#">
+                                                        <h4>中国共产党统一战线工作条例</h4>
+                                                        <div class="date ">2021-9-1</div>
+                                                        <p >
+                                                            (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <div class="item">
+                                            <blockquote>
+                                                <div class="left-img">
+                                                    <img src="../statics/images/会议图片1.jpg" class="img-responsive" alt=""></li>
+                                                </div>
+                                                <div class="detail">
+                                                    <a href="#">
+                                                        <h4>中国共产党统一战线工作条例</h4>
+                                                        <div class="date ">2021-9-1</div>
+                                                        <p >
+                                                            (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <div class="item">
+                                            <blockquote>
+                                                <div class="left-img">
+                                                    <img src="../statics/images/会议图片1.jpg" class="img-responsive" alt=""></li>
+                                                </div>
+                                                <div class="detail">
+                                                    <a href="#">
+                                                        <h4>中国共产党统一战线工作条例</h4>
+                                                        <div class="date ">2021-9-1</div>
+                                                        <p >
+                                                            (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                                        </p>
+                                                    </a>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#testimonialSlider" role="button" data-slide="prev">
+                                        <span><i class="fa fa-angle-left"></i></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#testimonialSlider" role="button" data-slide="next">
+                                        <span><i class="fa fa-angle-right"></i></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <!-- #testimonialSlider -->
+                            </div>
+                            <div class="party-list">
+                                <ul>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="invis">
+
+                            <div class="row text-center">
+                                <div class="col-md-12 page-box">
+                                    <nav class="page" aria-label="Page navigation">
+                                        <ul class="pagination justify-content-start ">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">上一页</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">下一页</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div>
+<!--                        <iframe src="list/" height="1200px" width="1200px" frameborder="0" scrolling="no"></iframe>-->
+                    </div>
+                    <div class="tab-pane fade  in" id="contentOne-2">
+                        <div class="party-one" style="height: 800px;">
+                            <div class="topic text-center">
+                                <h2>在线学习</h2>
+                                <span class="container" style="height: 50px"></span>
+                            </div>
+                            <div class="party-list">
+                                <ul>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="invis">
+
+                            <div class="row text-center">
+                                <div class="col-md-12 page-box">
+                                    <nav class="page" aria-label="Page navigation">
+                                        <ul class="pagination justify-content-start ">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">上一页</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">下一页</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div>
+<!--                        <iframe src="list/" height="1000px" width="1200px" frameborder="0" scrolling="no"></iframe>-->
+                    </div>
+                    <div class="tab-pane fade  in" id="contentOne-3">
+                        <div class="party-one" style="height: 800px;">
+                            <div class="topic text-center">
+                                <h2>群团工作</h2>
+                                <span class="container" style="height: 50px"></span>
+                            </div>
+                            <div class="party-list">
+                                <ul>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="invis">
+
+                            <div class="row text-center">
+                                <div class="col-md-12 page-box">
+                                    <nav class="page" aria-label="Page navigation">
+                                        <ul class="pagination justify-content-start ">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">上一页</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">下一页</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div>
+<!--                        <iframe src="list/" height="700px" width="1200px" frameborder="0" scrolling="no"></iframe>-->
+                    </div>
+                    <div class="tab-pane fade  in" id="contentOne-4">
+                        <div class="party-one" style="height: 800px;">
+                            <div class="topic text-center">
+                                <h2>专题专栏</h2>
+                                <span class="container" style="height: 50px"></span>
+                            </div>
+                            <div class="party-list">
+                                <ul>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="list-item pull-left">
+                                        <a href="#">
+                                            <h4>中国共产党统一战线工作条例</h4>
+                                            <div class="date ">2021-9-1</div>
+                                            <p class="detail">
+                                                (2015年4月30日中共中央政治局会议审议批准　2015年5月18日中共中央发布　2020年11月30日中共中央政治局会议修订　2020年12月21日中共中央发布)
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <hr class="invis">
+
+                            <div class="row text-center">
+                                <div class="col-md-12 page-box">
+                                    <nav class="page" aria-label="Page navigation">
+                                        <ul class="pagination justify-content-start ">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">上一页</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">下一页</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div><!-- end col -->
+                            </div><!-- end row -->
+                        </div>
+<!--                        <iframe src="list/" height="700px" width="1200px"  frameborder="0" scrolling="no"></iframe>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-------- content-page end ----------->
+
+
+
+
+<!-- 页脚 -->
+
+<footer class="footer">
+    <!-- Footer Widget Section -->
+    <div class="footer-widget-section">
+        <div class="w1440 ">
+            <div class="row">
+                <div class="col-md-3 footer-block">
+                    <div class="footer-widget widget_text pl-30">
+                        <div class="footer-logo">
+                            <a href="#"><img src="../statics/images/logo2.png" alt="这里是公司的logo" style="height: 120px;width: 120px"></a>
+                        </div>
+                        <p>地址 : 江西省抚州市迎宾大道777号</p>
+                        <p>邮编 : 344100    </p>
+                        <div id="qr-code">
+                            <img class="qr-code" src="../statics/images/qrcode_for_gh_c08999d72416_258.jpg" alt="" style="height: 100px; width: 100px">
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-6">
+                    <div class="row ">
+                        <div class="col-sm-3 footer-block">
+                            <div class="footer-widget widget_text text-center">
+                                <ul>
+                                    <li class="mt-20"><a href="about.html" style="font-size: 18px">关于金控</a></li>
+                                    <li class=""><a href="#" >集团简介</a></li>
+                                    <li class=""><a href="#" >集团领导</a></li>
+                                    <li class=""><a href="#" >成员企业</a></li>
+                                    <li class=""><a href="#" >组织架构</a></li>
+                                    <li class=""><a href="#" >大事记</a></li>
+                                    <li class=""><a href="#" >联系我们</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 footer-block">
+                            <div class="footer-widget widget_text text-center">
+                                <ul>
+                                    <li class="mt-20"><a href="news.html" style="font-size: 18px">新闻中心</a></li>
+                                    <li class=""><a href="#" >集团动态</a></li>
+                                    <li class=""><a href="#" >一线快讯</a></li>
+                                    <li class=""><a href="#" >行业动态</a></li>
+                                    <li class=""><a href="#" >媒体焦距</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 footer-block">
+                            <div class="footer-widget widget_text text-center">
+                                <ul>
+                                    <li class="mt-20"><a href="business.html" style="font-size: 18px">业务领域</a></li>
+                                    <li class=""><a href="#" >业务1</a></li>
+                                    <li class=""><a href="#" >业务2</a></li>
+                                    <li class=""><a href="#" >业务3</a></li>
+                                    <li class=""><a href="#" >业务4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 footer-block">
+                            <div class="footer-widget widget_text text-center">
+                                <ul>
+                                    <li class="mt-20"><a href="party.html" style="font-size: 18px">党的建设</a></li>
+                                    <li class=""><a href="#" >在线学习</a></li>
+                                    <li class=""><a href="#" >组织建设</a></li>
+                                    <li class=""><a href="#" >群团工作</a></li>
+                                    <li class=""><a href="#" >专题专栏</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-6 -->
+
+                <div class="col-md-3 footer-block last">
+                    <div class="footer-widget widget_text pl-30">
+                        <h3>联系我们</h3>
+                        <address>
+                            <p>邮箱 : jxfzjrkg@163.com</p>
+                            <p>电话 : 0794-8236799</p>
+                            <!--                            <a href="cdn-cgi/l/email-protection#e3c0"><span class="__cf_email__" data-cfemail="5c3f3332283d3f281c3833313d3532723f3331">[邮箱&#160;jxfzjrkg@163.com]</span></a><br>-->
+                        </address>
+
+                        <ul class="list-inline social-links">
+                            <li><a href="#"><i class="fa fa-wechat"></i></a></li>
+                            <li><a href="#"><i class="fa fa-weibo"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.col-sm-4 -->
+            </div>
+        </div>
+    </div>
+    <!-- /.Footer Widget Section -->
+
+    <div class="copyright-section">
+        <div class="w1230 clearfix" style="width: 1316px">
+            <span class="copytext">Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/">赣ICP备18010030号</a></span>
+
+            <ul class="list-inline pull-right " style="margin-right: 70px;" >
+                <li class=""><a href="#">加入我们</a></li>
+                <li><a href="#">联系我们</a></li>
+
+            </ul>
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .copyright-section -->
+</footer>
 </body>
 </html>

@@ -2,65 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/statics/images/asset.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/chart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/commercial.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/leasing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/supply-chain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/bootstrap-3.4.1/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/bootstrap-3.4.1/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statics/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/Read Me.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/Read Me.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo-files/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo-files/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo-files/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon demo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/icomoon/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/jquery插件库.url" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/jquery插件库.url" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/jquery-3.4.1/www.jq22.com.txt" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/jquery-3.4.1/www.jq22.com.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/about_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/about_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/about_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/about_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/about_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/news_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/list/news_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inform.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/party.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/party.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,19 +82,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/statics/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
-      <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
-      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics\lib\fonts" />
       <recent name="D:\workplace\WebStormProjects\fzjk\statics\lib" />
       <recent name="D:\workplace\WebStormProjects\fzjk\statics\js" />
       <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics\lib" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics\images" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\statics" />
+      <recent name="D:\workplace\WebStormProjects\fzjk\assets\css" />
       <recent name="D:\workplace\WebStormProjects\fzjk\assets\images" />
     </key>
   </component>
@@ -135,7 +132,16 @@
       <workItem from="1628060790100" duration="846000" />
       <workItem from="1628062142763" duration="4850000" />
       <workItem from="1628125308909" duration="659000" />
-      <workItem from="1628126532196" duration="8732000" />
+      <workItem from="1628126532196" duration="8897000" />
+      <workItem from="1628500310980" duration="277000" />
+      <workItem from="1628563753364" duration="6374000" />
+      <workItem from="1629686806878" duration="3477000" />
+      <workItem from="1630308480972" duration="5000" />
+      <workItem from="1630308606655" duration="1190000" />
+      <workItem from="1630373987779" duration="37000" />
+      <workItem from="1630374940808" duration="14000" />
+      <workItem from="1630457332210" duration="8795000" />
+      <workItem from="1630482494062" duration="4808000" />
     </task>
     <servers />
   </component>
@@ -151,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="45" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1627976459789" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1627869539440">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1630481392046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627869539440" />
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1630481392046" />
     <state x="690" y="164" key="RollbackChangesDialog" timestamp="1627978003018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,9 +169,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627440806791" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1627960658948">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1630486829534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627960658948" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630486829534" />
   </component>
 </project>
