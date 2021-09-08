@@ -8,134 +8,146 @@
     <link href="../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
     <link href="../statics/css/animate.min.css" rel="stylesheet">
     <link href="../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
-    <link href="../statics/lib/fonts/font-awesome-4.7.0css/font-awesome.min.css" rel="stylesheet">
     <script src="../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <link href="../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
     <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
     <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
     <script src="../statics/js/common.js"></script>
+    <script src="../statics/js/TweenMax.js"></script>
 </head>
 <body>
 
 
-    <!-- 头部 -->
-    <header class="header tran300 container-fluid">
-        <div class="w1440 clearfix">
-            <a  href="index.html" class="logo pull-left">
-                <img src="../statics/images/logo.png" alt="this is a logo image.">
-            </a>
-            <div class="pcNav pull-right">
-                <ul class="clearfix UL1">
-                        <li class="nLi nLi1 ">
-                            <a href="index.html"  class="">
-                                <span class="ch">首页</span>
-                                <span class="en">HOME</span>
-                            </a>
-                        </li>
-                        <li class="nLi nLi2 ">
-                            <a href="about.html"  class=" ">
-                                <span class="ch">关于金控</span>
-                                <span class="en">ABOUT US</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >集团简介</a></li>
-                                        <li class="pull-left"><a href="#" >集团领导</a></li>
-                                        <li class="pull-left"><a href="#" >成员企业</a></li>
-                                        <li class="pull-left"><a href="#" >组织架构</a></li>
-                                        <li class="pull-left"><a href="#" >大事记</a></li>
-                                        <li class="pull-left"><a href="#" >联系我们</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nLi">
-                            <a href="news.html"  class="">
-                                <span class="ch">新闻中心</span>
-                                <span class="en">NEWS</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >集团动态</a></li>
-                                        <li class="pull-left"><a href="#" >一线快讯</a></li>
-                                        <li class="pull-left"><a href="#" >行业动态</a></li>
-                                        <li class="pull-left"><a href="#" >媒体焦距</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nLi">
-                            <a href="business.html"  class="">
-                                <span class="ch">业务领域</span>
-                                <span class="en">BUSINESS</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >业务1</a></li>
-                                        <li class="pull-left"><a href="#" >业务2</a></li>
-                                        <li class="pull-left"><a href="#" >业务3</a></li>
-                                        <li class="pull-left"><a href="#" >业务4</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nLi">
-                            <a href="party.html"  class="">
-                                <span class="ch">党的建设</span>
-                                <span class="en">PARTY BUILDING</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >在线学习</a></li>
-                                        <li class="pull-left"><a href="#" >组织建设</a></li>
-                                        <li class="pull-left"><a href="#" >群团工作</a></li>
-                                        <li class="pull-left"><a href="#" >专题专栏</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+<!-- 头部 -->
+<header class="header iheader tran300 container-fluid">
+    <div class="w1440 clearfix">
+        <a  href="index.html" class="logo pull-left">
+            <img src="../statics/images/logo.png" alt="this is a logo image.">
+        </a>
+        <div class="pcNav pull-right">
+            <ul class="clearfix ">
+                <li class="nLi nLi1 ">
+                    <a href="index.html"  class="">
+                        <span class="ch">首页</span>
+                        <span class="en">HOME</span>
+                        <i></i>
+                    </a>
+                </li>
+                <li class="nLi nLi2 ">
+                    <a href="about.html"  class=" ">
+                        <span class="ch">关于金控</span>
+                        <span class="en">ABOUT US</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >集团简介</a></li>
+                                <li class="pull-left"><a href="#" >集团领导</a></li>
+                                <li class="pull-left"><a href="#" >成员企业</a></li>
+                                <li class="pull-left"><a href="#" >组织架构</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="news.html"  class="">
+                        <span class="ch">新闻中心</span>
+                        <span class="en">NEWS</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >集团动态</a></li>
+                                <li class="pull-left"><a href="#" >一线快讯</a></li>
+                                <li class="pull-left"><a href="#" >行业动态</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="business.html"  class="">
+                        <span class="ch">业务领域</span>
+                        <span class="en">BUSINESS</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >融资担保</a></li>
+                                <li class="pull-left"><a href="#" >融资租赁</a></li>
+                                <li class="pull-left"><a href="#" >基金管理</a></li>
+                                <li class="pull-left"><a href="#" >商业保理</a></li>
+                                <li class="pull-left"><a href="#" >资产管理</a></li>
+                                <li class="pull-left"><a href="#" >供应链服务</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="party.html"  class="">
+                        <span class="ch">党的建设</span>
+                        <span class="en">PARTY BUILDING</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >党建工作</a></li>
+                                <li class="pull-left"><a href="#" >在线学习</a></li>
+                                <li class="pull-left"><a href="#" >群团工作</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
-                        <li class="nLi">
-                            <a href="inform.html"  class="">
-                                <span class="ch">通知公告</span>
-                                <span class="en">INFORM</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >公示公告</a></li>
-                                        <li class="pull-left"><a href="#" >信息披露</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nLi">
-                            <a href="contact.html"  class="">
-                                <span class="ch">联系我们</span>
-                                <span class="en">CONTACT US</span>
-                            </a>
-                            <div class="navSub">
-                                <div class="wrap ">
-                                    <ul class="UL2 ">
-                                        <li class="pull-left"><a href="#" >人才招聘</a></li>
-                                        <li class="pull-left"><a href="#" >业务合作</a></li>
-                                        <li class="pull-left"><a href="#" >问题反馈</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
+                <li class="nLi">
+                    <a href="inform.html"  class="">
+                        <span class="ch">通知公告</span>
+                        <span class="en">INFORM</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >公示公告</a></li>
+                                <li class="pull-left"><a href="#" >信息披露</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="contact.html"  class="">
+                        <span class="ch">联系我们</span>
+                        <span class="en">CONTACT US</span>
+                        <i></i>
+                    </a>
+                    <!--                            <div class="navSub">-->
+                    <!--                                <div class="wrap ">-->
+                    <!--                                    <ul class=" ">-->
+                    <!--                                        <li class="pull-left"><a href="#" >人才招聘</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >业务合作</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >问题反馈</a></li>-->
+                    <!--                                    </ul>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                </li>
 
-                    </ul>
-                <i class="navLine"></i>
-            </div>
+            </ul>
+            <i class="navLine"></i>
         </div>
-    </header>
+    </div>
+</header>
 
+<!--<script type="text/javascript">-->
+<!--    var x = document.getElementsByClassName('pcNav').getElementsByTagName('li');-->
+<!--    var y = x.getElementsByTagName('a')-->
+<!--    x.addEventListener("click",function () {-->
 
+<!--    })-->
+<!--</script>-->
 
 
 
@@ -243,7 +255,6 @@
                             <li class="active"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true">集团动态</a></li>
                             <li class=""><a href="#contentOne-2" data-toggle="tab" aria-expanded="false">一线快讯</a></li>
                             <li class=""><a href="#contentOne-3" data-toggle="tab" aria-expanded="false">行业动态</a></li>
-                            <li class=""><a href="#contentOne-4" data-toggle="tab" aria-expanded="false">媒体聚焦</a></li>
                         </ul>
 
                         <!-- Tab panes -->
@@ -290,7 +301,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseSixLeftone" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                            <div id="collapseSixLeftone" class="panel-collapse collapse" aria-expanded="false" >
                                 <div class="panel-body">
                                     为贯彻落实党中央、国务院有关依法治国、建设法治社会的要求，充分发挥律师在企业依法合规经营的作用，根据《国有企业法律顾问管理办法》等文件的相关规定，抚州市金融控股有限公司依法依规向社会公开遴选聘任法律顾问及诉讼代理律师。公开聘任坚持“公开、公正、择优”的原则，综合考虑专业素养、行业影响、品德口碑等因素择优聘任。
                                 </div>
@@ -304,7 +315,7 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseSixLeftTwo" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                            <div id="collapseSixLeftTwo" class="panel-collapse collapse" aria-expanded="false">
                                 <div class="panel-body">
                                     2021年7月9日（本周五）下午四点在局九楼会议室901召开抚金控2021年度第二次业务合法合规性专题集中培训学习会议。请公司全体员工准时参会，请假需经董事长批准。会议具体详情见《组织培训流程安排》。
                                 </div>
@@ -575,12 +586,12 @@
                     <p>地址: 江西省抚州市迎宾大道777号</p>
                     <p>邮箱: jxfzjrkg@163.com</p>
                 </div>
-                <div class="item3 pull-right">
+                <div class="item3  pull-right">
                     <h5 class="fTit">友情连接</h5>
                     <dl class="select">
                         <dt>
-                            "友情连接"
-                            <i ></i>
+                            友情连接
+                            <i></i>
                         </dt>
                         <dd style="display: none">
                             <ul>
@@ -597,19 +608,33 @@
                             </ul>
                         </dd>
                     </dl>
-
+                    <div class="footer-widget widget_text">
+                        <ul class="list-inline social-links">
+                            <li>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom">
+                                    <i class="fa fa-wechat fa-inverse"></i>
+                                </a>
+                                <div class="tooltip bottom" role="tooltip">
+                                    <div class="tooltip-arrow"></div>
+                                    <div class="tooltip-inner">
+                                        Some tooltip text!
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa fa-weibo fa-inverse"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="fBtm">
             <div class="w1230 clearfix">
-                <p class="copy pull-left">Copyright© 2021 抚州市金融控股有限公司 ALL RIGHT RESERVED   <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
+                <p class="copy pull-left">Copyright © 2021.抚州市金融控股有限公司 ALL RIGHT RESERVED. <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
                 <ul class="pull-right list-inline">
                     <li>
                         <a href="#" >加入我们</a>
                     </li>
                     <li>
-
                         <a href="#" >联系我们</a>
                     </li>
                 </ul>

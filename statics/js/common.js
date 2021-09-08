@@ -28,11 +28,28 @@ tme.init=$(function(){
 
 
     tme.fnnav();
+    tme.fnSelect();
+
 
 })
 
 
 $(document).ready( tme.init );
+
+tme.fnSelect=function(){
+    $(".fTop .select").each(function(){
+        var s=$(this);
+        var z=parseInt(s.css("z-index"));
+        var dt=$(this).children("dt");
+        var dd=$(this).children("dd");
+        var _show=function(){dd.slideDown(200);dt.addClass("cur");s.css("z-index",z+1);};   //展开效果
+        var _hide=function(){dd.slideUp(200);dt.removeClass("cur");s.css("z-index",z);};    //关闭效果
+        dt.click(function(){dd.is(":hidden")?_show():_hide();});
+        dd.find("a").click(function(){dt.html($(this).html());_hide();});     //选择效果（如需要传值，可自定义参数，在此处返回对应的“value”值 ）
+        $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hide():"";});
+    })
+}
+
 
 tme.fnnav=function(){
 
@@ -47,7 +64,7 @@ tme.fnnav=function(){
             liW = $(this).width();
             subW = $(this).find('.navSub ul').width();
             subWArr.push(subW);
-            padLeft = 650;
+            padLeft = liL - (subW - liW)/2;
             $(this).find('.navSub ul').css({'paddingLeft': padLeft +'px'});
         }
     });
@@ -80,13 +97,6 @@ tme.fnnav=function(){
         l = 0,
         ml =0,
         timer=null;
-    onW = $('.pcNav li.nLi.on').find("a").width();
-    onL = $('.pcNav li.nLi.on').position().left;
-    onMl = $('.pcNav li.nLi.on').find("a").css("marginLeft");
-
-    navAnimate.clear();
-    navAnimate.to(".header .pcNav .navLine",0.4,{opacity:1,left:onL,width:onW,marginLeft:onMl});
-
 
 
     $(window).resize(function(){
@@ -132,4 +142,51 @@ tme.fnnav=function(){
     });
 
 
+}
+
+
+
+// 加入收藏和设为首页用法
+// <a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">加入收藏</a>
+// <a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页</a>
+
+// 设置为主页
+
+function SetHome(obj,vrl){
+    try{
+        obj.style.behavior='url(#default#homepage)';obj.setHomePage(vrl);
+    }
+    catch(e){
+        if(window.netscape) {
+            try {
+                netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+            }
+            catch (e) {
+                alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+            }
+            var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+            prefs.setCharPref('browser.startup.homepage',vrl);
+        }else{
+            alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+        }
+    }
+}
+
+function shoucang(sTitle,sURL)
+{
+    try
+    {
+        window.external.addFavorite(sURL, sTitle);
+    }
+    catch (e)
+    {
+        try
+        {
+            window.sidebar.addPanel(sTitle, sURL, "");
+        }
+        catch (e)
+        {
+            alert("加入收藏失败，请使用Ctrl+D进行添加");
+        }
+    }
 }

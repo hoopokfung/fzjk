@@ -14,124 +14,130 @@
     <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
     <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
     <script src="../statics/js/common.js"></script>
-
+    <script src="../statics/js/TweenMax.js"></script>
 </head>
 <body>
-    <!-- 头部 -->
-    <header class="header tran300 container-fluid">
-        <div class="w1440 clearfix">
-            <a  href="index.html" class="logo pull-left">
-                <img src="../statics/images/logo.png" alt="this is a logo image.">
-            </a>
-            <div class="pcNav pull-right">
-                <ul class="clearfix UL1">
-                    <li class="nLi nLi1 ">
-                        <a href="index.html"  class="">
-                            <span class="ch">首页</span>
-                            <span class="en">HOME</span>
-                        </a>
-                    </li>
-                    <li class="nLi nLi2 ">
-                        <a href="about.html"  class=" ">
-                            <span class="ch">关于金控</span>
-                            <span class="en">ABOUT US</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >集团简介</a></li>
-                                    <li class="pull-left"><a href="#" >集团领导</a></li>
-                                    <li class="pull-left"><a href="#" >成员企业</a></li>
-                                    <li class="pull-left"><a href="#" >组织架构</a></li>
-                                    <li class="pull-left"><a href="#" >大事记</a></li>
-                                </ul>
-                            </div>
+<!-- 头部 -->
+<header class="header iheader tran300 container-fluid">
+    <div class="w1440 clearfix">
+        <a  href="index.html" class="logo pull-left">
+            <img src="../statics/images/logo.png" alt="this is a logo image.">
+        </a>
+        <div class="pcNav pull-right">
+            <ul class="clearfix ">
+                <li class="nLi nLi1 ">
+                    <a href="index.html"  class="">
+                        <span class="ch">首页</span>
+                        <span class="en">HOME</span>
+                        <i></i>
+                    </a>
+                </li>
+                <li class="nLi nLi2 ">
+                    <a href="about.html"  class=" ">
+                        <span class="ch">关于金控</span>
+                        <span class="en">ABOUT US</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >集团简介</a></li>
+                                <li class="pull-left"><a href="#" >集团领导</a></li>
+                                <li class="pull-left"><a href="#" >成员企业</a></li>
+                                <li class="pull-left"><a href="#" >组织架构</a></li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nLi">
-                        <a href="news.html"  class="">
-                            <span class="ch">新闻中心</span>
-                            <span class="en">NEWS</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >集团动态</a></li>
-                                    <li class="pull-left"><a href="#" >一线快讯</a></li>
-                                    <li class="pull-left"><a href="#" >行业动态</a></li>
-                                    <li class="pull-left"><a href="#" >媒体焦距</a></li>
-                                </ul>
-                            </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="news.html"  class="">
+                        <span class="ch">新闻中心</span>
+                        <span class="en">NEWS</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >集团动态</a></li>
+                                <li class="pull-left"><a href="#" >一线快讯</a></li>
+                                <li class="pull-left"><a href="#" >行业动态</a></li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nLi">
-                        <a href="business.html"  class="">
-                            <span class="ch">业务领域</span>
-                            <span class="en">BUSINESS</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >业务1</a></li>
-                                    <li class="pull-left"><a href="#" >业务2</a></li>
-                                    <li class="pull-left"><a href="#" >业务3</a></li>
-                                    <li class="pull-left"><a href="#" >业务4</a></li>
-                                </ul>
-                            </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="business.html"  class="">
+                        <span class="ch">业务领域</span>
+                        <span class="en">BUSINESS</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >融资担保</a></li>
+                                <li class="pull-left"><a href="#" >融资租赁</a></li>
+                                <li class="pull-left"><a href="#" >基金管理</a></li>
+                                <li class="pull-left"><a href="#" >商业保理</a></li>
+                                <li class="pull-left"><a href="#" >资产管理</a></li>
+                                <li class="pull-left"><a href="#" >供应链服务</a></li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nLi">
-                        <a href="party.html"  class="">
-                            <span class="ch">党的建设</span>
-                            <span class="en">PARTY BUILDING</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >在线学习</a></li>
-                                    <li class="pull-left"><a href="#" >组织建设</a></li>
-                                    <li class="pull-left"><a href="#" >群团工作</a></li>
-                                    <li class="pull-left"><a href="#" >专题专栏</a></li>
-                                </ul>
-                            </div>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="party.html"  class="">
+                        <span class="ch">党的建设</span>
+                        <span class="en">PARTY BUILDING</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >党建工作</a></li>
+                                <li class="pull-left"><a href="#" >在线学习</a></li>
+                                <li class="pull-left"><a href="#" >群团工作</a></li>
+                            </ul>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li class="nLi">
-                        <a href="inform.html"  class="">
-                            <span class="ch">通知公告</span>
-                            <span class="en">INFORM</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >公示公告</a></li>
-                                    <li class="pull-left"><a href="#" >信息披露</a></li>
-                                </ul>
-                            </div>
+                <li class="nLi">
+                    <a href="inform.html"  class="">
+                        <span class="ch">通知公告</span>
+                        <span class="en">INFORM</span>
+                        <i></i>
+                    </a>
+                    <div class="navSub">
+                        <div class="wrap ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >公示公告</a></li>
+                                <li class="pull-left"><a href="#" >信息披露</a></li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nLi">
-                        <a href="contact.html"  class="">
-                            <span class="ch">联系我们</span>
-                            <span class="en">CONTACT US</span>
-                        </a>
-                        <div class="navSub">
-                            <div class="wrap ">
-                                <ul class="UL2 ">
-                                    <li class="pull-left"><a href="#" >人才招聘</a></li>
-                                    <li class="pull-left"><a href="#" >业务合作</a></li>
-                                    <li class="pull-left"><a href="#" >问题反馈</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
+                    </div>
+                </li>
+                <li class="nLi">
+                    <a href="contact.html"  class="">
+                        <span class="ch">联系我们</span>
+                        <span class="en">CONTACT US</span>
+                        <i></i>
+                    </a>
+                    <!--                            <div class="navSub">-->
+                    <!--                                <div class="wrap ">-->
+                    <!--                                    <ul class=" ">-->
+                    <!--                                        <li class="pull-left"><a href="#" >人才招聘</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >业务合作</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >问题反馈</a></li>-->
+                    <!--                                    </ul>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
+                </li>
 
-                </ul>
-                <i class="navLine"></i>
-            </div>
+            </ul>
+            <i class="navLine"></i>
         </div>
-    </header>
+    </div>
+</header>
 
     <!--------- banner-box------------>
     <section class="banner">
@@ -159,12 +165,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="tab-content col-md-8 col-md-offset-2">
+                    <div id="tab-content" class="tab-content col-md-8 col-md-offset-2">
                         <div class="tab-pane fade active in flex" id="contentOne-1">
-                            <iframe src="list/news_1.html" height="1200px" width="1200px" frameborder="0" scrolling="no"></iframe>
+                            <iframe src="list/news_1.html" onload="this.height=this.contentWindow.document.body.scrollHeight" width="1200px" frameborder="0" scrolling="no"></iframe>
                         </div>
-                        <div class="tab-pane fade  in" id="contentOne-2">
-                            <iframe src="list/news_2.html" height="1000px" width="1200px" frameborder="0" scrolling="no"></iframe>
+                        <div class="tab-pane fade  in" id="contentOne-2" >
+                            <iframe src="list/news_2.html" id="iframe2" height="930px" width="1200px" frameborder="0" scrolling="no"></iframe>
                         </div>
                         <div class="tab-pane fade  in" id="contentOne-3">
                             <iframe src="list/news_3.html" height="700px" width="1200px" frameborder="0" scrolling="no"></iframe>
@@ -175,12 +181,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <!-------- content-page end ----------->
-
-
 
 
     <!-- 页脚 -->

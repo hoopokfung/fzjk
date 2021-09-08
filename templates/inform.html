@@ -14,35 +14,37 @@
     <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
     <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
     <script src="../statics/js/common.js"></script>
+    <script src="../statics/js/TweenMax.js"></script>
 </head>
 <body>
 <!-- 头部 -->
-<header class="header tran300 container-fluid">
+<header class="header iheader tran300 container-fluid">
     <div class="w1440 clearfix">
         <a  href="index.html" class="logo pull-left">
             <img src="../statics/images/logo.png" alt="this is a logo image.">
         </a>
         <div class="pcNav pull-right">
-            <ul class="clearfix UL1">
+            <ul class="clearfix ">
                 <li class="nLi nLi1 ">
                     <a href="index.html"  class="">
                         <span class="ch">首页</span>
                         <span class="en">HOME</span>
+                        <i></i>
                     </a>
                 </li>
                 <li class="nLi nLi2 ">
                     <a href="about.html"  class=" ">
                         <span class="ch">关于金控</span>
                         <span class="en">ABOUT US</span>
+                        <i></i>
                     </a>
                     <div class="navSub">
                         <div class="wrap ">
-                            <ul class="UL2 ">
+                            <ul class=" ">
                                 <li class="pull-left"><a href="#" >集团简介</a></li>
                                 <li class="pull-left"><a href="#" >集团领导</a></li>
                                 <li class="pull-left"><a href="#" >成员企业</a></li>
                                 <li class="pull-left"><a href="#" >组织架构</a></li>
-                                <li class="pull-left"><a href="#" >大事记</a></li>
                             </ul>
                         </div>
                     </div>
@@ -51,14 +53,14 @@
                     <a href="news.html"  class="">
                         <span class="ch">新闻中心</span>
                         <span class="en">NEWS</span>
+                        <i></i>
                     </a>
                     <div class="navSub">
                         <div class="wrap ">
-                            <ul class="UL2 ">
+                            <ul class=" ">
                                 <li class="pull-left"><a href="#" >集团动态</a></li>
                                 <li class="pull-left"><a href="#" >一线快讯</a></li>
                                 <li class="pull-left"><a href="#" >行业动态</a></li>
-                                <li class="pull-left"><a href="#" ></a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,10 +69,11 @@
                     <a href="business.html"  class="">
                         <span class="ch">业务领域</span>
                         <span class="en">BUSINESS</span>
+                        <i></i>
                     </a>
                     <div class="navSub">
                         <div class="wrap ">
-                            <ul class="UL2 ">
+                            <ul class=" ">
                                 <li class="pull-left"><a href="#" >融资担保</a></li>
                                 <li class="pull-left"><a href="#" >融资租赁</a></li>
                                 <li class="pull-left"><a href="#" >基金管理</a></li>
@@ -85,14 +88,14 @@
                     <a href="party.html"  class="">
                         <span class="ch">党的建设</span>
                         <span class="en">PARTY BUILDING</span>
+                        <i></i>
                     </a>
                     <div class="navSub">
                         <div class="wrap ">
-                            <ul class="UL2 ">
+                            <ul class=" ">
+                                <li class="pull-left"><a href="#" >党建工作</a></li>
                                 <li class="pull-left"><a href="#" >在线学习</a></li>
-                                <li class="pull-left"><a href="#" >组织建设</a></li>
                                 <li class="pull-left"><a href="#" >群团工作</a></li>
-                                <li class="pull-left"><a href="#" >专题专栏</a></li>
                             </ul>
                         </div>
                     </div>
@@ -102,10 +105,11 @@
                     <a href="inform.html"  class="">
                         <span class="ch">通知公告</span>
                         <span class="en">INFORM</span>
+                        <i></i>
                     </a>
                     <div class="navSub">
                         <div class="wrap ">
-                            <ul class="UL2 ">
+                            <ul class=" ">
                                 <li class="pull-left"><a href="#" >公示公告</a></li>
                                 <li class="pull-left"><a href="#" >信息披露</a></li>
                             </ul>
@@ -116,16 +120,17 @@
                     <a href="contact.html"  class="">
                         <span class="ch">联系我们</span>
                         <span class="en">CONTACT US</span>
+                        <i></i>
                     </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class="UL2 ">
-                                <li class="pull-left"><a href="#" >人才招聘</a></li>
-                                <li class="pull-left"><a href="#" >业务合作</a></li>
-                                <li class="pull-left"><a href="#" >问题反馈</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <!--                            <div class="navSub">-->
+                    <!--                                <div class="wrap ">-->
+                    <!--                                    <ul class=" ">-->
+                    <!--                                        <li class="pull-left"><a href="#" >人才招聘</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >业务合作</a></li>-->
+                    <!--                                        <li class="pull-left"><a href="#" >问题反馈</a></li>-->
+                    <!--                                    </ul>-->
+                    <!--                                </div>-->
+                    <!--                            </div>-->
                 </li>
 
             </ul>
@@ -151,7 +156,7 @@
                 <div class="row border-bottom">
                     <div class="tab-title col-md-6 col-md-offset-2 ">
                         <ul id="nav-in-page" class="nav nav-tabs nav-justified">
-                            <li class="active pl-30"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true" >通知公告</a></li>
+                            <li class="active pl-30"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true" >公示公告</a></li>
                             <li class=""><a href="#contentOne-2" data-toggle="tab" aria-expanded="true" ></a></li>
                             <li class=""><a href="#contentOne-3" data-toggle="tab" aria-expanded="true" ></a></li>
                             <li class=""><a href="#contentOne-4" data-toggle="tab" aria-expanded="true" ></a></li>

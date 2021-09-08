@@ -2,57 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="843dadff-ed22-40e9-9862-175143da60cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/statics/images/asset.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/chart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/commercial.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/leasing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/images/supply-chain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/TweenMax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list/view_passage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/statics/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/statics/lib/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statics/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/inform.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/news_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/news_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/list/news_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/list/news_detail.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/party.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/party.html" afterDir="false" />
     </list>
@@ -66,6 +29,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -141,7 +105,16 @@
       <workItem from="1630373987779" duration="37000" />
       <workItem from="1630374940808" duration="14000" />
       <workItem from="1630457332210" duration="8795000" />
-      <workItem from="1630482494062" duration="4808000" />
+      <workItem from="1630482494062" duration="5129000" />
+      <workItem from="1630565503164" duration="7392000" />
+      <workItem from="1630634861043" duration="1748000" />
+      <workItem from="1630889469701" duration="691000" />
+      <workItem from="1630890302161" duration="4921000" />
+      <workItem from="1630919858962" duration="278000" />
+      <workItem from="1630981675439" duration="14822000" />
+      <workItem from="1631061427100" duration="32000" />
+      <workItem from="1631061495830" duration="4079000" />
+      <workItem from="1631069667510" duration="19484000" />
     </task>
     <servers />
   </component>
@@ -165,6 +138,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="164" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627978003018" />
+    <state x="752" y="420" key="VCS.ChangelistChooser" timestamp="1631089578401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="420" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631089578401" />
     <state x="666" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627440806791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
