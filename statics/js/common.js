@@ -29,12 +29,22 @@ tme.init=$(function(){
 
     tme.fnnav();
     tme.fnSelect();
-
-
 })
 
 
-$(document).ready( tme.init );
+$(document).ready(tme.init);
+
+// $(document).ready(function () {
+//     $('[data-toggle="tooltip"]').tooltip();
+// })
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip({
+        html:true,
+        delay:200,
+        trigger:'hover'
+    });
+})
 
 tme.fnSelect=function(){
     $(".fTop .select").each(function(){
