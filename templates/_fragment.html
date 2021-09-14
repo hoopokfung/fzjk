@@ -219,7 +219,6 @@
                                     <li class=""><a href="#" >集团领导</a></li>
                                     <li class=""><a href="#" >成员企业</a></li>
                                     <li class=""><a href="#" >组织架构</a></li>
-                                    <li class=""><a href="#" >大事记</a></li>
                                     <li class=""><a href="#" >联系我们</a></li>
                                 </ul>
                             </div>
@@ -231,7 +230,6 @@
                                     <li class=""><a href="#" >集团动态</a></li>
                                     <li class=""><a href="#" >一线快讯</a></li>
                                     <li class=""><a href="#" >行业动态</a></li>
-                                    <li class=""><a href="#" >媒体焦距</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -255,7 +253,6 @@
                                     <li class=""><a href="#" >在线学习</a></li>
                                     <li class=""><a href="#" >组织建设</a></li>
                                     <li class=""><a href="#" >群团工作</a></li>
-                                    <li class=""><a href="#" >专题专栏</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -277,7 +274,7 @@
                                 <a href="#" data-toggle="tooltip" data-placement="left" title="<div class='qrcode'><img src='../statics/images/qrcode_for_gh_c08999d72416_258.jpg'/></div>">
                                     <i class="fa fa-wechat fa-inverse"></i>
                                 </a>
-                                <div class="tooltip left" role="tooltip">
+                                <div class="tooltip left hidden" role="tooltip">
                                     <div class="tooltip-arrow"></div>
                                     <div class="tooltip-inner"></div>
                                 </div>
@@ -298,17 +295,29 @@
 
     <div class="copyright-section">
         <div class="w1230 clearfix" style="width: 1316px">
-            <span class="copytext">Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/">赣ICP备18010030号</a></span>
-
-            <ul class="list-inline pull-right " style="margin-right: 70px;" >
-                <li class=""><a href="#">加入我们</a></li>
-                <li><a href="#">联系我们</a></li>
-
+            <p class="copy pull-left pt-10">Copyright © 2021  抚州市金融控股有限公司 ALL RIGHT RESERVED   <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
+            <ul class="pull-right list-inline pt-10" style="margin-right: 70px;">
+                <li>
+                    <a href="#">加入我们</a>
+                </li>
+                <li>
+                    <a href="contact.html" >联系我们</a>
+                </li>
             </ul>
         </div>
         <!-- .container -->
     </div>
     <!-- .copyright-section -->
 </footer>
+<div id="toTopBtn" class="toTop">
+    <a class="btn">
+        <i class="fa  fa-chevron-circle-up   fa-3x fa-inverse"></i>
+    </a>
+</div>
+<script type="text/javascript">
+    $("#toTopBtn").click(function () {
+        $(window).scrollTop(0,500);
+    })
+</script>
 </body>
 </html>
