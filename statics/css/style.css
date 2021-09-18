@@ -196,6 +196,11 @@ textarea {
     width: 1200px;
     margin: 0 auto;
 }
+.w1140{
+    width: 1140px;
+    margin: 0 auto;
+
+}
 .w1230 {
     width: 1230px;
     margin: 0 auto;
@@ -853,6 +858,7 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 
 .accordion .panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: 0;
+    height: 240px;
     padding: 10px 30px 30px 30px;
     background: #fff;
     color: #969595;
@@ -959,26 +965,26 @@ news-box start
     margin-bottom: 0;
 }
 /********************************************
-  teb-content
+ .news-box tab-content
  ********************************************/
-.tab-content .tab-pane{
+.news-box .tab-content .tab-pane{
     padding: 10px 0;
 }
-.tab-content ul li{
+.news-box .tab-content ul li{
     width: 750px;
     height:90px;
     margin-top: 10px;
 }
-.tab-content ul li a {
+.news-box .tab-content ul li a {
     text-decoration: none;
 }
-.tab-content .date{
+.news-box .tab-content .date{
     width: 130px;
     height: 83px;
     margin-right: 20px;
     float: left;
 }
-.tab-content .date em{
+.news-box .tab-content .date em{
     display: block;
     color: #0076ab;
     font-size: 40px;
@@ -988,7 +994,7 @@ news-box start
     font-family: "HELVETI1";
     border-right: 1px solid #dddddd;
 }
-.tab-content .date span{
+.news-box .tab-content .date span{
     display: block;
     color: #0076ab;
     font-size: 18px;
@@ -998,13 +1004,13 @@ news-box start
     font-family: "HELVETI1";
     text-decoration: none;
 }
-.tab-content .text{
+.news-box .tab-content .text{
     width: 564px;
     height: 80px;
     float: left;
     border-bottom: 1px solid #dddddd;
 }
-.tab-content .text .title{
+.news-box .tab-content .text .title{
     font-size: 18px;
     margin-top: 20px;
     color: #3c3c3c;
@@ -1014,19 +1020,17 @@ news-box start
     -webkit-box-orient: vertical;/*从顶部向底部垂直布置子元素*/
     overflow: hidden;
 }
-.tab-content .text .content{
+.news-box .tab-content .text .content{
     margin: 0;
     font-size: 16px;
     padding-top: 5px;
     color: #8c8c8c;
+    white-space: nowrap;/*与normal值一致，不同的是会强制所有文本在同一行内显示。*/
     text-overflow: ellipsis;/*超出文本设置为...*/
-    display:-webkit-box; /*转换成盒子模型*/
-    -webkit-line-clamp: 1;/*设置盒子中文本为1行*/
-    -webkit-box-orient: vertical;/*从顶部向底部垂直布置子元素*/
     overflow: hidden;
 }
 /********************************************
- tabTwo start
+ smallCard & tabTwo start
  ********************************************/
 .smallCard {
     margin-top: 30px;
@@ -1034,7 +1038,6 @@ news-box start
 
 .tabTwo {
     box-sizing: border-box;
-
 }
 
 .tabTwo .nav-tabs {
@@ -1081,10 +1084,9 @@ news-box start
 
 @media (min-width: 768px) {
     .tabTwo .tab-content {
-        height: 333px;
+        height: 300px;
         border: 1px solid #c1c1c1;
         background-color: #ffffff;
-        padding: 30px;
         border-top: 0;
         overflow: hidden;
         box-shadow: 0 0 10px 0 #8c8c8c;
@@ -1129,14 +1131,104 @@ news-box start
 .tabTwo .tab-pane p:last-of-type {
     margin-bottom: 0;
 }
-
+/**********卡片样式*************/
+.smallCard .tab-pane .column-top{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 0;
+    width: 360px;
+    display: block;
+}
+.smallCard .tab-pane .column-top a{
+    text-decoration: none;
+}
+.smallCard .tab-pane .column-top .image{
+    height: 60px;
+    width: 120px;
+    margin-left: 10px;
+    float: left;
+}
+.smallCard .tab-pane .column-top .image img {
+    height: 60px;
+    width: 100px;
+    margin: 0;
+}
+.smallCard .tab-pane .column-top .text{
+    height: 60px;
+}
+.smallCard .tab-pane .column-top .text .title{
+    height: 40px;
+    font-size: 16px;
+    color: #3c3c3c;
+    line-height: 20px;
+    margin-bottom: 0;
+    white-space: normal;
+}
+.smallCard .tab-pane .column-top .text .title:hover{
+    color: #0076ab;
+}
+.smallCard .tab-pane .column-top .text .date{
+    font-size: 16px;
+    color: #8c8c8c;
+    bottom: 0;
+}
+.smallCard .tab-pane .column-list {
+    margin: 15px;
+}
+.smallCard .tab-pane .column-list  li {
+    margin:10px 0;
+    height: 20px;
+    width: 330px;
+}
+.smallCard .tab-pane .column-list  li i{
+    float: left;
+    font-size: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+.smallCard .tab-pane .column-list  li a{
+    float: left;
+    color: #3c3c3c;
+    max-width: 76%;
+    white-space: nowrap;/*与normal值一致，不同的是会强制所有文本在同一行内显示。*/
+    text-overflow: ellipsis;/*超出文本设置为...*/
+    overflow: hidden;
+    text-decoration: none;
+}
+.smallCard .tab-pane .column-list  li a:hover{
+    color: #0076ab;
+}
+.smallCard .tab-pane .column-list li span{
+    float: right;
+    color: #8c8c8c;
+}
+.smallCard .tab-pane .more{
+    display:block;
+    width: 100%;
+    padding-right: 15px;
+    height: 24px;
+}
+.smallCard .tab-pane .more a{
+    color: #8c8c8c;
+    text-decoration: none;
+    float: right;
+}
+.smallCard .tab-pane .more a:hover,
+.smallCard .tab-pane .more i:hover{
+    color: #0076ab;
+}
+.smallCard .tab-pane .more i{
+    color: #8c8c8c;
+    font-size: 17px;
+    margin-left: 5px;
+}
 
 /********************************************
  party-column
 ********************************************/
 .party-column {
     background-color: #dedddd;
-    padding: 100px 0 85px;
+    padding: 60px 0 60px;
 }
 
 .party-column .section-title h2 {
@@ -1144,12 +1236,15 @@ news-box start
 }
 
 .party-column .img-top {
-    width: 1150px;
-    height: 230px;
+    width: 1140px;
+    height: 175px;
 }
 
 .party-column .img-left {
-    margin-top: 20px;
+    margin-top: 24px;
+}
+.party-column .img-left img{
+    max-width: 94%;
 }
 
 @media (max-width: 992px) {
@@ -1170,7 +1265,6 @@ news-box start
     color: #333333;
     overflow: hidden;
     border-bottom: 1px solid rgba(157, 209, 246, 0.4);
-    margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
@@ -1186,22 +1280,31 @@ news-box start
     font-weight: 600;
     color: #333333;
 }
+.party-column .party-mid {
+    height: 380px;
+}
+
+
 
 /********************************************
      Section Title Style
 ********************************************/
-.section-title {
+.business{
+    padding-bottom: 20px;
+}
+.business .section-title {
     margin-bottom: 30px;
 }
 
-.section-title h2 {
+.business .section-title h2 {
+    margin-top: 0;
     font-size: 30px;
     text-transform: capitalize;
     position: relative;
 }
 
-.section-title span.bordered-icon {
-    color: #dadada;
+.business .section-title span.bordered-icon {
+    color: #3c3c3c;
     padding: 0 10px;
     font-size: 12px;
     line-height: 18px;
@@ -1209,21 +1312,21 @@ news-box start
     display: inline-block;
 }
 
-.section-title span.bordered-icon:before,
-.section-title span.bordered-icon:after {
+.business .section-title span.bordered-icon:before,
+.business .section-title span.bordered-icon:after {
     content: "";
-    background: #dadada;
+    background: #3c3c3c;
     width: 50px;
     height: 1px;
     top: 8px;
     position: absolute;
 }
 
-.section-title span.bordered-icon:before {
+.business .section-title span.bordered-icon:before {
     left: 100%;
 }
 
-.section-title span.bordered-icon:after {
+.business .section-title span.bordered-icon:after {
     right: 100%;
 }
 
@@ -1585,11 +1688,6 @@ news-box start
     margin-bottom: 20px;
 }
 
-.fTop .item1 {
-    width: 320px;
-    margin-right: 28px;
-}
-
 .fTop .item1 .tel {
     padding-left: 39px;
     line-height: 39px;
@@ -1656,7 +1754,8 @@ news-box start
 }
 
 .ifTop .item1 {
-    width: 520px;
+    width: 500px;
+    margin-right: 28px;
 }
 
 .ifTop .item1 .tel em {
@@ -1664,7 +1763,7 @@ news-box start
 }
 
 .ifTop .item2 {
-    width: 450px;
+    width: 400px;
     padding-top: 52px;
     font-size: 14px;
     line-height: 24px;
@@ -1820,12 +1919,12 @@ news-box start
     text-decoration: none;
 }
 
-.fBtm .w1230 ul li a {
+.fBtm .w1140 ul li a {
     text-decoration: none;
     color: inherit;
 }
 
-.fBtm .w1230 ul li a:hover{
+.fBtm .w1140 ul li a:hover{
     color: #dedddd;
 }
 
