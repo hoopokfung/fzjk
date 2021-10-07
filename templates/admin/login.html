@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>网站后台管理系统</title>
+    <link href="../../statics/css/backstage.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="App Loction Form,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"/>
+    <!--webfonts-->
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
+    <!--//webfonts-->
+
+
 </head>
 <body>
 
+    <h1>网站后台管理系统</h1>
+    <div class="app-location">
+        <h2>欢迎来到登录页面</h2>
+        <div class="line">
+            <span></span>
+        </div>
+        <div class="location">
+            <img src="../../statics/images/location.png" class="img-responsive" alt="" />
+        </div>
+        <form>
+            <input type="text" id="username" class="text" value="账号" onfocus="this.value = ''" >
+            <input type="password" id="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '123456';}">
+            <div id="feedback"></div>
+            <div class="submit">
+                <input type="submit" onclick="myFunction()" value="登录" >
+            </div>
+
+            <div class="clear"></div>
+            <div class="new">
+                <h3><a href="#">忘记密码?</a></h3>
+                <h4><a href="#">注册</a></h4>
+                <div class="clear"></div>
+            </div>
+        </form>
+    </div>
+    <!--start-copyright-->
+    <div class="copy-right">
+        <p>Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
+    </div>
+    <!--//end-copyright-->
 </body>
+<script type="application/x-javascript">
+    addEventListener("load", function() {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar(){
+        window.scrollTo(0,1);
+    }
+</script>
+<script src="../../statics/js/common.js"></script>
+<script src="../../statics/js/backstage.js"></script>
 </html>
