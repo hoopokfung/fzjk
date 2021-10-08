@@ -2378,3 +2378,35 @@ testimonialSlider
     color: #333333;
     line-height: 30px;
 }
+
+/******************************************
+    error page
+******************************************/
+.error-bg{
+    background:#2c3b48;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+}
+.error-inner {
+    text-align: center;
+    padding: 120px 0 120px;
+}
+.error-inner h1{
+    font-weight: 700;
+    font-size: 182px;
+    color: #E3E0E0;
+}
+.error-inner h3{
+    color: #E3E0E0;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.error-inner p{
+    margin-top: 20px;
+    color: #E3E0E0;
+}
+.error-inner >a{
+    color: #E3E0E0;
+    margin-top: 22px;
+}

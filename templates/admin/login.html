@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>网站后台管理系统</title>
-    <link href="../../statics/css/backstage.css" rel='stylesheet' type='text/css'/>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="App Loction Form,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"/>
-    <!--webfonts-->
-    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700,800' rel='stylesheet' type='text/css'/>
-    <!--//webfonts-->
-
-
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../statics/images/logo2.png" type="image/png">
+    <title>网站后台管理系统</title>
+        <link href="../../statics/css/backstage.css" rel='stylesheet' type='text/css'/>
 </head>
 <body>
-
-    <h1>网站后台管理系统</h1>
+    <h1>网站后台管理员系统</h1>
     <div class="app-location">
         <h2>欢迎来到登录页面</h2>
         <div class="line">
@@ -24,17 +21,16 @@
             <img src="../../statics/images/location.png" class="img-responsive" alt="" />
         </div>
         <form>
-            <input type="text" id="username" class="text" value="账号" onfocus="this.value = ''" >
+            <input type="text" id="username" class="text" value="账号" onfocus="this.value = ''"><div id="feedback"></div>
             <input type="password" id="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '123456';}">
-            <div id="feedback"></div>
             <div class="submit">
                 <input type="submit" onclick="myFunction()" value="登录" >
             </div>
 
             <div class="clear"></div>
             <div class="new">
-                <h3><a href="#">忘记密码?</a></h3>
-                <h4><a href="#">注册</a></h4>
+<!--                <h3><a href="#">忘记密码?</a></h3>-->
+<!--                <h4><a href="#">注册</a></h4>-->
                 <div class="clear"></div>
             </div>
         </form>

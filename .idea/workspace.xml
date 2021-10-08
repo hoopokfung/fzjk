@@ -25,7 +25,10 @@
       <change afterPath="$PROJECT_DIR$/statics/images/location.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/statics/js/backstage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/statics/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/statics/js/common.js" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,10 +135,18 @@
       <workItem from="1631673298301" duration="4656000" />
       <workItem from="1631753887006" duration="13089000" />
       <workItem from="1631840024230" duration="11287000" />
+<<<<<<< Updated upstream
       <workItem from="1633317486052" duration="935000" />
       <workItem from="1633318449002" duration="31000" />
       <workItem from="1633318509065" duration="6867000" />
       <workItem from="1633612448801" duration="5433000" />
+=======
+      <workItem from="1632366799771" duration="2295000" />
+      <workItem from="1632616934953" duration="2732000" />
+      <workItem from="1632707786142" duration="1978000" />
+      <workItem from="1632815513849" duration="1188000" />
+      <workItem from="1633653562191" duration="121000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -155,6 +166,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632368254717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632368254717" />
     <state x="627" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627874527894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,10 +187,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="164" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627978003018" />
+<<<<<<< Updated upstream
     <state x="270" y="57" key="SettingsEditor" timestamp="1633337327545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633337327545" />
+=======
+    <state x="375" y="78" key="SettingsEditor" timestamp="1632368472663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="375" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1632368472663" />
+>>>>>>> Stashed changes
     <state x="752" y="420" key="VCS.ChangelistChooser" timestamp="1631089578401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

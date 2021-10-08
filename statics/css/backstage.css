@@ -123,17 +123,17 @@ body h1 {
 .app-location h2 {
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.6em 0;
     font-size: 1.6em;
     font-weight: 300;
 }
 
 .app-location {
-    width: 28%;
+    width: 24%;
     margin: 0 auto;
     text-align: center;
     background: #323542;
-    padding: 4em;
+    padding: 2em;
 }
 
 .location {
@@ -159,7 +159,7 @@ form {
 
 /*-----*/
 .location img {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .app-location input[type="text"], .app-location input[type="password"] {
@@ -437,3 +437,4 @@ input[type="submit"]:hover {
         margin: 0 auto;
     }
 }
+
