@@ -2,9 +2,341 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../statics/images/logo2.png" type="image/png">
+    <title>集团动态</title>
+    <link href="../../statics/lib/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../statics/css/responsive.css" rel="stylesheet">
+    <link href="../../statics/css/backstage.css" rel="stylesheet">
+    <script src="../../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script src="../../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
 </head>
-<body>
+<body class="sticky-header">
 
+    <!--左边菜单开始-->
+    <div class="left-side sticky-left-side">
+        <div class="logo">
+            <a href="adminIndex.html"><img src="../../statics/images/logo.png" alt=""></a>
+        </div>
+        <div class="logo-icon text-center">
+            <a href="adminIndex.html"><img src="../../statics/images/logo2.png" alt=""></a>
+        </div>
+
+        <div class="left-side-inner">
+            <!--Sidebar nav-->
+            <ul class="nav nav-pills nav-stacked custom-nav">
+                <li class=" nav-active"><a href="adminIndex.html"><i class="fa fa-home"></i> <span>首页</span></a>
+
+                </li>
+
+                <li class="menu-list nav-active"><a href="#"><i class="fa fa-newspaper-o"></i> <span>新闻中心</span></a>
+                    <ul class="sub-menu-list">
+                        <li class="active"><a href="#"> 集团动态</a></li>
+                        <li><a href="#"> 一线快讯</a></li>
+                        <li><a href="#">行业动态</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-list"><a href="#"><i class="fa fa-star"></i> <span>党的建设</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> 党建工作</a></li>
+                        <li><a href="#">在线学习</a></li>
+                        <li><a href="#">群团工作</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-list"><a href="#"><i class="fa fa-bullhorn"></i> <span>通知公告</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> 公示公告</a></li>
+                        <li><a href="#"> 消息披露 </a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--End sidebar nav-->
+
+        </div>
+    </div>
+    <!--左侧菜单结束 -->
+
+    <!--主要内容开始-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div class="header-section ">
+
+            <a class="toggle-btn"><i class="fa fa-bars"></i></a>
+
+            <form class="searchform">
+                <input type="text" class="form-control" name="keyword" placeholder="搜索点击这里..." />
+            </form>
+
+            <!--notification menu start -->
+            <div class="menu-right">
+                <ul class="notification-menu">
+                    <li>
+                        <a href="#" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown">
+                            <i class="fa fa-tasks"></i>
+                            <span class="badge">8</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-head pull-right">
+                            <h5 class="title">你有8个代办任务</h5>
+                            <ul class="dropdown-list">
+                                <li class="notification-scroll-list notification-list ">
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa  fa-shopping-cart noti-primary"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">1个订单已经被处理</h5>
+                                                <p class="m-0">
+                                                    <small>29 分钟前</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-check noti-success"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">数据库备份已经完成</h5>
+                                                <p class="m-0">
+                                                    <small>12 分钟 前</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-user-plus noti-info"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">新用户注册</h5>
+                                                <p class="m-0">
+                                                    <small>17 分钟前</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-diamond noti-danger"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">数据库错误.</h5>
+                                                <p class="m-0">
+                                                    <small>11 min ago</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <!-- list item-->
+                                    <a href="javascript:void(0);" class="list-group-item">
+                                        <div class="media">
+                                            <div class="pull-left p-r-10">
+                                                <em class="fa fa-cog noti-warning"></em>
+                                            </div>
+                                            <div class="media-body">
+                                                <h5 class="media-heading">更新设置</h5>
+                                                <p class="m-0">
+                                                    <small>18 分钟前</small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="last"> <a href="#">查看所有通知</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown">
+                            <i class="fa fa-bell-o"></i>
+                            <span class="badge">4</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-head pull-right">
+                            <h5 class="title">通知</h5>
+                            <ul class="dropdown-list normal-list">
+                                <li class="message-list message-scroll-list">
+                                    <a href="#">
+                                        <span class="photo"> <img src="../../statics/images/avatar-6.jpg" class="img-circle" alt="img"></span>
+                                        <span class="subject">管理员</span>
+                                        <span class="message">新的任务需要完成</span>
+                                        <span class="time">15 分钟前</span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="photo"> <img src="../../statics/images/avatar-6.jpg" class="img-circle" alt="img"></span>
+                                        <span class="subject">管理员</span>
+                                        <span class="message">新的任务需要完成</span>
+                                        <span class="time">15 分钟前</span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="photo"> <img src="../../statics/images/avatar-6.jpg" class="img-circle" alt="img"></span>
+                                        <span class="subject">管理员</span>
+                                        <span class="message">新的任务需要完成</span>
+                                        <span class="time">15 分钟前</span>
+                                    </a>
+                                </li>
+                                <li class="last"> <a  href="#">所有消息</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            <img src="../../statics/images/avatar-6.jpg" alt="" />
+                            管理员
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                            <li> <a href="#"> <i class="fa fa-wrench"></i> 设置 </a> </li>
+                            <li> <a href="#"> <i class="fa fa-user"></i> 外观 </a> </li>
+                            <li> <a href="#"> <i class="fa fa-info"></i> 帮助 </a> </li>
+                            <li> <a href="#"> <i class="fa fa-lock"></i> 退出 </a> </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!--notification menu end -->
+
+        </div>
+        <!-- header section end-->
+
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+
+            <!--Start Page Title-->
+            <div class="page-title-box">
+                <h4 class="page-title">新闻中心 </h4>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">新闻中心</a>
+                    </li>
+
+                    <li class="active">
+                        集团动态
+                    </li>
+                </ol>
+                <div class="clearfix"></div>
+            </div>
+            <!--End Page Title-->
+
+            <!--Start row-->
+            <div class="row">
+                <div class="container">
+                    <div class="analytics-box">
+                        <!-- Start inbox widget-->
+                        <div class="col-md-12">
+                            <div class="white-box">
+                                <h2 class="header-title"> 集团动态列表 </h2>
+                                <div class="">
+                                    <div class="table-responsive">
+                                        <table id="example" class="display table text-center">
+                                            <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">标题</th>
+                                                <th class="text-center">分栏</th>
+                                                <th class="text-center">状态</th>
+                                                <th class="text-center">更新时间</th>
+                                                <th  class="text-center">操作</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>金控担保集团顺利召开全市融资担保工作会</td>
+                                                <td>集团动态</td>
+                                                <td>发布</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a class="btn btn-primary">编辑</a>
+                                                    <a class="btn btn-danger">删除</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>金控担保集团顺利召开全市融资担保工作会</td>
+                                                <td>集团动态</td>
+                                                <td>草稿</td>
+                                                <td>2010/07/14</td>
+                                                <td>
+                                                    <a class="btn btn-primary">编辑</a>
+                                                    <a class="btn btn-danger">删除</a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                            <tfoot>
+                                            <tr>
+                                                <th colspan="5">
+                                                    <div class=" ">
+                                                        <a class="btn btn-success round">上一页</a>
+                                                        <a class="btn btn-success round">下一页</a>
+
+                                                    </div>
+                                                </th>
+                                                <th class="text-center">
+
+                                                    <a class="btn btn-primary round ">新增</a>
+                                                </th>
+                                            </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+
+                                    <div class="alert alert-success alert-dismissible" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <h3 class="header-title">提示: </h3>
+                                        <strong>恭喜!</strong> <span>操作成功!</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start inbox widget-->
+                    </div>
+                </div>
+            </div>
+            <!--End row-->
+
+
+
+
+
+        </div>
+        <!-- End Wrapper-->
+
+
+        <!--Start  Footer -->
+        <footer class="footer-main">
+            Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a>
+        </footer>
+        <!--End footer -->
+
+    </div>
+    <!--主要内容结束 -->
+
+    <!-- Start Script  -->
+    <script src="../../statics/js/jquery.nicescroll.js"></script>
+    <script src="../../statics/js/jquery.slimscroll.js"></script>
+    <script src="../../statics/js/functions.js"></script>
+    <!-- End Script   -->
 </body>
 </html>
