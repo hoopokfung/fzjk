@@ -10,13 +10,9 @@
     <title>分类管理</title>
     <link href="../../statics/lib/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../../statics/lib/bootstrap-wysihtml5/bootstrap-wysihtml5.css" rel="stylesheet" type="text/css" />
-    <link href="../../statics/lib/summernote-master/summernote.css" rel="stylesheet" type="text/css" />
-    <link href="../../statics/lib/summernote-master/summernote-bs2.css" rel="stylesheet" type="text/css" />
-    <link href="../../statics/lib/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../statics/css/backstage.css" rel="stylesheet">
     <link href="../../statics/css/responsive.css" rel="stylesheet">
-
+    <link href="../../statics/css/backstage.css" rel="stylesheet">
+    <link href="../../statics/lib/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="sticky-header">
 
@@ -58,7 +54,6 @@
                     <li><a href="#"> 消息披露 </a></li>
                 </ul>
             </li>
-
             <li class="menu-list"><a href="types.html"><i class="fa fa-gear"></i> <span>栏目管理</span></a>
                 <ul class="sub-menu-list">
                     <li><a href="types.html"> 一级大类</a></li>
@@ -236,13 +231,14 @@
         <!--Start Page Title-->
         <div class="page-title-box">
             <h4 class="page-title">栏目管理 </h4>
+
+
             <ol class="breadcrumb">
                 <li>
                     <a href="#">栏目管理</a>
                 </li>
-
                 <li class="active">
-                    一级大类
+                    二级子栏
                 </li>
             </ol>
             <div class="clearfix"></div>
@@ -256,38 +252,92 @@
                     <!-- Start inbox widget-->
                     <div class="col-md-12">
                         <div class="white-box">
-                            <h2 class="header-title">新增一级类别 </h2>
-                            <form id="article-form" class="form" action="#" method="post">
-                                <div class="form-group">
-                                    <input type="hidden" name="id">
+                            <h2 class="header-title">分类列表 </h2>
 
-                                    <div class="field">
-                                        <div class="input-group" style="width: 100%;display: inline-flex">
-                                            <label class="btn btn-success" for="firstPicture" style="width: 10%">新增一级大类</label>
-                                            <input type="text" id="firstPicture" name="firstPicture" placeholder="输入新增加的类别名称" style="width: 90%;height: 35px;">
-                                        </div>
-                                    </div>
+                            <div class="field">
+                                <label class="btn btn-success">所属一级大类</label>
+                                <input type="hidden" name="type.id">
+                                <select class="selectpicker" data-width="410px" >
+                                    <option>新闻中心</option>
+                                    <option>党的建设</option>
+                                    <option>通知公告</option>
+                                </select>
+                                <button type="button" class="btn btn-inverse">确认</button>
+                            </div>
+
+                            <div class="field">
+                                <div class="table-responsive">
+                                    <table id="example" class="display table text-center">
+                                        <thead>
+                                        <tr>
+                                            <th class="text-center">#</th>
+                                            <th class="text-center">分类名称</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th></th>
+                                            <th  class="text-center">操作</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>新闻中心</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <a class="btn btn-primary">编辑</a>
+                                                <a class="btn btn-danger">删除</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>党的建设</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <a class="btn btn-primary">编辑</a>
+                                                <a class="btn btn-danger">删除</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>通知公告</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <a class="btn btn-primary">编辑</a>
+                                                <a class="btn btn-danger">删除</a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <th colspan="5">
+                                                <div class=" ">
+                                                    <a class="btn btn-success round">上一页</a>
+                                                    <a class="btn btn-success round">下一页</a>
+
+                                                </div>
+                                            </th>
+                                            <th class="text-center">
+
+                                                <a href="columns-input.html" class="btn btn-primary round ">新增</a>
+                                            </th>
+                                        </tr>
+                                        </tfoot>
+                                    </table>
                                 </div>
-                                <div class="field submit-btn ">
-                                    <button type="button" id="publish-btn" class="btn btn-inverse " >提交</button>
-                                    <button type="button" class="btn btn-default " onclick="window.history.go(-1)" >返回</button>
-                                </div>
-                                <br>
-                                <br>
-                                <div class="field alert alert-success alert-dismissible" role="alert">
+
+                                <div class="alert alert-success alert-dismissible" role="alert">
                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
                                     <h3 class="header-title">提示: </h3>
                                     <strong>恭喜!</strong> <span>操作成功!</span>
                                 </div>
-                            </form>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-
-                        </div><!-- /.white-box-->
-
+                            </div>
+                        </div>
                     </div>
                     <!-- Start inbox widget-->
                 </div>
@@ -303,17 +353,14 @@
     <!-- End Wrapper-->
 
 
-
     <!--Start  Footer -->
     <footer class="footer-main">
         Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a>
     </footer>
-
     <!--End footer -->
+
 </div>
 <!--主要内容结束 -->
-
-
 <!-- Start Script  -->
 <script src="../../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
 <script src="../../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>

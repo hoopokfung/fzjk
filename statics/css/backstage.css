@@ -2083,6 +2083,10 @@ footer {
     width: 100%;
     height: 100px;
 }
+.submit-btn{
+    display: block;
+    width: 100%;
+}
 
 .submit-btn > button{
     float: right;

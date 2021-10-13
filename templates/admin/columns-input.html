@@ -242,7 +242,7 @@
                 </li>
 
                 <li class="active">
-                    一级大类
+                    二级子栏
                 </li>
             </ol>
             <div class="clearfix"></div>
@@ -256,14 +256,24 @@
                     <!-- Start inbox widget-->
                     <div class="col-md-12">
                         <div class="white-box">
-                            <h2 class="header-title">新增一级类别 </h2>
+                            <h2 class="header-title">新增二级类别 </h2>
                             <form id="article-form" class="form" action="#" method="post">
                                 <div class="form-group">
                                     <input type="hidden" name="id">
 
                                     <div class="field">
+                                        <label class="btn btn-success">选择一级大类</label>
+                                        <input type="hidden" name="type.id">
+                                        <select class="selectpicker" data-width="410px" >
+                                            <option>新闻中心</option>
+                                            <option>党的建设</option>
+                                            <option>通知公告</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="field">
                                         <div class="input-group" style="width: 100%;display: inline-flex">
-                                            <label class="btn btn-success" for="firstPicture" style="width: 10%">新增一级大类</label>
+                                            <label class="btn btn-success" for="firstPicture" style="width: 10%">新增二级子栏</label>
                                             <input type="text" id="firstPicture" name="firstPicture" placeholder="输入新增加的类别名称" style="width: 90%;height: 35px;">
                                         </div>
                                     </div>
@@ -308,12 +318,10 @@
     <footer class="footer-main">
         Copyright &copy; 2021.抚州市金融控股有限公司 All rights reserved.<a target="_blank" href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a>
     </footer>
-
-    <!--End footer -->
 </div>
 <!--主要内容结束 -->
 
-
+<!--End footer -->
 <!-- Start Script  -->
 <script src="../../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
 <script src="../../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
