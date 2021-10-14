@@ -335,6 +335,7 @@ input[type="submit"]:hover {
         padding: 1em 1em;
     }
 
+
 }
 
 @media (max-width: 640px) {
@@ -349,6 +350,11 @@ input[type="submit"]:hover {
     .login-page input[type="text"], .login-page input[type="password"] {
         width: 81%;
     }
+
+    .left-side .sticky-left-side{
+        width: 2em;
+    }
+
 }
 
 @media (max-width: 480px) {

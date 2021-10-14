@@ -1236,8 +1236,7 @@ news-box start
 }
 
 .party-column .img-top {
-    width: 1140px;
-    height: 175px;
+    width: 100%;
 }
 
 .party-column .img-left {
@@ -1280,9 +1279,7 @@ news-box start
     font-weight: 600;
     color: #333333;
 }
-.party-column .party-mid {
-    height: 380px;
-}
+
 
 
 
@@ -1354,7 +1351,7 @@ news-box start
 @media (max-width: 767px) {
     .business .thumbnail a > img,
     .business .thumbnail > img {
-        width: 100%;
+        display: none;
     }
 }
 
@@ -1526,6 +1523,7 @@ news-box start
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    
     .footer .footer-block {
         padding: 50px 40px;
     }
@@ -2409,4 +2407,165 @@ testimonialSlider
 .error-inner >a{
     color: #E3E0E0;
     margin-top: 22px;
+}
+
+/************************************************
+   响应式布局
+*************************************************/
+@media screen and (min-width: 940px) {
+
+}
+
+@media screen and (min-width: 691px) and (max-width: 939px){
+    .news-box .tab-content ul li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-box .tab-content .date {
+        width: 6%;
+    }
+    .news-box .tab-content .text{
+        width: 27%;
+    }
+
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .ifTop .item1,
+    .ifTop .item2,
+    .ifTop .item3{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .ifTop .item3{
+        padding-left: 15px;
+    }
+
+    .w1140{
+        width: 100%;
+    }
+
+    .fBtm .w1140 .copy{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 15px;
+        white-space: pre-wrap;
+    }
+    .fBtm .w1140 .contact{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .fBtm .w1140 ul li{
+        font-size: 13px;
+        padding-left:0;
+        margin-left: 0;
+    }
+    .toTop{
+        right: 20px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 690px){
+    .news-box .tab-content ul li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-box .tab-content .date {
+        width: 6%;
+    }
+    .news-box .tab-content .text{
+        width: 27%;
+    }
+
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .ifTop .item1,
+    .ifTop .item2,
+    .ifTop .item3{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .ifTop .item3{
+        padding-left: 15px;
+    }
+    .w1140{
+        width: 100%;
+    }
+    .fBtm .w1140 .copy{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 15px;
+        white-space: pre-wrap;
+    }
+    .fBtm .w1140 .contact{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .fBtm .w1140 ul li{
+        font-size: 13px;
+        padding-left:0;
+        margin-left: 0;
+    }
+    .toTop{
+        right: 20px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+
+    .news-box .tab-content ul li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-box .tab-content .date {
+        width: 6%;
+    }
+    .news-box .tab-content .text{
+        width: 27%;
+    }
+
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .ifTop .item1,
+    .ifTop .item2,
+    .ifTop .item3{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .ifTop .item3{
+        padding-left: 15px;
+    }
+    .w1140{
+        width: 100%;
+    }
+
+    .fBtm .w1140 .copy{
+        width: 100%;
+        font-size: 12px;
+        padding-left: 15px;
+        white-space: pre-wrap;
+    }
+    .fBtm .w1140 .contact{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .fBtm .w1140 ul li{
+        font-size: 12px;
+        padding-left:0;
+        margin-left: 0;
+    }
+    .toTop{
+        right: 20px;
+        bottom: 40px;
+    }
 }
