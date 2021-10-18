@@ -394,6 +394,59 @@ hr.invis3 {
 /********************************************
     header navigate
 ********************************************/
+.mm-listview .mm-next{width: 100%;}
+
+.header .menuIcon {
+    width: 24px;
+    cursor: pointer;
+    margin: 27px 0 0 20px;
+    display: none;
+}
+
+.header .menuIcon span {
+    display: block;
+    height: 3px;
+    background: #000000;
+    margin-top: 5px;
+    position: relative;
+}
+
+.header .menuIcon span:before {
+    content: "";
+    height: 100%;
+    width: 0;
+    background: #0076ab;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header .menuIcon span.line1:before {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.header .menuIcon span.line2:before {
+    -webkit-transition: all 0.2s linear 0.1s;
+    -moz-transition: all 0.2s linear 0.1s;
+    -ms-transition: all 0.2s linear 0.1s;
+    transition: all 0.2s linear 0.1s;
+}
+
+.header .menuIcon span.line3:before {
+    -webkit-transition: all 0.2s linear 0.2s;
+    -moz-transition: all 0.2s linear 0.2s;
+    -ms-transition: all 0.2s linear 0.2s;
+    transition: all 0.2s linear 0.2s;
+}
+
+.header .menuIcon:hover span:before {
+    width: 100%;
+}
+
+
 
 .logo {
     padding-left: 0;
@@ -402,6 +455,10 @@ hr.invis3 {
 
 .logo img {
     height: 90px;
+}
+
+.logo2 img{
+    width: 90px;
 }
 
 header .pcNav ul a {
@@ -422,7 +479,7 @@ header .pcNav ul a {
     /*padding-left: 50px;*/
 }
 
-.header .pcNav ul .nLi {
+.header .pcNav .nLi {
     width: 14%;
     float: left;
     display: inline-block;
@@ -493,7 +550,7 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 .header .logo img {
-    max-height: 90%;
+    max-height: 80%;
 }
 
 .header .pcNav .nLi a i {
@@ -1243,21 +1300,15 @@ news-box start
     margin-top: 24px;
 }
 .party-column .img-left img{
-    max-width: 94%;
-}
-
-@media (max-width: 992px) {
-    .party-column .img-left {
-        margin-bottom: 40px;
-        margin-top: 0;
-    }
+    max-width: 100%;
 }
 
 .party-column .promo-icon {
     float: left;
     margin-right: 25px;
+    margin-top: 15px;
     font-size: 30px;
-    color: #9dd1f6;
+    color: #0076ab;
 }
 
 .party-column .promo-content {
@@ -1341,19 +1392,7 @@ news-box start
     height: 192px;
 }
 
-@media (min-width: 768px) {
-    .business .thumbnail a > img,
-    .business .thumbnail > img {
-        float: left;
-    }
-}
 
-@media (max-width: 767px) {
-    .business .thumbnail a > img,
-    .business .thumbnail > img {
-        display: none;
-    }
-}
 
 .business .thumbnail .caption {
     padding: 20px;
@@ -2412,129 +2451,45 @@ testimonialSlider
 /************************************************
    响应式布局
 *************************************************/
-@media screen and (min-width: 940px) {
+@media (max-width: 992px) {
 
 }
 
-@media screen and (min-width: 691px) and (max-width: 939px){
+/*手机 超小屏幕*/
+@media screen and (max-width: 767px) {
+
+    .news-box .h3,
+    .accordion .h3{
+       text-align: center;
+        margin: 20px 0;
+    }
+
     .news-box .tab-content ul li {
         display: inline-flex;
         width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .news-box .tab-content .date {
         width: 6%;
     }
     .news-box .tab-content .text{
-        width: 27%;
+        width: 44%;
+
     }
 
     .section-title .img-top{
         margin: 15px 0;
         width: 100%;
     }
-    .ifTop .item1,
-    .ifTop .item2,
-    .ifTop .item3{
-        width: 100%;
-        margin-left: 15px;
+
+
+    .business .thumbnail a > img,
+    .business .thumbnail > img {
+        display: none;
     }
 
-    .ifTop .item3{
-        padding-left: 15px;
-    }
 
-    .w1140{
-        width: 100%;
-    }
-
-    .fBtm .w1140 .copy{
-        width: 100%;
-        font-size: 13px;
-        padding-left: 15px;
-        white-space: pre-wrap;
-    }
-    .fBtm .w1140 .contact{
-        width: 100%;
-        padding-left: 15px;
-    }
-    .fBtm .w1140 ul li{
-        font-size: 13px;
-        padding-left:0;
-        margin-left: 0;
-    }
-    .toTop{
-        right: 20px;
-        bottom: 40px;
-    }
-}
-
-@media screen and (min-width: 376px) and (max-width: 690px){
-    .news-box .tab-content ul li {
-        display: inline-flex;
-        width: 100%;
-    }
-    .news-box .tab-content .date {
-        width: 6%;
-    }
-    .news-box .tab-content .text{
-        width: 27%;
-    }
-
-    .section-title .img-top{
-        margin: 15px 0;
-        width: 100%;
-    }
-    .ifTop .item1,
-    .ifTop .item2,
-    .ifTop .item3{
-        width: 100%;
-        margin-left: 15px;
-    }
-
-    .ifTop .item3{
-        padding-left: 15px;
-    }
-    .w1140{
-        width: 100%;
-    }
-    .fBtm .w1140 .copy{
-        width: 100%;
-        font-size: 13px;
-        padding-left: 15px;
-        white-space: pre-wrap;
-    }
-    .fBtm .w1140 .contact{
-        width: 100%;
-        padding-left: 15px;
-    }
-    .fBtm .w1140 ul li{
-        font-size: 13px;
-        padding-left:0;
-        margin-left: 0;
-    }
-    .toTop{
-        right: 20px;
-        bottom: 40px;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 375px) {
-
-    .news-box .tab-content ul li {
-        display: inline-flex;
-        width: 100%;
-    }
-    .news-box .tab-content .date {
-        width: 6%;
-    }
-    .news-box .tab-content .text{
-        width: 27%;
-    }
-
-    .section-title .img-top{
-        margin: 15px 0;
-        width: 100%;
-    }
     .ifTop .item1,
     .ifTop .item2,
     .ifTop .item3{
@@ -2569,3 +2524,149 @@ testimonialSlider
         bottom: 40px;
     }
 }
+
+/*平板 小屏幕*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    .news-box .h3,
+    .accordion .h3{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .news-box .tab-content ul li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-box .tab-content .date {
+        width: 6%;
+    }
+    .news-box .tab-content .text{
+        width: 41%;
+    }
+
+    .party-column .img-left {
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .party-column .party-mid .img-left img {
+        width: 100%;
+    }
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .business .thumbnail a > img,
+    .business .thumbnail > img {
+        float: left;
+    }
+
+    .ifTop .item1,
+    .ifTop .item2,
+    .ifTop .item3{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .ifTop .item3{
+        padding-left: 15px;
+    }
+    .w1140{
+        width: 100%;
+    }
+    .fBtm .w1140 .copy{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 15px;
+        white-space: pre-wrap;
+    }
+    .fBtm .w1140 .contact{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .fBtm .w1140 ul li{
+        font-size: 13px;
+        padding-left:0;
+        margin-left: 0;
+    }
+    .toTop{
+        right: 20px;
+        bottom: 40px;
+    }
+}
+
+/*桌面显示器 中等屏幕*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+    .news-box .tab-content ul li {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-box .tab-content .date {
+        width: 6%;
+    }
+    .news-box .tab-content .text{
+        width: 27%;
+    }
+
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
+    .ifTop .item1,
+    .ifTop .item2,
+    .ifTop .item3{
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .ifTop .item3{
+        padding-left: 15px;
+    }
+
+    .w1140{
+        width: 100%;
+    }
+
+    .fBtm .w1140 .copy{
+        width: 100%;
+        font-size: 13px;
+        padding-left: 15px;
+        white-space: pre-wrap;
+    }
+    .fBtm .w1140 .contact{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .fBtm .w1140 ul li{
+        font-size: 13px;
+        padding-left:0;
+        margin-left: 0;
+    }
+    .toTop{
+        right: 20px;
+        bottom: 40px;
+    }
+}
+
+
+/*大屏幕设备 大宽屏幕*/
+@media screen and (min-width:1200px) {
+    .header .menuIcon {
+        display: block;
+    }
+    .header .menuIcon {
+        width: 24px;
+        cursor: pointer;
+        margin: 27px 0 0 20px;
+        display: none;
+    }
+}
+
+
+
+
+
+
