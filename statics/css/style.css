@@ -368,27 +368,6 @@ hr.invis3 {
     font-weight: bold;
 }
 
-/*media query*/
-@media (min-height: 700px) {
-    .nav-in-page .tab-content {
-        height: 100%;
-        overflow: hidden;
-    }
-}
-
-@media (min-width: 768px) {
-    .nav-in-page .tab-content {
-        height: 100%;
-        overflow: hidden;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    .nav-in-page .tab-content {
-        margin-top: 30px;
-    }
-}
 
 
 /********************************************
@@ -704,25 +683,6 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
     border: 2px solid #ffffff;
 }
 
-/*Media Query*/
-@media screen and (max-width: 768px) {
-    .banner-slide {
-        margin-top: 60px;
-    }
-
-    .banner-slide .carousel-caption h1 {
-        font-size: 24px;
-    }
-
-    .banner-slide .carousel-indicators {
-        bottom: 20px;
-    }
-
-    .banner-slide .carousel-caption p {
-        font-size: 12px;
-    }
-}
-
 /********************************************
    Section margin
 ********************************************/
@@ -783,17 +743,6 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 .ptb-100 {
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-@media (min-width: 768px) {
-    /*custom-padding class*/
-    .pl-30 {
-        padding-left: 30px;
-    }
-
-    .pr-30 {
-        padding-right: 30px;
-    }
 }
 
 
@@ -922,12 +871,6 @@ li.nLi:hover > a::before, li.nLi.active > a::before {
 }
 
 
-@media screen and (max-width: 768px) {
-    .accordion .panel-group {
-        margin-bottom: 50px;
-    }
-}
-
 
 /********************************************
 news-box start
@@ -972,22 +915,6 @@ news-box start
     font-weight: bold;
 }
 
-/*media query*/
-
-@media (min-width: 768px) {
-    .news-box .tab-content {
-        height: 333px;
-        border: 1px solid #dedddd;
-        border-top: 0;
-        overflow: hidden;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .news-box .tab-content {
-        margin-top: 30px;
-    }
-}
 
 .news-box .tab-pane img {
     margin-top: 8px;
@@ -1137,24 +1064,6 @@ news-box start
 
 }
 
-/*media query*/
-
-@media (min-width: 768px) {
-    .tabTwo .tab-content {
-        height: 300px;
-        border: 1px solid #c1c1c1;
-        background-color: #ffffff;
-        border-top: 0;
-        overflow: hidden;
-        box-shadow: 0 0 10px 0 #8c8c8c;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .tabTwo .tab-content {
-        margin-top: 30px;
-    }
-}
 
 .tabTwo .tab-pane img {
     margin-top: 8px;
@@ -1561,26 +1470,6 @@ news-box start
     box-sizing: border-box;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    
-    .footer .footer-block {
-        padding: 50px 40px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .footer .footer-block {
-        padding: 50px 15px;
-    }
-}
-
-@media (max-width: 767px) {
-    .footer .footer-block {
-        padding: 30px 15px;
-        min-height: inherit;
-    }
-}
-
 
 .footer .footer-widget h3 {
     font-size: 16px;
@@ -1672,12 +1561,6 @@ news-box start
     copyright-section
 ********************************************/
 
-@media (min-width: 768px) {
-    .footer .copyright-section .list-inline > li {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-}
 .footer .copyright-section {
     padding: 10px 0;
     background: #011622;
@@ -2230,49 +2113,6 @@ testimonialSlider
     top: 50%;
 }
 
-@media (min-width: 768px) {
-    /*custom-padding class*/
-    #testimonialSlider .carousel-indicators {
-        bottom: -60px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-    #testimonialSlider .carousel-inner .item blockquote p {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #testimonialSlider .carousel-inner .item blockquote p {
-        font-size: 13px;
-        line-height: 24px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    #testimonialSlider .carousel-inner .item blockquote p {
-        font-size: 13px;
-        line-height: 24px;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-}
-
-@media (max-width: 766px) {
-    #testimonialSlider .carousel-control.right,
-    #testimonial-slider .carousel-control.left {
-        display: none;
-    }
-
-    #testimonialSlider .carousel-inner .item blockquote p {
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-}
-
 
 /************************************************
      view-detail page
@@ -2451,17 +2291,70 @@ testimonialSlider
 /************************************************
    响应式布局
 *************************************************/
-@media (max-width: 992px) {
 
+@media (min-height: 700px) {
+    .nav-in-page .tab-content {
+        height: 100%;
+        overflow: hidden;
+    }
 }
 
 /*手机 超小屏幕*/
 @media screen and (max-width: 767px) {
 
+
+    /*图片滚动*/
+    #banner-carousel .carousel-inner .item blockquote p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    #banner-carousel .carousel-control.right,
+    #banner-carousel .carousel-control.left {
+        display: none;
+    }
+
+    #banner-carousel .carousel-inner .item blockquote p {
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .banner-slide {
+        margin-top: 60px;
+    }
+
+    .banner-slide .carousel-caption h1 {
+        font-size: 24px;
+    }
+
+    .banner-slide .carousel-indicators {
+        bottom: 20px;
+    }
+
+    .banner-slide .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .tabTwo .tab-content {
+        margin-top: 30px;
+    }
+
+    /*首页通知公告*/
+    .accordion .panel-group {
+        margin-bottom: 50px;
+    }
+
+    /*首页新闻板块*/
     .news-box .h3,
     .accordion .h3{
-       text-align: center;
+        text-align: center;
         margin: 20px 0;
+    }
+
+    .news-box .tab-content {
+        margin-top: 30px;
     }
 
     .news-box .tab-content ul li {
@@ -2477,29 +2370,54 @@ testimonialSlider
         width: 44%;
 
     }
-
+    /*首页党建板块图片*/
     .section-title .img-top{
         margin: 15px 0;
         width: 100%;
     }
+    .party-column .party-mid .img-left {
+        margin-top: 0;
+    }
+    .party-column .party-mid .img-left img {
+        width: 100%;
+    }
 
+    .smallCard .tabTwo {
+        margin-bottom: 25px;
+    }
+    .smallCard .tabTwo ul{
+        box-shadow: none;
+    }
+    .smallCard .tabTwo .nav-justified li>a{
+        margin-bottom: 1px;
+    }
+    .smallCard .tabTwo .tab-content {
+        margin-top: 0;
+        height: 300px;
+        border: 1px solid #c1c1c1;
+        background-color: #ffffff;
+        border-top: 0;
+        overflow: hidden;
+        box-shadow:none;
+    }
+    .smallCard .tab-pane .column-list li {
+        width: 100%;
+    }
 
+    /*首页业务板块*/
     .business .thumbnail a > img,
     .business .thumbnail > img {
         display: none;
     }
 
-
+    /*首页页脚*/
     .ifTop .item1,
     .ifTop .item2,
     .ifTop .item3{
         width: 100%;
-        margin-left: 15px;
     }
 
-    .ifTop .item3{
-        padding-left: 15px;
-    }
+
     .w1140{
         width: 100%;
     }
@@ -2507,12 +2425,10 @@ testimonialSlider
     .fBtm .w1140 .copy{
         width: 100%;
         font-size: 12px;
-        padding-left: 15px;
         white-space: pre-wrap;
     }
     .fBtm .w1140 .contact{
         width: 100%;
-        padding-left: 15px;
     }
     .fBtm .w1140 ul li{
         font-size: 12px;
@@ -2523,17 +2439,53 @@ testimonialSlider
         right: 20px;
         bottom: 40px;
     }
+
+    /*非首页页脚*/
+    .footer .footer-block {
+        padding: 30px 15px;
+        min-height: inherit;
+    }
+
+    /*非首页样式*/
+    .nav-in-page .tab-content {
+        margin-top: 30px;
+    }
 }
 
 /*平板 小屏幕*/
 @media screen and (min-width: 768px) and (max-width: 991px){
 
+
+    .pl-30 {
+        padding-left: 30px;
+    }
+
+    .pr-30 {
+        padding-right: 30px;
+    }
+
+
+    /*图片滚动栏*/
+    #banner-carousel .carousel-inner .item blockquote p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #banner-carousel .carousel-indicators {
+        bottom: -60px;
+    }
+
+    /*首页新闻板块*/
     .news-box .h3,
     .accordion .h3{
         text-align: center;
         margin: 20px 0;
     }
-
+    .news-box .tab-content {
+        height: 333px;
+        border: 1px solid #dedddd;
+        border-top: 0;
+        overflow: hidden;
+    }
     .news-box .tab-content ul li {
         display: inline-flex;
         width: 100%;
@@ -2544,7 +2496,17 @@ testimonialSlider
     .news-box .tab-content .text{
         width: 41%;
     }
+    .news-box .tab-content .text .content {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    /*首页党建板块*/
 
+    .section-title .img-top{
+        margin: 15px 0;
+        width: 100%;
+    }
     .party-column .img-left {
         margin-bottom: 40px;
         margin-top: 0;
@@ -2552,38 +2514,52 @@ testimonialSlider
     .party-column .party-mid .img-left img {
         width: 100%;
     }
-    .section-title .img-top{
-        margin: 15px 0;
+    .smallCard .tabTwo {
+        margin-bottom: 25px;
+    }
+    .smallCard .tabTwo .tab-content {
+        height: 300px;
+        border: 1px solid #c1c1c1;
+        background-color: #ffffff;
+        border-top: 0;
+        overflow: hidden;
+        box-shadow: 0 0 10px 0 #8c8c8c;
+    }
+    .smallCard .tab-pane .column-list li {
         width: 100%;
     }
 
+
+    /*首页业务板块*/
     .business .thumbnail a > img,
     .business .thumbnail > img {
         float: left;
     }
 
-    .ifTop .item1,
-    .ifTop .item2,
+
+    /*首页页脚*/
+    .ifTop .item1{
+        width: 100%;
+    }
+    .ifTop .item2{
+        width: 100%;
+    }
     .ifTop .item3{
         width: 100%;
-        margin-left: 15px;
     }
 
-    .ifTop .item3{
-        padding-left: 15px;
-    }
     .w1140{
         width: 100%;
     }
     .fBtm .w1140 .copy{
         width: 100%;
         font-size: 13px;
-        padding-left: 15px;
+
         white-space: pre-wrap;
     }
     .fBtm .w1140 .contact{
         width: 100%;
-        padding-left: 15px;
+
     }
     .fBtm .w1140 ul li{
         font-size: 13px;
@@ -2591,14 +2567,76 @@ testimonialSlider
         margin-left: 0;
     }
     .toTop{
-        right: 20px;
+        right: 30px;
         bottom: 40px;
     }
+
+    /*非首页页脚*/
+    .footer .footer-block {
+        padding: 50px 15px;
+    }
+
+    .footer .copyright-section .list-inline > li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /*非首页样式*/
+    .nav-in-page .tab-content {
+        height: 100%;
+        overflow: hidden;
+    }
+
 }
 
 /*桌面显示器 中等屏幕*/
 @media screen and (min-width: 992px) and (max-width: 1199px){
 
+
+    .pl-30 {
+        padding-left: 30px;
+    }
+
+    .pr-30 {
+        padding-right: 30px;
+    }
+
+    /*图片滚动栏*/
+    #testimonialSlider .carousel-indicators {
+        bottom: -60px;
+    }
+
+    #testimonialSlider .carousel-inner .item blockquote p {
+        font-size: 18px;
+    }
+
+
+    /*首页党建板块小分栏*/
+    .smallCard .tabTwo .tab-content {
+        height: 300px;
+        border: 1px solid #c1c1c1;
+        background-color: #ffffff;
+        border-top: 0;
+        overflow: hidden;
+        box-shadow: 0 0 10px 0 #8c8c8c;
+    }
+    .smallCard .tab-pane .column-top {
+        width: 99%;
+    }
+    .smallCard .tab-pane .column-list li {
+        width: 100%;
+    }
+    .smallCard .tab-pane .column-list li a{
+        width: 66%;
+        overflow: hidden;
+    }
+
+    /*首页新闻板块*/
+    .news-box .tab-content {
+        height: 333px;
+        border: 1px solid #dedddd;
+        border-top: 0;
+        overflow: hidden;
+    }
 
     .news-box .tab-content ul li {
         display: inline-flex;
@@ -2608,24 +2646,25 @@ testimonialSlider
         width: 6%;
     }
     .news-box .tab-content .text{
-        width: 27%;
+        width: 34%;
     }
 
+    /*首页业务板块*/
+    .business .thumbnail a > img,
+    .business .thumbnail > img {
+        float: left;
+    }
     .section-title .img-top{
         margin: 15px 0;
         width: 100%;
     }
+
+    /*首页页脚*/
     .ifTop .item1,
     .ifTop .item2,
     .ifTop .item3{
         width: 100%;
-        margin-left: 15px;
     }
-
-    .ifTop .item3{
-        padding-left: 15px;
-    }
-
     .w1140{
         width: 100%;
     }
@@ -2633,12 +2672,10 @@ testimonialSlider
     .fBtm .w1140 .copy{
         width: 100%;
         font-size: 13px;
-        padding-left: 15px;
         white-space: pre-wrap;
     }
     .fBtm .w1140 .contact{
         width: 100%;
-        padding-left: 15px;
     }
     .fBtm .w1140 ul li{
         font-size: 13px;
@@ -2646,14 +2683,41 @@ testimonialSlider
         margin-left: 0;
     }
     .toTop{
-        right: 20px;
+        right: 30px;
         bottom: 40px;
     }
+
+    /*非首页样式*/
+    .nav-in-page .tab-content {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    /*非首页页脚*/
+    .footer .footer-block {
+        padding: 50px 40px;
+    }
+
+    .footer .copyright-section .list-inline > li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }
 
 
 /*大屏幕设备 大宽屏幕*/
 @media screen and (min-width:1200px) {
+
+    .pl-30 {
+        padding-left: 30px;
+    }
+
+    .pr-30 {
+        padding-right: 30px;
+    }
+
+    /*首页头部*/
     .header .menuIcon {
         display: block;
     }
@@ -2663,6 +2727,45 @@ testimonialSlider
         margin: 27px 0 0 20px;
         display: none;
     }
+
+
+    /*首页党建板块小分栏*/
+    .tabTwo .tab-content {
+        height: 300px;
+        border: 1px solid #c1c1c1;
+        background-color: #ffffff;
+        border-top: 0;
+        overflow: hidden;
+        box-shadow: 0 0 10px 0 #8c8c8c;
+    }
+
+    /*首页新闻板块*/
+    .news-box .tab-content {
+        height: 333px;
+        border: 1px solid #dedddd;
+        border-top: 0;
+        overflow: hidden;
+    }
+
+    /*图片滚动栏*/
+    #testimonialSlider .carousel-indicators {
+        bottom: -60px;
+    }
+
+
+    /*非首页页脚*/
+    .footer .copyright-section .list-inline > li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    /*非首页样式*/
+    .nav-in-page .tab-content {
+        height: 100%;
+        overflow: hidden;
+    }
+
 }
 
 
