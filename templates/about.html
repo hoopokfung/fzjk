@@ -8,322 +8,416 @@
     <meta name="author" content="">
     <link rel="icon" href="../statics/images/logo2.png" type="image/png">
     <title>关于金控</title>
-        <link href="../statics/css/style.css" rel="stylesheet">
-        <link href="../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
-        <link href="../statics/css/animate.min.css" rel="stylesheet">
-        <link href="../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
-        <link href="../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
-        <script src="../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
-        <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
-        <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
-        <script src="../statics/js/TweenMax.js"></script>
-        <script src="../statics/js/common.js"></script>
-        <script src="../statics/js/TweenMax.js"></script>
+    <link href="../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
+    <link href="../statics/css/animate.min.css" rel="stylesheet">
+    <link href="../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
+    <link href="../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../statics/css/jquery.mmenu.all.css" rel="stylesheet">
+    <link href="../statics/lib/layer/skin/layer.css" rel="stylesheet">
+    <link href="../statics/css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif] -->
 </head>
 <body>
-<!-- 头部 -->
-<header class="header iheader tran300 container-fluid">
-    <div class="w1440 clearfix">
-        <a  href="index.html" class="logo pull-left">
-            <img src="../statics/images/logo.png" alt="this is a logo image.">
-        </a>
-        <div class="pcNav pull-right">
-            <ul class="clearfix ">
-                <li class="nLi nLi1 ">
-                    <a href="index.html"  class="">
-                        <span class="ch">首页</span>
-                        <span class="en">HOME</span>
-                        <i></i>
-                    </a>
-                </li>
-                <li class="nLi nLi2 ">
-                    <a href="about.html"  class=" ">
-                        <span class="ch">关于金控</span>
-                        <span class="en">ABOUT US</span>
-                        <i></i>
-                    </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class=" ">
-                                <li class="pull-left"><a href="#" >集团简介</a></li>
-                                <li class="pull-left"><a href="#" >集团领导</a></li>
-                                <li class="pull-left"><a href="#" >成员企业</a></li>
-                                <li class="pull-left"><a href="#" >组织架构</a></li>
-                            </ul>
+    <!-- 头部 -->
+    <header class="header iheader tran300 ">
+        <div class="w1440 clearfix">
+            <a  href="index.html" class="logo fl">
+                <img src="../statics/images/logo.png" alt="this is a logo image.">
+            </a>
+            <a href="#menu" class="menuIcon fr">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </a>
+            <div class="pcNav fr">
+                <ul class="clearfix">
+                    <li class="nLi nLi1 tran400 on">
+                        <h3>
+                            <a href="index.html"  class="tran300 clearfix">
+                                <span class="ch">首页</span>
+                                <span class="en">HOME</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                    </li>
+                    <li class="nLi nLi2 tran400 ">
+                        <h3>
+                            <a href="about.html"  class="tran300 clearfix">
+                                <span class="ch">关于金控</span>
+                                <span class="en">ABOUT US</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                        <div class="navSub">
+                            <div class="wrap clearfix">
+                                <ul class="clearfix">
+                                    <li class="fl"><a href="about.html" type="1" target="_parent" >集团简介</a></li>
+                                    <li class="fl"><a href="about.html" type="2" target="_parent" >集团领导</a></li>
+                                    <li class="fl"><a href="#" >成员企业</a></li>
+                                    <li class="fl"><a href="#" >组织架构</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="nLi">
-                    <a href="news.html"  class="">
-                        <span class="ch">新闻中心</span>
-                        <span class="en">NEWS</span>
-                        <i></i>
-                    </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class=" ">
-                                <li class="pull-left"><a href="#" >集团动态</a></li>
-                                <li class="pull-left"><a href="#" >一线快讯</a></li>
-                                <li class="pull-left"><a href="#" >行业动态</a></li>
-                            </ul>
+                    </li>
+                    <li class="nLi nLi3 tran400 ">
+                        <h3>
+                            <a href="news.html"  class="tran300 clearfix">
+                                <span class="ch">新闻中心</span>
+                                <span class="en">NEWS</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                        <div class="navSub">
+                            <div class="wrap clearfix">
+                                <ul class="clearfix">
+                                    <li class="fl"><a href="#" >集团动态</a></li>
+                                    <li class="fl"><a href="#" >一线快讯</a></li>
+                                    <li class="fl"><a href="#" >行业动态</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="nLi">
-                    <a href="business.html"  class="">
-                        <span class="ch">业务领域</span>
-                        <span class="en">BUSINESS</span>
-                        <i></i>
-                    </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class=" ">
-                                <li class="pull-left"><a href="#" >融资担保</a></li>
-                                <li class="pull-left"><a href="#" >融资租赁</a></li>
-                                <li class="pull-left"><a href="#" >基金管理</a></li>
-                                <li class="pull-left"><a href="#" >商业保理</a></li>
-                                <li class="pull-left"><a href="#" >资产管理</a></li>
-                                <li class="pull-left"><a href="#" >供应链服务</a></li>
-                            </ul>
+                    </li>
+                    <li class="nLi nLi4 tran400 ">
+                        <h3>
+                            <a href="business.html"  class="tran300 clearfix">
+                                <span class="ch">业务领域</span>
+                                <span class="en">BUSINESS</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                        <div class="navSub">
+                            <div class="wrap clearfix">
+                                <ul class="clearfix">
+                                    <li class="fl"><a href="#" >融资担保</a></li>
+                                    <li class="fl"><a href="#" >融资租赁</a></li>
+                                    <li class="fl"><a href="#" >基金管理</a></li>
+                                    <li class="fl"><a href="#" >商业保理</a></li>
+                                    <li class="fl"><a href="#" >资产管理</a></li>
+                                    <li class="fl"><a href="#" >供应链服务</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="nLi">
-                    <a href="party.html"  class="">
-                        <span class="ch">党的建设</span>
-                        <span class="en">PARTY BUILDING</span>
-                        <i></i>
-                    </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class=" ">
-                                <li class="pull-left"><a href="#" >党建工作</a></li>
-                                <li class="pull-left"><a href="#" >在线学习</a></li>
-                                <li class="pull-left"><a href="#" >群团工作</a></li>
-                            </ul>
+                    </li>
+                    <li class="nLi nLi5 tran400 ">
+                        <h3>
+                            <a href="party.html"  class="tran300 clearfix">
+                                <span class="ch">党的建设</span>
+                                <span class="en">PARTY BUILDING</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                        <div class="navSub">
+                            <div class="wrap clearfix">
+                                <ul class="clearfix ">
+                                    <li class="fl"><a href="#" >党建工作</a></li>
+                                    <li class="fl"><a href="#" >在线学习</a></li>
+                                    <li class="fl"><a href="#" >群团工作</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li class="nLi">
-                    <a href="inform.html"  class="">
-                        <span class="ch">通知公告</span>
-                        <span class="en">INFORM</span>
-                        <i></i>
-                    </a>
-                    <div class="navSub">
-                        <div class="wrap ">
-                            <ul class=" ">
-                                <li class="pull-left"><a href="#" >公示公告</a></li>
-                                <li class="pull-left"><a href="#" >信息披露</a></li>
-                            </ul>
+                    <li class="nLi nLi6 tran400 ">
+                        <h3>
+                            <a href="inform.html"  class="tran300 clearfix">
+                                <span class="ch">通知公告</span>
+                                <span class="en">INFORM</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                        <div class="navSub">
+                            <div class="wrap clearfix">
+                                <ul class="clearfix ">
+                                    <li class="fl"><a href="#" >公示公告</a></li>
+                                    <li class="fl"><a href="#" >信息披露</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </li>
-                <li class="nLi">
-                    <a href="contact.html"  class="">
-                        <span class="ch">联系我们</span>
-                        <span class="en">CONTACT US</span>
-                        <i></i>
-                    </a>
-                    <!--                            <div class="navSub">-->
-                    <!--                                <div class="wrap ">-->
-                    <!--                                    <ul class=" ">-->
-                    <!--                                        <li class="pull-left"><a href="#" >人才招聘</a></li>-->
-                    <!--                                        <li class="pull-left"><a href="#" >业务合作</a></li>-->
-                    <!--                                        <li class="pull-left"><a href="#" >问题反馈</a></li>-->
-                    <!--                                    </ul>-->
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                </li>
+                    </li>
+                    <li class="nLi nLi7 tran400 ">
+                        <h3>
+                            <a href="contact.html"  class="tran300 clearficlearfix">
+                                <span class="ch">联系我们</span>
+                                <span class="en">CONTACT US</span>
+                                <i></i>
+                            </a>
+                        </h3>
+                    </li>
 
+                </ul>
+                <i class="navLine"></i>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+    <!-- 中间部分 -->
+    <div id="page">
+        <nav id="menu" class="m_nav" style="display:none;">
+            <ul>
+                <li class="home">
+                    <a href="/">网站首页</a>
+                </li>
+                <li>
+                    <a href="/list/2.html">集团概况</a>
+                    <ul>
+                        <li><a href="/list/2.html" class="tran300">集团简介</a></li>
+                        <li><a href="/list/3.html" class="tran300">董事长致辞</a></li>
+                        <li><a href="/list/51.html" class="tran300">集团领导</a></li>
+                        <li><a href="/list/4.html" class="tran300">成员企业</a></li>
+                        <li><a href="/list/5.html" class="tran300">组织架构</a></li>
+                        <li><a href="/list/7.html" class="tran300">大事记</a></li>
+                        <li><a href="/list/12.html" class="tran300">联系我们</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/list/14.html">新闻资讯</a>
+                    <ul>
+                        <li><a href="/list/14.html" class="tran300">集团动态</a></li>
+                        <li><a href="/list/73.html" class="tran300">一线快讯 </a></li>
+                        <li><a href="/list/15.html" class="tran300">行业动态</a></li>
+                        <li><a href="/list/16.html" class="tran300">媒体聚焦</a></li>
+                        <li><a href="/list/17.html" class="tran300">视频中心</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/list/52.html">主营业务</a>
+                    <ul>
+                        <li><a href="/list/52.html" class="tran300">金融板块</a></li>
+                        <li><a href="/list/53.html" class="tran300">实业板块</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/list/28.html">信息披露</a>
+                </li>
+                <li>
+                    <a href="/list/67.html">党的建设</a>
+                    <ul>
+                        <li><a href="/list/67.html" class="tran300">在线学习</a></li>
+                        <li><a href="/list/31.html" class="tran300">组织建设</a></li>
+                        <li><a href="/list/50.html" class="tran300">群团工作</a></li>
+                        <li><a href="/list/33.html" class="tran300">专题专栏</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/list/35.html">企业文化</a>
+                    <ul>
+                        <li><a href="/list/35.html" class="tran300">价值理念</a></li>
+                        <li><a href="/list/36.html" class="tran300">集团荣誉</a></li>
+                        <li><a href="/list/37.html" class="tran300">员工风采</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/list/49.html">人力资源</a>
+                    <ul>
+                        <li><a href="/list/49.html" class="tran300">学习教育</a></li>
+                        <li><a href="/list/39.html" class="tran300">招贤纳士</a></li>
+                    </ul>
+                </li>
             </ul>
-            <i class="navLine"></i>
-        </div>
-    </div>
-</header>
+        </nav>
 
-
-<!--------- banner-box------------>
-<section class="banner" style="background-image: url(../statics/images/banner1.jpg);">
-    <div class="banner-text">
-        <h2 class="">关于金控</h2>
-        <h3 class="">about us</h3>
-    </div>
-</section>
-<!---------banner-box  end--------->
-
-
-<!-------- content-page ----------->
-<section class="content-page">
-    <div class="container-fluid">
-        <div class="row ">
-            <div class=" nav-in-page">
-                <div class="row border-bottom">
-                    <div class="tab-title col-md-6 col-md-offset-2 ">
-                        <ul id="nav-in-page" class="nav nav-tabs nav-justified">
-                            <li class="active pl-30"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true" >集团简介</a></li>
-                            <li class=""><a href="#contentOne-2" data-toggle="tab" aria-expanded="true" >集团领导</a></li>
-                            <li class=""><a href="#contentOne-3" data-toggle="tab" aria-expanded="true" >成员企业</a></li>
-                            <li class=""><a href="#contentOne-4" data-toggle="tab" aria-expanded="true" >组织架构</a></li>
-                            <li class=""><a href="#contentOne-5" data-toggle="tab" aria-expanded="true" ></a></li>
-                        </ul>
-                    </div>
+        <div class="pageWrap">
+            <!--------- banner-box------------>
+            <section class="banner" style="background-image: url(../statics/images/banner1.jpg);">
+                <div class="banner-text">
+                    <h2 class="">关于金控</h2>
+                    <h3 class="">about us</h3>
                 </div>
-                    <div class="tab-content col-md-8 col-md-offset-2">
-                        <div class="tab-pane fade active in flex" id="contentOne-1">
-                            <iframe name="frame1" src="list/about_1.html" height="1000px" width="1200px" frameborder="0" scrolling="no"></iframe>
-                        </div>
-                        <div class="tab-pane fade  in" id="contentOne-2">
-                            <iframe name="frame2" src="list/about_2.html" height="900px" width="1200px" frameborder="0" scrolling="no"></iframe>
-                        </div>
-                        <div class="tab-pane fade  in" id="contentOne-3">
-                            <iframe src="list/about_3.html" height="700px" width="1200px" frameborder="0" scrolling="no"></iframe>
-                        </div>
-                        <div class="tab-pane fade  in" id="contentOne-4">
-                           <iframe src="list/about_4.html" height="700px" width="1200px"  frameborder="0" scrolling="no"></iframe>
-                        </div>
-                        <div class="tab-pane fade  in" id="contentOne-5">5</div>    
-                        <div class="tab-pane fade  in" id="contentOne-6">6</div>
-                    </div>
-                </div>
-        </div>
+            </section>
+            <!---------banner-box  end--------->
 
-    </div>
-</section>
-<!-------- content-page end ----------->
 
-<!-- 页脚 -->
-
-<footer class="footer">
-    <!-- Footer Widget Section -->
-    <div class="footer-widget-section">
-        <div class="w1440">
-            <div class="row">
-                <div class="col-md-3 footer-block">
-                    <div class="footer-widget widget_text pl-30">
-                        <div class="footer-logo">
-                            <a href="#"><img src="../statics/images/logo2.png" alt="这里是公司的logo" style="height: 120px;width: 120px"></a>
-                        </div>
-                        <p>地址 : 江西省抚州市迎宾大道777号</p>
-                        <p>邮编 : 344000    </p>
-                        <!--                        <div id="qr-code">-->
-                        <!--                            <img class="qr-code" src="../statics/images/qrcode_for_gh_c08999d72416_258.jpg" alt="" style="height: 100px; width: 100px">-->
-                        <!--                        </div>-->
-                    </div>
-                </div>
-                <!-- /.col-md-3 -->
-                <div class="col-md-6">
+            <!-------- content-page ----------->
+            <section class="content-page">
+                <div class="container-fluid">
                     <div class="row ">
-                        <div class="col-sm-3 footer-block">
-                            <div class="footer-widget widget_text text-center">
-                                <ul>
-                                    <li class="mt-20"><a href="about.html" >关于金控</a></li>
-                                    <li class=""><a href="#" >集团简介</a></li>
-                                    <li class=""><a href="#" >集团领导</a></li>
-                                    <li class=""><a href="#" >成员企业</a></li>
-                                    <li class=""><a href="#" >组织架构</a></li>
-                                    <li class=""><a href="#" >联系我们</a></li>
-                                </ul>
+                        <div class=" nav-in-page">
+                            <div class="row border-bottom">
+                                <div class="tab-title col-md-6 col-md-offset-2 ">
+                                    <ul id="nav-in-page" class="nav nav-tabs nav-justified">
+                                        <li class="active pl-30"><a href="#contentOne-1" data-toggle="tab" aria-expanded="true" >集团简介</a></li>
+                                        <li class=""><a href="#contentOne-2" data-toggle="tab" aria-expanded="true" >集团领导</a></li>
+                                        <li class=""><a href="#contentOne-3" data-toggle="tab" aria-expanded="true" >成员企业</a></li>
+                                        <li class=""><a href="#contentOne-4" data-toggle="tab" aria-expanded="true" >组织架构</a></li>
+                                        <li class=""><a href="#contentOne-5" data-toggle="tab" aria-expanded="true" ></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-3 footer-block">
-                            <div class="footer-widget widget_text text-center">
-                                <ul>
-                                    <li class="mt-20"><a href="news.html" >新闻中心</a></li>
-                                    <li class=""><a href="#" >集团动态</a></li>
-                                    <li class=""><a href="#" >一线快讯</a></li>
-                                    <li class=""><a href="#" >行业动态</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 footer-block">
-                            <div class="footer-widget widget_text text-center">
-                                <ul>
-                                    <li class="mt-20"><a href="business.html" >业务领域</a></li>
-                                    <li class=""><a href="#" >融资担保</a></li>
-                                    <li class=""><a href="#" >融资租赁</a></li>
-                                    <li class=""><a href="#" >基金管理</a></li>
-                                    <li class=""><a href="#" >商业保理</a></li>
-                                    <li class=""><a href="#" >资产管理</a></li>
-                                    <li class=""><a href="#" >供应链服务</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 footer-block">
-                            <div class="footer-widget widget_text text-center">
-                                <ul>
-                                    <li class="mt-20"><a href="party.html" >党的建设</a></li>
-                                    <li class=""><a href="#" >在线学习</a></li>
-                                    <li class=""><a href="#" >组织建设</a></li>
-                                    <li class=""><a href="#" >群团工作</a></li>
-                                </ul>
+                            <div class="tab-content col-md-8 col-md-offset-2">
+                                <div class="tab-pane fade active in flex" id="contentOne-1">
+                                    <iframe name="frame1" src="list/about_1.html" height="1000px" width="1200px" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="tab-pane fade  in" id="contentOne-2">
+                                    <iframe name="frame2" src="list/about_2.html" height="900px" width="1200px" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="tab-pane fade  in" id="contentOne-3">
+                                    <iframe src="list/about_3.html" height="700px" width="1200px" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="tab-pane fade  in" id="contentOne-4">
+                                    <iframe src="list/about_4.html" height="700px" width="1200px"  frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="tab-pane fade  in" id="contentOne-5">5</div>
+                                <div class="tab-pane fade  in" id="contentOne-6">6</div>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                <!-- /.col-md-6 -->
+            </section>
+            <!-------- content-page end ----------->
 
-                <div class="col-md-3 footer-block last">
-                    <div class="footer-widget widget_text pl-30">
-                        <h3>联系我们</h3>
-                        <address>
-                            <p>邮箱 : jxfzjrkg@163.com</p>
-                            <p>电话 : 0794-8236799</p>
-                            <!--                            <a href="cdn-cgi/l/email-protection#e3c0"><span class="__cf_email__" data-cfemail="5c3f3332283d3f281c3833313d3532723f3331">[邮箱&#160;jxfzjrkg@163.com]</span></a><br>-->
-                        </address>
-
-                        <ul class="list-inline social-links">
-                            <li>
-                                <a href="#" data-toggle="tooltip" data-placement="left" title="<div class='qrcode'><img src='../statics/images/qrcode_for_gh_c08999d72416_258.jpg'/></div>">
-                                    <i class="fa fa-wechat fa-inverse"></i>
-                                </a>
-                                <div class="tooltip left hidden" role="tooltip">
-                                    <div class="tooltip-arrow"></div>
-                                    <div class="tooltip-inner"></div>
+            <!-- 页脚 -->
+            <footer class="footer">
+                <!-- Footer Widget Section -->
+                <div class="footer-widget-section">
+                    <div class="w1440">
+                        <div class="row">
+                            <div class="col-md-3 footer-block">
+                                <div class="footer-widget widget_text pl-30">
+                                    <div class="footer-logo">
+                                        <a href="#"><img src="../statics/images/logo2.png" alt="这里是公司的logo" style="height: 120px;width: 120px"></a>
+                                    </div>
+                                    <p>地址 : 江西省抚州市迎宾大道777号</p>
+                                    <p>邮编 : 344000    </p>
+                                    <!--                        <div id="qr-code">-->
+                                    <!--                            <img class="qr-code" src="../statics/images/qrcode_for_gh_c08999d72416_258.jpg" alt="" style="height: 100px; width: 100px">-->
+                                    <!--                        </div>-->
                                 </div>
+                            </div>
+                            <!-- /.col-md-3 -->
+                            <div class="col-md-6">
+                                <div class="row ">
+                                    <div class="col-sm-3 footer-block">
+                                        <div class="footer-widget widget_text text-center">
+                                            <ul>
+                                                <li class="mt-20"><a href="about.html" >关于金控</a></li>
+                                                <li class=""><a href="#" >集团简介</a></li>
+                                                <li class=""><a href="#" >集团领导</a></li>
+                                                <li class=""><a href="#" >成员企业</a></li>
+                                                <li class=""><a href="#" >组织架构</a></li>
+                                                <li class=""><a href="#" >联系我们</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 footer-block">
+                                        <div class="footer-widget widget_text text-center">
+                                            <ul>
+                                                <li class="mt-20"><a href="news.html" >新闻中心</a></li>
+                                                <li class=""><a href="#" >集团动态</a></li>
+                                                <li class=""><a href="#" >一线快讯</a></li>
+                                                <li class=""><a href="#" >行业动态</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 footer-block">
+                                        <div class="footer-widget widget_text text-center">
+                                            <ul>
+                                                <li class="mt-20"><a href="business.html" >业务领域</a></li>
+                                                <li class=""><a href="#" >融资担保</a></li>
+                                                <li class=""><a href="#" >融资租赁</a></li>
+                                                <li class=""><a href="#" >基金管理</a></li>
+                                                <li class=""><a href="#" >商业保理</a></li>
+                                                <li class=""><a href="#" >资产管理</a></li>
+                                                <li class=""><a href="#" >供应链服务</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 footer-block">
+                                        <div class="footer-widget widget_text text-center">
+                                            <ul>
+                                                <li class="mt-20"><a href="party.html" >党的建设</a></li>
+                                                <li class=""><a href="#" >在线学习</a></li>
+                                                <li class=""><a href="#" >组织建设</a></li>
+                                                <li class=""><a href="#" >群团工作</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-md-6 -->
+
+                            <div class="col-md-3 footer-block last">
+                                <div class="footer-widget widget_text pl-30">
+                                    <h3>联系我们</h3>
+                                    <address>
+                                        <p>邮箱 : jxfzjrkg@163.com</p>
+                                        <p>电话 : 0794-8236799</p>
+                                        <!--                            <a href="cdn-cgi/l/email-protection#e3c0"><span class="__cf_email__" data-cfemail="5c3f3332283d3f281c3833313d3532723f3331">[邮箱&#160;jxfzjrkg@163.com]</span></a><br>-->
+                                    </address>
+
+                                    <ul class="list-inline social-links">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="left" title="<div class='qrcode'><img src='../statics/images/qrcode_for_gh_c08999d72416_258.jpg'/></div>">
+                                                <i class="fa fa-wechat fa-inverse"></i>
+                                            </a>
+                                            <div class="tooltip left hidden" role="tooltip">
+                                                <div class="tooltip-arrow"></div>
+                                                <div class="tooltip-inner"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="https://s.weibo.com/weibo/%25E6%258A%259A%25E5%25B7%259E%25E9%2587%2591%25E6%258E%25A7?topnav=1&wvr=6&b=1"  data-toggle="tooltip" data-placement="bottom" title="访问新浪微博:https://weibo.com/搜索抚州金控" target="_blank">
+                                                <i class="fa fa-weibo fa-inverse"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.col-sm-4 -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Footer Widget Section -->
+
+                <div class="copyright-section">
+                    <div class="w1230 clearfix" style="width: 1316px">
+                        <p class="copy pull-left pt-10">Copyright © 2021  抚州市金融控股有限公司 ALL RIGHT RESERVED   <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
+                        <ul class="pull-right list-inline pt-10" style="margin-right: 70px;">
+                            <li>
+                                <a href="#">加入我们</a>
                             </li>
                             <li>
-                                <a href="https://s.weibo.com/weibo/%25E6%258A%259A%25E5%25B7%259E%25E9%2587%2591%25E6%258E%25A7?topnav=1&wvr=6&b=1"  data-toggle="tooltip" data-placement="bottom" title="访问新浪微博:https://weibo.com/搜索抚州金控" target="_blank">
-                                    <i class="fa fa-weibo fa-inverse"></i>
-                                </a>
+                                <a href="contact.html" >联系我们</a>
                             </li>
                         </ul>
                     </div>
+                    <!-- .container -->
                 </div>
-                <!-- /.col-sm-4 -->
+                <!-- .copyright-section -->
+            </footer>
+
+            <div id="toTopBtn" class="toTop">
+                <a class="btn">
+                    <i class="fa  fa-chevron-circle-up   fa-3x fa-inverse"></i>
+                </a>
             </div>
         </div>
     </div>
-    <!-- /.Footer Widget Section -->
 
-    <div class="copyright-section">
-        <div class="w1230 clearfix" style="width: 1316px">
-            <p class="copy pull-left pt-10">Copyright © 2021  抚州市金融控股有限公司 ALL RIGHT RESERVED   <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
-            <ul class="pull-right list-inline pt-10" style="margin-right: 70px;">
-                <li>
-                    <a href="#">加入我们</a>
-                </li>
-                <li>
-                    <a href="contact.html" >联系我们</a>
-                </li>
-            </ul>
-        </div>
-        <!-- .container -->
-    </div>
-    <!-- .copyright-section -->
-</footer>
-<div id="toTopBtn" class="toTop">
-    <a class="btn">
-        <i class="fa  fa-chevron-circle-up   fa-3x fa-inverse"></i>
-    </a>
-</div>
-<script type="text/javascript">
-    $("#toTopBtn").click(function () {
-        $(window).scrollTop(0,500);
-    })
-</script>
+
+
+    <!--Start Script -->
+    <script src="../statics/js/jquery-3.4.1.min.js"></script>
+    <script src="../statics/js/swiper-3.4.0.jquery.min.js"></script>
+    <script src="../statics/js/swiper.animate1.0.2.min.js"></script>
+    <script src="../statics/js/bootstrap.min.js"></script>
+    <script src="../statics/js/jquery.mmenu.all.js"></script>
+    <script src="../statics/js/common.js"></script>
+    <script src="../statics/js/TweenMax.js"></script>
+    <script src="../statics/lib/layer/layer.min.js"></script>
+    <script type="text/javascript">
+        $("#toTopBtn").click(function () {
+            $(window).scrollTop(0,500);
+        })
+    </script>
+    <!--End Script -->
 
 </body>
 </html>

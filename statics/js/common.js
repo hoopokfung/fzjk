@@ -29,6 +29,8 @@ tme.init=$(function(){
 
     tme.fnnav();
     tme.fnSelect();
+
+    $('#menu').mmenu();
 })
 
 
@@ -63,10 +65,10 @@ tme.fnSelect=function(){
 
 tme.fnnav=function(){
 
-    var liL = 0,
-        subW = 0,
-        padLeft = 0,
-        liW = 0,
+    var liL = 0,        // li的长度
+        subW = 0,       // navSub的宽度
+        padLeft = 0,    // 左侧内边距
+        liW = 0,        // li的宽度
         subWArr=[];
     $(".pcNav li.nLi").each(function(){
         if($(this).find('.navSub ul').length){
