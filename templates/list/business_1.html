@@ -2,44 +2,421 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>业务详情页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../../statics/css/style.css" rel="stylesheet">
-    <link href="../../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
-    <link href="../../statics/css/animate.min.css" rel="stylesheet">
-    <link href="../../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
-    <link href="../../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="../../statics/lib/jquery-3.4.1/jquery-3.4.1.js"></script>
-    <script src="../../statics/lib/bootstrap-3.4.1/js/bootstrap.js"></script>
-    <script src="../../statics/js/swiper-3.4.0.jquery.min.js"></script>
-    <script src="../../statics/js/swiper.animate1.0.2.min.js"></script>
-    <script src="../../statics/js/common.js"></script>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../statics/images/logo2.png" type="image/png">
+    <title>业务详情页</title>
+        <link href="../../statics/lib/bootstrap-3.4.1/css/bootstrap.css" rel="stylesheet">
+        <link href="../../statics/css/animate.min.css" rel="stylesheet">
+        <link href="../../statics/css/swiper-3.4.0.min.css" rel="stylesheet">
+        <link href="../../statics/lib/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../statics/css/jquery.mmenu.all.css" rel="stylesheet">
+        <link href="../../statics/css/style.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif] -->
 </head>
 <body>
-<div class="view-passage">
-    <div class="container">
-        <div class="row">
-            <h5 class="text-center">基金管理</h5>
-            <i></i>
-            <div class="content text-center">
-                <p style="text-indent: 4rem"><strong>抚州金控基金管理有限公司</strong>是江西金控投资管理中心（江西省金融控股集团有限公司下属子公司）与抚州市金融控股有限公司（抚州市属国有企业）合资设立的抚州市专门负责基金发起设立和运营管理的业务平台，成立于2016年4月。
 
-                     </p>
 
-                <p style="text-indent: 4rem">主要经营项目为受托管理股权投资企业，从事投资管理及相关咨询服务。</p>
+<!-- 头部 -->
+<header class="header iheader tran300 ">
+    <div class="w1440 clearfix">
+        <a  href="../index.html" class="logo fl">
+            <img src="../../statics/images/logo.png" alt="this is a logo image.">
+        </a>
+        <a href="#menu" class="menuIcon fr">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </a>
+        <div class="pcNav fr">
+            <ul class="clearfix">
+                <li class="nLi nLi1 tran400 ">
+                    <h3>
+                        <a href="../index.html"  class="tran300 clearfix">
+                            <span class="ch">首页</span>
+                            <span class="en">HOME</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                </li>
+                <li class="nLi nLi2 tran400 on">
+                    <h3>
+                        <a href="about_1.html"  class="tran300 clearfix">
+                            <span class="ch">关于金控</span>
+                            <span class="en">ABOUT US</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                    <div class="navSub">
+                        <div class="wrap clearfix">
+                            <ul class="clearfix">
+                                <li class="fl"><a href="about_1.html" target="_parent">集团简介</a></li>
+                                <li class="fl"><a href="about_2.html" target="_parent">集团领导</a></li>
+                                <li class="fl"><a href="about_3.html" target="_parent">成员企业</a></li>
+                                <li class="fl"><a href="about_4.html" target="_parent">组织架构</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi nLi3 tran400 ">
+                    <h3>
+                        <a href="news_1.html"  class="tran300 clearfix">
+                            <span class="ch">新闻中心</span>
+                            <span class="en">NEWS</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                    <div class="navSub">
+                        <div class="wrap clearfix">
+                            <ul class="clearfix">
+                                <li class="fl"><a href="news_1.html" >集团动态</a></li>
+                                <li class="fl"><a href="news_2.html" >一线快讯</a></li>
+                                <li class="fl"><a href="news_3.html" >行业动态</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi nLi4 tran400 ">
+                    <h3>
+                        <a href="../business.html"  class="tran300 clearfix">
+                            <span class="ch">业务领域</span>
+                            <span class="en">BUSINESS</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                    <div class="navSub">
+                        <div class="wrap clearfix">
+                            <ul class="clearfix">
+                                <li class="fl"><a href="business_2.html" >融资担保</a></li>
+                                <li class="fl"><a href="business_3.html" >融资租赁</a></li>
+                                <li class="fl"><a href="business_1.html" >基金管理</a></li>
+                                <li class="fl"><a href="business_5.html" >商业保理</a></li>
+                                <li class="fl"><a href="business_4.html" >资产管理</a></li>
+                                <li class="fl"><a href="business_6.html" >供应链服务</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi nLi5 tran400 ">
+                    <h3>
+                        <a href="party_1.html"  class="tran300 clearfix">
+                            <span class="ch">党的建设</span>
+                            <span class="en">PARTY BUILDING</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                    <div class="navSub">
+                        <div class="wrap clearfix">
+                            <ul class="clearfix ">
+                                <li class="fl"><a href="party_1.html" >党建工作</a></li>
+                                <li class="fl"><a href="party_2.html" >在线学习</a></li>
+                                <li class="fl"><a href="party_3.html" >群团工作</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
 
-                <p style="text-indent: 4rem">主要业务是发起并管理由其设立的政府引导的册灰姑娘是发展基金、公私合作的PPP项目专项基金、PE、VC型股权投资基金、产业发展基金、并购基金和证券类投资基金等，以及相关投资咨询服务。</p>
+                <li class="nLi nLi6 tran400 ">
+                    <h3>
+                        <a href="inform_1.html"  class="tran300 clearfix">
+                            <span class="ch">通知公告</span>
+                            <span class="en">INFORM</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                    <div class="navSub">
+                        <div class="wrap clearfix">
+                            <ul class="clearfix ">
+                                <li class="fl"><a href="inform_1.html" >公示公告</a></li>
+                                <li class="fl"><a href="inform_2.html" >信息披露</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nLi nLi7 tran400 ">
+                    <h3>
+                        <a href="../contact.html"  class="tran300 clearfix">
+                            <span class="ch">联系我们</span>
+                            <span class="en">CONTACT US</span>
+                            <i></i>
+                        </a>
+                    </h3>
+                </li>
 
-                <p style="text-align: center">
-                    <img align="center" src="../../statics/images/fund_1.png">
-                </p>
-            </div>
-            <div class="link">
-                <p class="text_id"><span></span><a></a></p>
-                <p class="text_id"><span></span><a></a></p>
-            </div>
+            </ul>
+            <i class="navLine"></i>
         </div>
     </div>
+</header>
+
+<div id="page">
+
+    <nav id="menu" class="m_nav" style="display:none;">
+        <ul>
+            <li class="home">
+                <a href="../index.html">网站首页</a>
+            </li>
+            <li>
+                <a href="about_1.html">关于金控</a>
+                <ul>
+                    <li><a href="../list/about_1.html" class="tran300">集团简介</a></li>
+                    <li><a href="../list/about_2.html" class="tran300">集团领导</a></li>
+                    <li><a href="../list/about_3.html" class="tran300">成员企业</a></li>
+                    <li><a href="../list/about_4.html" class="tran300">组织架构</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/list/14.html">新闻中心</a>
+                <ul>
+                    <li><a href="../list/14.html" class="tran300">集团动态</a></li>
+                    <li><a href="../list/73.html" class="tran300">一线快讯 </a></li>
+                    <li><a href="../list/15.html" class="tran300">行业动态</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/list/52.html">业务邻域</a>
+                <ul>
+                    <li><a href="../list/52.html" class="tran300">融资担保</a></li>
+                    <li><a href="../list/53.html" class="tran300">融资租赁</a></li>
+                    <li><a href="../list/53.html" class="tran300">基金管理</a></li>
+                    <li><a href="../list/53.html" class="tran300">商业保理</a></li>
+                    <li><a href="../list/53.html" class="tran300">资产管理</a></li>
+                    <li><a href="../list/53.html" class="tran300">供应链服务</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/list/67.html">党的建设</a>
+                <ul>
+                    <li><a href="../list/67.html" class="tran300">在线学习</a></li>
+                    <li><a href="../list/31.html" class="tran300">组织建设</a></li>
+                    <li><a href="../list/50.html" class="tran300">群团工作</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/list/35.html">通知公告</a>
+                <ul>
+                    <li><a href="../list/35.html" class="tran300">公示公告</a></li>
+                    <li><a href="../list/36.html" class="tran300">信息披露</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="list/28.html">信息披露</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="pageWrap">
+        <!--------- banner-box------------>
+        <section class="banner" style="background-image: url(../../statics/images/banner1.jpg);">
+            <div class="banner-text w1200">
+                <h2 class="">业务领域</h2>
+                <h3 class="">BUSINESS</h3>
+            </div>
+        </section>
+        <!---------banner-box  end--------->
+
+        <!-- 页内二级导航条  -->
+        <div class="nyNav">
+            <ul class="w1200 clearfix">
+                <li class='on'>
+                    <a href="../list/business_1.html" class="tran300">基金管理</a>
+                </li>
+                <li class=''>
+                    <a href="../list/business_2.html" class="tran300">融资担保</a>
+                </li>
+                <li class=''>
+                    <a href="../list/business_3.html" class="tran300">融资租赁</a>
+                </li>
+                <li class=''>
+                    <a href="../list/business_4.html" class="tran300">资产管理</a>
+                </li>
+                <li class=''>
+                    <a href="../list/business_5.html" class="tran300">商业保理</a>
+                </li>
+                <li class=''>
+                    <a href="../list/business_6.html" class="tran300">供应链服务</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 主要内容 -->
+        <div class="nyMain w1200">
+            <div class="view-passage">
+                <div class="container">
+                    <div class="row">
+                        <h5 class="text-center">基金管理</h5>
+                        <i></i>
+                        <div class="content text-center">
+                            <p style="text-indent: 4rem"><strong>抚州金控基金管理有限公司</strong>是江西金控投资管理中心（江西省金融控股集团有限公司下属子公司）与抚州市金融控股有限公司（抚州市属国有企业）合资设立的抚州市专门负责基金发起设立和运营管理的业务平台，成立于2016年4月。
+
+                            </p>
+
+                            <p style="text-indent: 4rem">主要经营项目为受托管理股权投资企业，从事投资管理及相关咨询服务。</p>
+
+                            <p style="text-indent: 4rem">主要业务是发起并管理由其设立的政府引导的册灰姑娘是发展基金、公私合作的PPP项目专项基金、PE、VC型股权投资基金、产业发展基金、并购基金和证券类投资基金等，以及相关投资咨询服务。</p>
+
+                            <p style="text-align: center">
+                                <img align="center" src="../../statics/images/fund_1.png" alt="">
+                            </p>
+                        </div>
+                        <div class="link">
+                            <p class="text_id"><span></span><a></a></p>
+                            <p class="text_id"><span></span><a></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <!-- Footer Widget Section -->
+            <div class="footer-widget-section">
+                <div class="w1200">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-3 footer-block">
+                            <div class="footer-widget widget_text">
+                                <div class="footer-logo">
+                                    <a href="../index.html"><img src="../../statics/images/logo2.png" alt="这里是公司的logo" style="height: 120px;width: 120px"></a>
+                                </div>
+                                <p>地址 : 江西省抚州市迎宾大道777号</p>
+                                <p>邮编 : 344000    </p>
+                                <!--                        <div id="qr-code">-->
+                                <!--                            <img class="qr-code" src="../statics/images/qrcode_for_gh_c08999d72416_258.jpg" alt="" style="height: 100px; width: 100px">-->
+                                <!--                        </div>-->
+                            </div>
+                        </div>
+                        <!-- /.col-md-3 -->
+                        <div class="col-xs-12 col-sm-6 col-md-6 footer-nav">
+                            <div class="row ">
+                                <div class="col-xs-3 col-sm-3 footer-block">
+                                    <div class="footer-widget widget_text text-center">
+                                        <ul>
+                                            <li class="mt-20"><a href="about_1.html" >关于金控</a></li>
+                                            <li class=""><a href="about_1.html" >集团简介</a></li>
+                                            <li class=""><a href="about_2.html" >集团领导</a></li>
+                                            <li class=""><a href="about_3.html" >成员企业</a></li>
+                                            <li class=""><a href="about_4.html" >组织架构</a></li>
+                                            <li class=""><a href="../contact.html" >联系我们</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 footer-block">
+                                    <div class="footer-widget widget_text text-center">
+                                        <ul>
+                                            <li class="mt-20"><a href="news_1.html" >新闻中心</a></li>
+                                            <li class=""><a href="news_1.html" >集团动态</a></li>
+                                            <li class=""><a href="news_2.html" >一线快讯</a></li>
+                                            <li class=""><a href="news_3.html" >行业动态</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 footer-block">
+                                    <div class="footer-widget widget_text text-center">
+                                        <ul>
+                                            <li class="mt-20"><a href="../business.html" >业务领域</a></li>
+                                            <li class=""><a href="business_2.html" >融资担保</a></li>
+                                            <li class=""><a href="business_3.html" >融资租赁</a></li>
+                                            <li class=""><a href="business_1.html" >基金管理</a></li>
+                                            <li class=""><a href="business_5.html" >商业保理</a></li>
+                                            <li class=""><a href="business_4.html" >资产管理</a></li>
+                                            <li class=""><a href="business_6.html" >供应链服务</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 footer-block">
+                                    <div class="footer-widget widget_text text-center">
+                                        <ul>
+                                            <li class="mt-20"><a href="party_1.html" >党的建设</a></li>
+                                            <li class=""><a href="party_1.html" >在线学习</a></li>
+                                            <li class=""><a href="party_2.html" >组织建设</a></li>
+                                            <li class=""><a href="party_3.html" >群团工作</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col-md-6 -->
+
+                        <div class="col-xs-6 col-sm-3 col-md-3 footer-block last">
+                            <div class="footer-widget widget_text">
+                                <h3>联系我们</h3>
+                                <address>
+                                    <p>邮箱 : jxfzjrkg@163.com</p>
+                                    <p>电话 : 0794-8236799</p>
+                                    <!--                            <a href="cdn-cgi/l/email-protection#e3c0"><span class="__cf_email__" data-cfemail="5c3f3332283d3f281c3833313d3532723f3331">[邮箱&#160;jxfzjrkg@163.com]</span></a><br>-->
+                                </address>
+
+                                <ul class="list-inline social-links">
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" data-placement="left" title="<div class='qrcode'><img src='../../statics/images/qrcode_for_gh_c08999d72416_258.jpg'/></div>">
+                                            <i class="fa fa-wechat fa-inverse"></i>
+                                        </a>
+                                        <div class="tooltip left hidden" role="tooltip">
+                                            <div class="tooltip-arrow"></div>
+                                            <div class="tooltip-inner"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="https://s.weibo.com/weibo/%25E6%258A%259A%25E5%25B7%259E%25E9%2587%2591%25E6%258E%25A7?topnav=1&wvr=6&b=1"  data-toggle="tooltip" data-placement="bottom" title="访问新浪微博:https://weibo.com/搜索抚州金控" target="_blank">
+                                            <i class="fa fa-weibo fa-inverse"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /.col-sm-4 -->
+                    </div>
+                </div>
+            </div>
+            <!-- /.Footer Widget Section -->
+
+            <div class="copyright-section">
+                <div class="w1200 clearfix">
+                    <p class="copy fl">Copyright © 2021  抚州市金融控股有限公司 ALL RIGHT RESERVED   <a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备18010030号</a></p>
+                    <ul class="list-inline fr">
+                        <li>
+                            <a href="#">加入我们</a>
+                        </li>
+                        <li>
+                            <a href="../contact.html" >联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .copyright-section -->
+        </footer>
+
+        <!-- 至顶按钮 -->
+        <div id="toTopBtn" class="toTop">
+            <a class="btn">
+                <i class="fa  fa-chevron-circle-up   fa-3x fa-inverse"></i>
+            </a>
+        </div>
+    </div>
+
 </div>
+
+    <!--Start Script -->
+    <script src="../../statics/js/jquery-3.4.1.min.js"></script>
+    <script src="../../statics/js/swiper-3.4.0.jquery.min.js"></script>
+    <script src="../../statics/js/swiper.animate1.0.2.min.js"></script>
+    <script src="../../statics/js/bootstrap.min.js"></script>
+    <script src="../../statics/js/jquery.mmenu.all.js"></script>
+    <script src="../../statics/js/common.js"></script>
+    <script src="../../statics/js/TweenMax.js"></script>
+    <script type="text/javascript">
+        $("#toTopBtn").click(function () {
+            $(window).scrollTop(0,500);
+        })
+    </script>
+    <!--End Script -->
 </body>
 </html>
