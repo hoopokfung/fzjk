@@ -2135,7 +2135,7 @@ testimonialSlider
 #testimonialSlider {
     border: 1px solid #e0dfdf;
     height: 380px;
-    width: 1208px;
+    width: 1200px;
     left: -33px;
     margin-bottom: 20px;
     box-shadow: 2.5px 5px 5px 0 #e6e6e6;
@@ -2877,7 +2877,25 @@ testimonialSlider
         margin: 20px 0;
         line-height: normal;
     }
+    #testimonialSlider{
+        width: 100%;
+    }
 
+    #testimonialSlider .carousel-inner{
+        width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item{
+    }
+    #testimonialSlider .carousel-inner .item .left-img {
+        width: 50%;
+        float: left;
+    }
+    #testimonialSlider .carousel-inner .item img{
+        max-width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item .detail{
+        width: auto;
+    }
     /*非首页页脚*/
 
     .footer .copyright-section .list-inline > li {
