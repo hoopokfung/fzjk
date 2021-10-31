@@ -2135,8 +2135,7 @@ testimonialSlider
 #testimonialSlider {
     border: 1px solid #e0dfdf;
     height: 380px;
-    width: 1200px;
-    left: -33px;
+    width: auto;
     margin-bottom: 20px;
     box-shadow: 2.5px 5px 5px 0 #e6e6e6;
 }
@@ -2761,11 +2760,6 @@ testimonialSlider
         bottom: -60px;
     }
 
-    #testimonialSlider .carousel-inner .item blockquote p {
-        font-size: 18px;
-    }
-
-
     /*首页党建板块小分栏*/
     .smallCard .tabTwo .tab-content {
         height: 300px;
@@ -2877,24 +2871,30 @@ testimonialSlider
         margin: 20px 0;
         line-height: normal;
     }
+
+    /*非首页滚动栏*/
     #testimonialSlider{
         width: 100%;
     }
-
     #testimonialSlider .carousel-inner{
         width: 100%;
     }
-    #testimonialSlider .carousel-inner .item{
-    }
-    #testimonialSlider .carousel-inner .item .left-img {
-        width: 50%;
-        float: left;
-    }
     #testimonialSlider .carousel-inner .item img{
-        max-width: 100%;
+        width: auto;
+        height: auto;
     }
     #testimonialSlider .carousel-inner .item .detail{
-        width: auto;
+        width: 360px;
+        float: left;
+    }
+    #testimonialSlider .carousel-inner .item blockquote p {
+        font-size: 18px;
+    }
+
+    .party-list ul li{
+        width: 100%;
+        height: auto;
+        margin: 0 15px 20px 0;
     }
     /*非首页页脚*/
 
@@ -3063,6 +3063,12 @@ testimonialSlider
     .banner .banner-text h2,
     .banner .banner-text h3{
         text-align: center;
+    }
+
+    .party-list ul li{
+        width: 100%;
+        height: auto;
+        margin: 0 15px 20px 0;
     }
 
     /*非首页页脚*/
@@ -3292,6 +3298,12 @@ testimonialSlider
     .banner .banner-text h2,
     .banner .banner-text h3{
         text-align: center;
+    }
+
+    .party-list ul li{
+        width: 100%;
+        height: auto;
+        margin: 0 15px 20px 0;
     }
     /*非首页页脚*/
     .footer .footer-block {
