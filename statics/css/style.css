@@ -2092,23 +2092,23 @@ news-box start
             party Page
 *******************************************/
 .party-list ul li {
-    width: 570px;
+    width: 600px;
     height: 187px;
-    border: 1px solid #e0dfdf;
-    margin: 0 15px 20px 15px;
-    -moz-box-shadow: 2.5px 5px 5px 0 #e6e6e6;
-    -webkit-box-shadow: 2.5px 5px 5px 0 #e6e6e6;
-    box-shadow: 2.5px 5px 5px 0 #e6e6e6;
+    padding: 15px;
 }
 
 .party-list ul li a {
     text-decoration: none;
     display: block;
     color: #3c3c3c;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     box-sizing: border-box;
     padding: 15px;
+    border: 1px solid #e0dfdf;
+    -moz-box-shadow: 2.5px 5px 5px 0 #e6e6e6;
+    -webkit-box-shadow: 2.5px 5px 5px 0 #e6e6e6;
+    box-shadow: 2.5px 5px 5px 0 #e6e6e6;
 }
 
 .party-list ul li a .date {
@@ -2152,19 +2152,27 @@ testimonialSlider
     border-radius: 3px;
 }
 
-#testimonialSlider .carousel-inner .item .detail {
-    display: block;
-    float: left;
-    width: 500px;
-    margin-left: 50px;
+#testimonialSlider .carousel-inner .item blockquote {
+    border-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
-#testimonialSlider .carousel-inner .item .detail a {
+#testimonialSlider .carousel-inner .item blockquote .detail {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 360px;
+    padding: 0 50px;
+    overflow: hidden;
+}
+
+#testimonialSlider .carousel-inner .item blockquote .detail a {
     text-decoration: none;
     color: #3c3c3c;
 }
 
-#testimonialSlider .carousel-inner .item .detail h4 {
+#testimonialSlider .carousel-inner .item blockquote .detail h4 {
     font-size: 24px;
     font-weight: bold;
     padding-left: 0;
@@ -2172,29 +2180,24 @@ testimonialSlider
     margin-bottom: 30px;
 }
 
-#testimonialSlider .carousel-inner .item:hover h4 {
+#testimonialSlider .carousel-inner .item blockquote .detail:hover h4 {
     color: #2b669a;
 }
 
-#testimonialSlider .carousel-inner .item .detail .date {
+#testimonialSlider .carousel-inner .item blockquote .detail .date {
     display: block;
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     color: #999999;
 }
 
-#testimonialSlider .carousel-inner .item blockquote {
-    border-left: 0;
-    margin: 0;
-    padding: 0;
-}
 
-#testimonialSlider .carousel-inner .item blockquote p {
+
+#testimonialSlider .carousel-inner .item blockquote .detail p {
     display: block;
     font-size: 16px;
     line-height: 34px;
-    /*padding: 0 80px;*/
     font-weight: 300;
 }
 
@@ -2434,11 +2437,11 @@ testimonialSlider
     margin: 0 auto;
     border: 1px solid #c1c1c1 !important;
     height: auto;
-    width: 1400px;
     box-shadow: 0 0 10px 0 #8c8c8c;
 }
 
 .contact-form h2 {
+    font-size: 30px;
     line-height: 36px;
     font-weight: bold;
     color: #2aabd2;
@@ -2448,7 +2451,6 @@ testimonialSlider
 .contact-form p {
     text-indent: 2em;
     margin: 20px auto;
-    width: 1000px;
     font-size: 16px;
     line-height: 36px;
     white-space: normal;
@@ -2469,7 +2471,7 @@ testimonialSlider
     map-section
  ------------------*/
 .map-section {
-    height: 380px;
+    height: auto;
     background-color: #dedddd;
 }
 
@@ -2484,7 +2486,6 @@ testimonialSlider
 
 #baiduMap {
     height: 320px;
-    margin: 30px  auto 0;
 }
 
 
@@ -2876,25 +2877,25 @@ testimonialSlider
     #testimonialSlider{
         width: 100%;
     }
-    #testimonialSlider .carousel-inner{
+    #testimonialSlider .carousel-inner .item{
         width: 100%;
     }
-    #testimonialSlider .carousel-inner .item img{
-        width: auto;
-        height: auto;
+    #testimonialSlider .carousel-inner .item blockquote .left-img{
+        width: 50%;
     }
-    #testimonialSlider .carousel-inner .item .detail{
-        width: 360px;
-        float: left;
+    #testimonialSlider .carousel-inner .item blockquote .detail{
+        width: 50%;
     }
     #testimonialSlider .carousel-inner .item blockquote p {
         font-size: 18px;
     }
+    .party-list ul{
+        width: 100%;
+    }
 
     .party-list ul li{
-        width: 100%;
+        width: 50%;
         height: auto;
-        margin: 0 15px 20px 0;
     }
     /*非首页页脚*/
 
@@ -3064,11 +3065,36 @@ testimonialSlider
     .banner .banner-text h3{
         text-align: center;
     }
+    /*非首页新闻页面样式*/
+    .news .news-list .news-banner .news-pic{
+        display: none;
+    }
 
-    .party-list ul li{
+    .news .news-list .news-banner .news-meta{
+        height: 150px;
+    }
+
+    /*非首页党建页面样式*/
+
+    #testimonialSlider{
         width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item{
+        width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .left-img{
+        width: 50%;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .detail h4{
+        margin: 50px 0 20px 0;
+    }
+
+    .party-list ul{
+        width: 100%;
+    }
+    .party-list ul li{
+        width: 50%;
         height: auto;
-        margin: 0 15px 20px 0;
     }
 
     /*非首页页脚*/
@@ -3300,10 +3326,37 @@ testimonialSlider
         text-align: center;
     }
 
+    /*非首页新闻页面样式*/
+    .news .news-list .news-banner .news-pic{
+        display: none;
+    }
+    .news .news-list .news-banner .news-meta{
+        height: 200px;
+    }
+
+    /*非首页党建页面样式*/
+
+    #testimonialSlider{
+        width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item{
+        width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .left-img{
+        display: none;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .detail{
+        width: 100%;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .detail h4{
+        margin: 50px 0 20px 0;
+    }
+    #testimonialSlider .carousel-inner .item blockquote .detail .date{
+        margin: 30px 0 30px 0;
+    }
     .party-list ul li{
         width: 100%;
         height: auto;
-        margin: 0 15px 20px 0;
     }
     /*非首页页脚*/
     .footer .footer-block {

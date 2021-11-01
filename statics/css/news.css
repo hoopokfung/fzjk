@@ -4,7 +4,7 @@
 **************************************/
 
 .section {
-    padding: 4rem 0;
+    /*padding: 4rem 0;*/
     display: block;
     position: relative;
     background-color: #ffffff;
@@ -47,20 +47,52 @@
    news-list的样式
 **********************************/
 .news-list .news-banner {
-    padding: 1rem 0;
-}
-
-.news-list .news-meta.big-meta h4 {
     background-color: #ffffff;
-    margin-left: 0;
-    margin-top: 0.5rem;
-    padding: 0 0 0.5rem;
+    margin: 1rem 0;
+    height: auto;
+}
+.news-list .news-banner .news-pic .post-media img{
+    height: 150px;
 }
 
 .news-meta{
     position: relative;
     height: 150px;
 }
+
+.news-meta.big-meta h4 {
+    background-color: #ffffff;
+    padding: 1rem 0 0.6rem;
+    margin: 0;
+    font-size: 28px;
+    max-height: 72px;
+    overflow: hidden;
+
+}
+.news-meta.big-meta h4 a{
+    color: #333333;
+    text-decoration: none;
+}
+.news-meta.big-meta h4 a:hover{
+    color: #0076ab;
+}
+.news-meta.big-meta p {
+    height: 72px;
+    margin-top: 0.6rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.news-meta .bg-orange {
+    color: #ffffff !important;
+    padding: 0 0.8rem;
+    border-radius: 3px;
+}
+
+.bg-orange {
+    background-color: #FF6347 !important;
+}
+
 .news-log{
     position: absolute;
     bottom: 0;
@@ -94,9 +126,6 @@
     font-size: 12px;
     margin: 0 -2px 0 0;
 }
-
-
-
 .news-meta small.firstsmall:after {
     content: "" !important;
     padding-left: 0;
@@ -106,52 +135,19 @@
     margin-top: 1rem;
 }
 /*1rem等于html根（默认或者全局)字体大小*/
-.news-banner {
-    padding: 1rem;
-    background-color: #ffffff;
-}
 
-.news-meta.big-meta p {
-    margin-bottom: 1rem;
-}
 
-.news-meta.big-meta h4 {
-    padding: 1rem 0 0.6rem;
-    margin: 0;
-    font-size: 28px;
-}
-.news-meta.big-meta h4 a{
-    color: #333333;
-    text-decoration: none;
-}
-.news-meta.big-meta h4 a:hover{
-    color: #0076ab;
-}
-.news-meta.big-meta p {
-    margin-top: 0.6rem;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0;
-}
-.news-meta .bg-orange {
-    color: #ffffff !important;
-    padding: 0 0.8rem;
-    border-radius: 3px;
-}
 
-.bg-orange {
-    background-color: #FF6347 !important;
-}
 
 .news-time{
     position: relative;
     box-sizing: border-box;
-    height: 150px;
+    height: 90px;
 
 }
 .news-time a{
-    position: absolute;
+    position: relative;
     left: 30%;
-    top: 20%;
 }
 .news-time a:hover{
     text-decoration: none;
@@ -161,6 +157,7 @@
     color: #0076ab;
     font-size: 60px;
     line-height: 60px;
+    padding-top: 1rem;
     margin-bottom: 5px;
     font-family: "HELVETI1";
 
@@ -185,8 +182,7 @@
     position: relative;
 }
 .page{
-    position: absolute;
-    left: 34.5%;
+    text-align: center;
 }
 
 .page-link {
@@ -292,7 +288,7 @@
     float: left;
     font-size: 16px;
     color: red;
-    padding-left: 1rem;
+    padding-left: 0.2rem;
 }
 .p-left a:hover{
     color: orange;
@@ -306,5 +302,5 @@
     font-family: "HELVETI1";
 }
 .news-card .border:hover{
-    box-shadow: 0px 0px 10px 0px #8c8c8c;
+    box-shadow: 0 0 10px 0 #8c8c8c;
 }
